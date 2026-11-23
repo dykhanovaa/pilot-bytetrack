@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/JonathonLuiten/TrackEval",
+  "commit": "12c8791b303e0a0b50f753af204249e622d0281a",
+  "numpy_patch_sha256": "ec77264847240252442dea6ba36cbb01601eb6dd6a2ea053384dec071bc98606",
+  "compatibility_files": {
+    "trackeval/datasets/mot_challenge_2d_box.py": {
+      "upstream_sha256": "d636323991fa30e183acd898d89e26e3be04f8000b56c3f2f45b9940315af54f",
+      "patched_sha256": "706b182257a92fcbbc9a41127abffe31508a9496fe0d39a990204eda36c98ee0"
+    },
+    "trackeval/metrics/hota.py": {
+      "upstream_sha256": "c582255c3d36bdb49c3ceeb2a5bd912cee009190dfcfe465b4173d03aaa97d6a",
+      "patched_sha256": "bf85a9e4f2270fb3a52f94b05382250f4b8804a39a897ea9dfbf97ff85bf331e"
+    },
+    "trackeval/metrics/identity.py": {
+      "upstream_sha256": "e76b1bdcbf5b193662431596a984cf70a5be32e903eb5f2a3d9921b4762f93ba",
+      "patched_sha256": "33b4ef7e11a24c47c6060eb2464cb92167aea42e8c0e6f652b10ca317872028c"
+    },
+    "trackeval/metrics/clear.py": {
+      "upstream_sha256": "ab3963eac401073fe1b2957c734af1e531368f42fca49627c14422350b2744f0",
+      "patched_sha256": "ab3963eac401073fe1b2957c734af1e531368f42fca49627c14422350b2744f0"
+    }
+  }
+}

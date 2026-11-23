@@ -1,0 +1,7570 @@
+[
+  {
+    "frame": 1,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        865.4221801757812,
+        315.8840026855469,
+        922.6345825195312,
+        350.9931335449219,
+        0.8268105983734131,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 1,
+        "xyxy": [
+          865.4219970703125,
+          315.8840026855469,
+          922.635009765625,
+          350.9930114746094
+        ]
+      }
+    ],
+    "output": [
+      [
+        865.4221801757812,
+        315.8840026855469,
+        922.6345825195312,
+        350.9931335449219,
+        1.0,
+        0.8268105983734131,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 2,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 1,
+        "xyxy": [
+          865.422,
+          315.884,
+          922.635,
+          350.993
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 3,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 1,
+        "xyxy": [
+          865.422,
+          315.884,
+          922.635,
+          350.993
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 4,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        856.1480712890625,
+        315.6433410644531,
+        915.5592041015625,
+        352.9461364746094,
+        0.7764835953712463,
+        0
+      ],
+      [
+        184.33543395996094,
+        463.222412109375,
+        401.5899353027344,
+        539.1119384765625,
+        0.24742954969406128,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 4,
+        "xyxy": [
+          855.936,
+          315.654,
+          916.509,
+          352.858
+        ]
+      }
+    ],
+    "output": [
+      [
+        855.9364013671875,
+        315.6542053222656,
+        916.50927734375,
+        352.8579406738281,
+        1.0,
+        0.7764835953712463,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 5,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 4,
+        "xyxy": [
+          853.807,
+          315.603,
+          915.143,
+          353.276
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 6,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 4,
+        "xyxy": [
+          851.677,
+          315.551,
+          913.777,
+          353.693
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 7,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        844.710205078125,
+        320.2749938964844,
+        905.7154541015625,
+        358.71929931640625,
+        0.834084689617157,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 7,
+        "xyxy": [
+          844.518,
+          319.808,
+          907.036,
+          358.268
+        ]
+      }
+    ],
+    "output": [
+      [
+        844.5181274414062,
+        319.8078308105469,
+        907.03564453125,
+        358.2684631347656,
+        1.0,
+        0.834084689617157,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 8,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 7,
+        "xyxy": [
+          841.452,
+          320.551,
+          904.687,
+          359.453
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 9,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 7,
+        "xyxy": [
+          838.385,
+          321.295,
+          902.337,
+          360.638
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 10,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        834.3927612304688,
+        324.3167419433594,
+        898.1649169921875,
+        364.4206848144531,
+        0.6838929653167725,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 10,
+        "xyxy": [
+          833.952,
+          324.028,
+          898.954,
+          364.092
+        ]
+      }
+    ],
+    "output": [
+      [
+        833.9522705078125,
+        324.028076171875,
+        898.95361328125,
+        364.0915832519531,
+        1.0,
+        0.6838929653167725,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 11,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 10,
+        "xyxy": [
+          830.696,
+          325.037,
+          896.474,
+          365.58
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 12,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 10,
+        "xyxy": [
+          827.439,
+          326.047,
+          893.994,
+          367.068
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 13,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        822.5216674804688,
+        326.5158996582031,
+        887.6991577148438,
+        367.66070556640625,
+        0.8344576954841614,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 13,
+        "xyxy": [
+          822.172,
+          326.595,
+          888.848,
+          367.791
+        ]
+      }
+    ],
+    "output": [
+      [
+        822.1723022460938,
+        326.59478759765625,
+        888.8477172851562,
+        367.7913513183594,
+        1.0,
+        0.8344576954841614,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 14,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 13,
+        "xyxy": [
+          818.688,
+          327.554,
+          886.084,
+          369.196
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 15,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 13,
+        "xyxy": [
+          815.203,
+          328.513,
+          883.32,
+          370.6
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 16,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        812.1544189453125,
+        327.100341796875,
+        880.2295532226562,
+        371.8752136230469,
+        0.8072549700737,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 16,
+        "xyxy": [
+          810.484,
+          327.462,
+          881.883,
+          371.895
+        ]
+      }
+    ],
+    "output": [
+      [
+        810.4840698242188,
+        327.4615783691406,
+        881.88330078125,
+        371.8948974609375,
+        1.0,
+        0.8072549700737,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 17,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 16,
+        "xyxy": [
+          806.854,
+          328.22,
+          879.274,
+          373.288
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 18,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 16,
+        "xyxy": [
+          803.224,
+          328.978,
+          876.665,
+          374.682
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 19,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        798.57568359375,
+        331.6540832519531,
+        870.4013671875,
+        377.5595397949219,
+        0.8356172442436218,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 19,
+        "xyxy": [
+          798.057,
+          331.34,
+          871.685,
+          377.316
+        ]
+      }
+    ],
+    "output": [
+      [
+        798.0570678710938,
+        331.33984375,
+        871.6854248046875,
+        377.31634521484375,
+        1.0,
+        0.8356172442436218,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 20,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 19,
+        "xyxy": [
+          794.277,
+          332.244,
+          868.87,
+          378.823
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 21,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 19,
+        "xyxy": [
+          790.497,
+          333.149,
+          866.054,
+          380.33
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 22,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        903.158935546875,
+        306.4890441894531,
+        954.468017578125,
+        338.43975830078125,
+        0.8253958821296692,
+        0
+      ],
+      [
+        783.0536499023438,
+        336.2974548339844,
+        858.3425903320312,
+        385.378173828125,
+        0.7295035719871521,
+        0
+      ],
+      [
+        716.6978759765625,
+        292.7962646484375,
+        742.7389526367188,
+        307.40728759765625,
+        0.13290677964687347,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 22,
+        "xyxy": [
+          782.482,
+          335.936,
+          860.294,
+          384.807
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": false,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 22,
+        "xyxy": [
+          903.1589965820312,
+          306.489013671875,
+          954.468017578125,
+          338.44000244140625
+        ]
+      }
+    ],
+    "output": [
+      [
+        782.4817504882812,
+        335.9356994628906,
+        860.2940673828125,
+        384.8072814941406,
+        1.0,
+        0.7295035719871521,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "frame": 23,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 22,
+        "xyxy": [
+          778.302,
+          337.01,
+          857.23,
+          386.582
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": false,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 22,
+        "xyxy": [
+          903.1589965820312,
+          306.489013671875,
+          954.468017578125,
+          338.44000244140625
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 24,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 22,
+        "xyxy": [
+          774.122,
+          338.085,
+          854.165,
+          388.357
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": false,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 22,
+        "xyxy": [
+          903.1589965820312,
+          306.489013671875,
+          954.468017578125,
+          338.44000244140625
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 25,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        895.7059936523438,
+        305.86248779296875,
+        944.8833618164062,
+        340.0294189453125,
+        0.8335158824920654,
+        0
+      ],
+      [
+        765.976318359375,
+        340.4986572265625,
+        846.6925048828125,
+        390.5899963378906,
+        0.7472447752952576,
+        0
+      ],
+      [
+        822.459228515625,
+        298.15643310546875,
+        850.355712890625,
+        319.8907470703125,
+        0.35018613934516907,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 25,
+        "xyxy": [
+          766.964,
+          340.277,
+          847.089,
+          390.514
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 25,
+        "xyxy": [
+          894.948,
+          305.988,
+          949.049,
+          339.711
+        ]
+      }
+    ],
+    "output": [
+      [
+        766.9639892578125,
+        340.2773132324219,
+        847.0885620117188,
+        390.5143737792969,
+        1.0,
+        0.7472447752952576,
+        0.0,
+        1.0
+      ],
+      [
+        894.9481201171875,
+        305.98779296875,
+        949.0487670898438,
+        339.71148681640625,
+        2.0,
+        0.8335158824920654,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 26,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 25,
+        "xyxy": [
+          762.527,
+          341.45,
+          843.665,
+          392.323
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 25,
+        "xyxy": [
+          894.948,
+          305.988,
+          949.049,
+          339.711
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 27,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 25,
+        "xyxy": [
+          758.09,
+          342.623,
+          840.242,
+          394.132
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 25,
+        "xyxy": [
+          894.948,
+          305.988,
+          949.049,
+          339.711
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 28,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        889.200439453125,
+        308.13446044921875,
+        940.8468017578125,
+        344.8574523925781,
+        0.8799554109573364,
+        0
+      ],
+      [
+        750.51318359375,
+        346.5379333496094,
+        835.8436889648438,
+        399.0950622558594,
+        0.7000347971916199,
+        0
+      ],
+      [
+        822.9201049804688,
+        300.23175048828125,
+        849.6018676757812,
+        319.59735107421875,
+        0.11939956247806549,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 28,
+        "xyxy": [
+          751.539,
+          346.096,
+          835.48,
+          398.587
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 28,
+        "xyxy": [
+          886.245,
+          308.011,
+          944.603,
+          344.562
+        ]
+      }
+    ],
+    "output": [
+      [
+        751.5394287109375,
+        346.09637451171875,
+        835.480224609375,
+        398.58697509765625,
+        1.0,
+        0.7000347971916199,
+        0.0,
+        1.0
+      ],
+      [
+        886.2447509765625,
+        308.01123046875,
+        944.603271484375,
+        344.5620422363281,
+        2.0,
+        0.8799554109573364,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 29,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 28,
+        "xyxy": [
+          746.921,
+          347.476,
+          831.928,
+          400.633
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 28,
+        "xyxy": [
+          883.956,
+          308.536,
+          943.485,
+          345.819
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 30,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 28,
+        "xyxy": [
+          742.303,
+          348.855,
+          828.376,
+          402.68
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 28,
+        "xyxy": [
+          881.668,
+          309.06,
+          942.366,
+          347.076
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 31,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        731.1796875,
+        349.2856750488281,
+        819.4075927734375,
+        403.4365539550781,
+        0.7745939493179321,
+        0
+      ],
+      [
+        878.720947265625,
+        309.9927062988281,
+        933.413818359375,
+        346.1858825683594,
+        0.7270075678825378,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 31,
+        "xyxy": [
+          732.796,
+          349.44,
+          819.727,
+          403.646
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 31,
+        "xyxy": [
+          877.534,
+          309.944,
+          935.604,
+          346.439
+        ]
+      }
+    ],
+    "output": [
+      [
+        732.796142578125,
+        349.4398193359375,
+        819.726806640625,
+        403.6459045410156,
+        1.0,
+        0.7745939493179321,
+        0.0,
+        0.0
+      ],
+      [
+        877.533935546875,
+        309.9444580078125,
+        935.603515625,
+        346.4393615722656,
+        2.0,
+        0.7270075678825378,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "frame": 32,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 31,
+        "xyxy": [
+          727.749,
+          350.748,
+          815.708,
+          405.595
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 31,
+        "xyxy": [
+          874.945,
+          310.525,
+          933.623,
+          347.402
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 33,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 31,
+        "xyxy": [
+          722.703,
+          352.056,
+          811.69,
+          407.545
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 31,
+        "xyxy": [
+          872.355,
+          311.105,
+          931.643,
+          348.365
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 34,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        872.9240112304688,
+        312.28509521484375,
+        926.3135375976562,
+        348.0365295410156,
+        0.8627858757972717,
+        0
+      ],
+      [
+        709.429931640625,
+        353.5195007324219,
+        804.0169067382812,
+        411.80859375,
+        0.8518511056900024,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 34,
+        "xyxy": [
+          711.132,
+          353.495,
+          804.223,
+          411.437
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 34,
+        "xyxy": [
+          871.142,
+          312.206,
+          928.121,
+          348.206
+        ]
+      }
+    ],
+    "output": [
+      [
+        711.1322631835938,
+        353.49462890625,
+        804.2232666015625,
+        411.4367980957031,
+        1.0,
+        0.8518511056900024,
+        0.0,
+        1.0
+      ],
+      [
+        871.1417846679688,
+        312.2063903808594,
+        928.1207275390625,
+        348.2060241699219,
+        2.0,
+        0.8627858757972717,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 35,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 34,
+        "xyxy": [
+          705.502,
+          354.815,
+          799.887,
+          413.562
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 34,
+        "xyxy": [
+          868.703,
+          312.85,
+          925.969,
+          349.032
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 36,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 34,
+        "xyxy": [
+          699.872,
+          356.135,
+          795.55,
+          415.687
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 34,
+        "xyxy": [
+          866.264,
+          313.495,
+          923.818,
+          349.857
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 37,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        860.9804077148438,
+        315.4552917480469,
+        920.2304077148438,
+        352.5508728027344,
+        0.7736160159111023,
+        0
+      ],
+      [
+        688.0418701171875,
+        361.0270080566406,
+        786.163330078125,
+        419.6671142578125,
+        0.6227424740791321,
+        0
+      ],
+      [
+        716.641845703125,
+        289.2952880859375,
+        739.96142578125,
+        303.95489501953125,
+        0.12108894437551498,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 37,
+        "xyxy": [
+          690.396,
+          360.435,
+          785.674,
+          419.36
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 37,
+        "xyxy": [
+          861.579,
+          315.272,
+          920.227,
+          352.291
+        ]
+      }
+    ],
+    "output": [
+      [
+        690.3963012695312,
+        360.4346923828125,
+        785.67431640625,
+        419.3595275878906,
+        1.0,
+        0.6227424740791321,
+        0.0,
+        1.0
+      ],
+      [
+        861.5787963867188,
+        315.27239990234375,
+        920.2267456054688,
+        352.2913818359375,
+        2.0,
+        0.7736160159111023,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 38,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 37,
+        "xyxy": [
+          684.452,
+          362.016,
+          780.828,
+          421.62
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 37,
+        "xyxy": [
+          858.894,
+          316.042,
+          917.913,
+          353.295
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 39,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 37,
+        "xyxy": [
+          678.508,
+          363.598,
+          775.983,
+          423.881
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 37,
+        "xyxy": [
+          856.21,
+          316.812,
+          915.599,
+          354.299
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 40,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        850.1273803710938,
+        318.01513671875,
+        911.6980590820312,
+        354.7364807128906,
+        0.7342269420623779,
+        0
+      ],
+      [
+        664.6624145507812,
+        365.6455078125,
+        768.1403198242188,
+        428.29376220703125,
+        0.6481865644454956,
+        0
+      ],
+      [
+        947.877685546875,
+        321.0085144042969,
+        959.5709838867188,
+        348.75714111328125,
+        0.43776771426200867,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 40,
+        "xyxy": [
+          666.669,
+          365.571,
+          767.871,
+          427.951
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 40,
+        "xyxy": [
+          851.878,
+          317.95,
+          910.695,
+          354.821
+        ]
+      }
+    ],
+    "output": [
+      [
+        666.6685180664062,
+        365.5711669921875,
+        767.8712768554688,
+        427.9507751464844,
+        1.0,
+        0.6481865644454956,
+        0.0,
+        1.0
+      ],
+      [
+        851.8783569335938,
+        317.9500427246094,
+        910.6947021484375,
+        354.8213195800781,
+        2.0,
+        0.7342269420623779,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 41,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 40,
+        "xyxy": [
+          660.204,
+          367.188,
+          762.717,
+          430.375
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 40,
+        "xyxy": [
+          849.046,
+          318.757,
+          908.098,
+          355.776
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 42,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 40,
+        "xyxy": [
+          653.739,
+          368.805,
+          757.562,
+          432.8
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 40,
+        "xyxy": [
+          846.214,
+          319.564,
+          905.502,
+          356.731
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 43,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        842.3490600585938,
+        321.5378723144531,
+        903.7150268554688,
+        360.2829895019531,
+        0.8481850624084473,
+        0
+      ],
+      [
+        634.7349243164062,
+        373.39447021484375,
+        747.646728515625,
+        438.8943176269531,
+        0.7030620574951172,
+        0
+      ],
+      [
+        939.4271850585938,
+        322.63714599609375,
+        959.5718994140625,
+        353.8588562011719,
+        0.42908358573913574,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 43,
+        "xyxy": [
+          639.049,
+          372.907,
+          746.169,
+          438.293
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 43,
+        "xyxy": [
+          842.343,
+          321.365,
+          903.754,
+          359.898
+        ]
+      }
+    ],
+    "output": [
+      [
+        639.0487060546875,
+        372.9072265625,
+        746.1690063476562,
+        438.292724609375,
+        1.0,
+        0.7030620574951172,
+        0.0,
+        1.0
+      ],
+      [
+        842.3433227539062,
+        321.36480712890625,
+        903.7539672851562,
+        359.8977355957031,
+        2.0,
+        0.8481850624084473,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 44,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 43,
+        "xyxy": [
+          631.892,
+          374.745,
+          740.42,
+          440.99
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 43,
+        "xyxy": [
+          839.405,
+          322.271,
+          901.245,
+          361.073
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 45,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 43,
+        "xyxy": [
+          624.736,
+          376.583,
+          734.672,
+          443.687
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 43,
+        "xyxy": [
+          836.467,
+          323.177,
+          898.736,
+          362.248
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 46,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        832.75439453125,
+        325.2746887207031,
+        892.7095336914062,
+        364.1690673828125,
+        0.8195147514343262,
+        0
+      ],
+      [
+        929.9329833984375,
+        319.42449951171875,
+        959.5513916015625,
+        360.2864074707031,
+        0.6565226316452026,
+        0
+      ],
+      [
+        601.686279296875,
+        387.9199523925781,
+        725.6968383789062,
+        449.4898986816406,
+        0.4183797240257263,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 46,
+        "xyxy": [
+          612.111,
+          386.366,
+          718.4,
+          448.982
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 46,
+        "xyxy": [
+          832.159,
+          325.088,
+          893.978,
+          364.052
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": false,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 46,
+        "xyxy": [
+          929.9329833984375,
+          319.42401123046875,
+          959.551025390625,
+          360.2860107421875
+        ]
+      }
+    ],
+    "output": [
+      [
+        612.111083984375,
+        386.36566162109375,
+        718.4004516601562,
+        448.9818115234375,
+        1.0,
+        0.4183797240257263,
+        0.0,
+        2.0
+      ],
+      [
+        832.15869140625,
+        325.0879211425781,
+        893.9776611328125,
+        364.05224609375,
+        2.0,
+        0.8195147514343262,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 47,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 46,
+        "xyxy": [
+          604.623,
+          388.906,
+          711.568,
+          451.909
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 46,
+        "xyxy": [
+          829.078,
+          326.089,
+          891.268,
+          365.287
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": false,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 46,
+        "xyxy": [
+          929.9329833984375,
+          319.42401123046875,
+          959.551025390625,
+          360.2860107421875
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 48,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 46,
+        "xyxy": [
+          597.135,
+          391.447,
+          704.736,
+          454.836
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 46,
+        "xyxy": [
+          825.998,
+          327.09,
+          888.558,
+          366.522
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": false,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 46,
+        "xyxy": [
+          929.9329833984375,
+          319.42401123046875,
+          959.551025390625,
+          360.2860107421875
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 49,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        821.2936401367188,
+        325.88397216796875,
+        885.4552612304688,
+        367.56805419921875,
+        0.8513092398643494,
+        0
+      ],
+      [
+        920.5021362304688,
+        321.066162109375,
+        959.6555786132812,
+        362.6173095703125,
+        0.7457593679428101,
+        0
+      ],
+      [
+        569.6032104492188,
+        392.8049011230469,
+        703.7924194335938,
+        457.8921203613281,
+        0.605070948600769,
+        0
+      ],
+      [
+        629.6211547851562,
+        383.3162841796875,
+        658.0713500976562,
+        399.95526123046875,
+        0.1004391685128212,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 49,
+        "xyxy": [
+          580.807,
+          392.981,
+          694.692,
+          457.873
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 49,
+        "xyxy": [
+          820.85,
+          326.224,
+          886.21,
+          367.597
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 49,
+        "xyxy": [
+          925.958,
+          320.738,
+          956.065,
+          362.151
+        ]
+      }
+    ],
+    "output": [
+      [
+        580.806640625,
+        392.98065185546875,
+        694.6918334960938,
+        457.8729553222656,
+        1.0,
+        0.605070948600769,
+        0.0,
+        2.0
+      ],
+      [
+        820.8496704101562,
+        326.2239074707031,
+        886.2099609375,
+        367.5970764160156,
+        2.0,
+        0.8513092398643494,
+        0.0,
+        0.0
+      ],
+      [
+        925.9578857421875,
+        320.7378234863281,
+        956.0651245117188,
+        362.151123046875,
+        3.0,
+        0.7457593679428101,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "frame": 50,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 49,
+        "xyxy": [
+          572.63,
+          395.424,
+          687.383,
+          460.811
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 49,
+        "xyxy": [
+          817.562,
+          327.048,
+          883.546,
+          368.817
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 49,
+        "xyxy": [
+          925.958,
+          320.738,
+          956.065,
+          362.151
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 51,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 49,
+        "xyxy": [
+          564.453,
+          397.867,
+          680.074,
+          463.748
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 49,
+        "xyxy": [
+          814.274,
+          327.873,
+          880.883,
+          370.036
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 49,
+        "xyxy": [
+          925.958,
+          320.738,
+          956.065,
+          362.151
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 52,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        806.8723754882812,
+        329.7071228027344,
+        876.5381469726562,
+        374.04803466796875,
+        0.7996126413345337,
+        0
+      ],
+      [
+        531.8870239257812,
+        394.7972717285156,
+        676.7822265625,
+        470.28424072265625,
+        0.7980595231056213,
+        0
+      ],
+      [
+        908.9876098632812,
+        324.218994140625,
+        959.8056030273438,
+        369.5290832519531,
+        0.6883540749549866,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 52,
+        "xyxy": [
+          539.969,
+          395.658,
+          671.88,
+          469.723
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 52,
+        "xyxy": [
+          807.406,
+          329.544,
+          876.943,
+          373.596
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 52,
+        "xyxy": [
+          918.018,
+          324.031,
+          951.488,
+          369.131
+        ]
+      }
+    ],
+    "output": [
+      [
+        539.9694213867188,
+        395.6579895019531,
+        671.8800659179688,
+        469.7225646972656,
+        1.0,
+        0.7980595231056213,
+        0.0,
+        1.0
+      ],
+      [
+        807.4055786132812,
+        329.543701171875,
+        876.9425659179688,
+        373.5962829589844,
+        2.0,
+        0.7996126413345337,
+        0.0,
+        0.0
+      ],
+      [
+        918.0181274414062,
+        324.0312805175781,
+        951.4884033203125,
+        369.13128662109375,
+        3.0,
+        0.6883540749549866,
+        0.0,
+        2.0
+      ]
+    ]
+  },
+  {
+    "frame": 53,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 52,
+        "xyxy": [
+          530.319,
+          397.659,
+          664.412,
+          472.949
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 52,
+        "xyxy": [
+          803.791,
+          330.445,
+          874.166,
+          375.028
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 52,
+        "xyxy": [
+          916.014,
+          324.897,
+          950.204,
+          370.965
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 54,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 52,
+        "xyxy": [
+          520.669,
+          399.661,
+          656.943,
+          476.175
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 52,
+        "xyxy": [
+          800.177,
+          331.346,
+          871.389,
+          376.459
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 52,
+        "xyxy": [
+          914.011,
+          325.762,
+          948.919,
+          372.799
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 55,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        795.4147338867188,
+        333.7431335449219,
+        866.89453125,
+        377.9689636230469,
+        0.7902308106422424,
+        0
+      ],
+      [
+        490.8694152832031,
+        413.5036926269531,
+        646.77099609375,
+        483.6914978027344,
+        0.7737710475921631,
+        0
+      ],
+      [
+        897.7901000976562,
+        330.4839782714844,
+        960.0,
+        376.70794677734375,
+        0.6547108888626099,
+        0
+      ],
+      [
+        559.5570678710938,
+        400.5846862792969,
+        596.6740112304688,
+        417.9681701660156,
+        0.18178148567676544,
+        0
+      ],
+      [
+        555.4992065429688,
+        400.3245849609375,
+        598.04541015625,
+        427.1054992675781,
+        0.17263910174369812,
+        0
+      ],
+      [
+        713.3629150390625,
+        289.4284973144531,
+        741.4129028320312,
+        304.46868896484375,
+        0.1701047420501709,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 55,
+        "xyxy": [
+          504.643,
+          411.44,
+          636.98,
+          482.944
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 55,
+        "xyxy": [
+          796.175,
+          333.496,
+          866.608,
+          377.956
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 55,
+        "xyxy": [
+          910.877,
+          330.029,
+          947.131,
+          376.463
+        ]
+      }
+    ],
+    "output": [
+      [
+        504.64300537109375,
+        411.4401550292969,
+        636.9797973632812,
+        482.94384765625,
+        1.0,
+        0.7737710475921631,
+        0.0,
+        1.0
+      ],
+      [
+        796.1746215820312,
+        333.4962463378906,
+        866.6076049804688,
+        377.9560852050781,
+        2.0,
+        0.7902308106422424,
+        0.0,
+        0.0
+      ],
+      [
+        910.8770141601562,
+        330.0288391113281,
+        947.1314086914062,
+        376.46307373046875,
+        3.0,
+        0.6547108888626099,
+        0.0,
+        2.0
+      ]
+    ]
+  },
+  {
+    "frame": 56,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 55,
+        "xyxy": [
+          494.643,
+          414.261,
+          628.28,
+          486.467
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 55,
+        "xyxy": [
+          792.536,
+          334.507,
+          863.645,
+          379.393
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 55,
+        "xyxy": [
+          908.823,
+          331.426,
+          945.642,
+          378.583
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 57,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 55,
+        "xyxy": [
+          484.643,
+          417.082,
+          619.58,
+          489.99
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 55,
+        "xyxy": [
+          788.898,
+          335.517,
+          860.683,
+          380.831
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 55,
+        "xyxy": [
+          906.769,
+          332.824,
+          944.152,
+          380.704
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 58,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        780.9497680664062,
+        336.387939453125,
+        855.3411254882812,
+        385.1805725097656,
+        0.8838787078857422,
+        0
+      ],
+      [
+        883.3799438476562,
+        334.3580322265625,
+        953.5272827148438,
+        383.2596435546875,
+        0.8062016367912292,
+        0
+      ],
+      [
+        447.7383728027344,
+        417.07598876953125,
+        613.9525146484375,
+        499.6696472167969,
+        0.7908812165260315,
+        0
+      ],
+      [
+        490.0694274902344,
+        410.6516418457031,
+        566.4208984375,
+        448.7699890136719,
+        0.1576012820005417,
+        0
+      ],
+      [
+        518.1754150390625,
+        410.03265380859375,
+        556.4412231445312,
+        425.22857666015625,
+        0.10281970351934433,
+        0
+      ],
+      [
+        715.1953125,
+        290.0274353027344,
+        741.9281616210938,
+        304.4090270996094,
+        0.10087369382381439,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 58,
+        "xyxy": [
+          456.485,
+          417.511,
+          608.872,
+          498.722
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 58,
+        "xyxy": [
+          780.627,
+          336.41,
+          856.72,
+          384.721
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 58,
+        "xyxy": [
+          898.726,
+          334.339,
+          939.619,
+          383.2
+        ]
+      }
+    ],
+    "output": [
+      [
+        456.48516845703125,
+        417.5108337402344,
+        608.8724975585938,
+        498.7223815917969,
+        1.0,
+        0.7908812165260315,
+        0.0,
+        2.0
+      ],
+      [
+        780.6265258789062,
+        336.4100036621094,
+        856.7197265625,
+        384.72100830078125,
+        2.0,
+        0.8838787078857422,
+        0.0,
+        0.0
+      ],
+      [
+        898.7256469726562,
+        334.3392333984375,
+        939.6187133789062,
+        383.1997985839844,
+        3.0,
+        0.8062016367912292,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "frame": 59,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 58,
+        "xyxy": [
+          444.89,
+          420.111,
+          599.91,
+          502.725
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 58,
+        "xyxy": [
+          776.549,
+          337.41,
+          853.683,
+          386.382
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 58,
+        "xyxy": [
+          896.098,
+          335.751,
+          937.622,
+          385.365
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 60,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 58,
+        "xyxy": [
+          433.295,
+          422.712,
+          590.947,
+          506.728
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 58,
+        "xyxy": [
+          772.472,
+          338.41,
+          850.647,
+          388.042
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 58,
+        "xyxy": [
+          893.471,
+          337.162,
+          935.626,
+          387.53
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 61,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        398.3388977050781,
+        425.3377380371094,
+        577.049072265625,
+        516.2799072265625,
+        0.8481985926628113,
+        0
+      ],
+      [
+        870.9151611328125,
+        339.0055236816406,
+        942.110595703125,
+        390.60296630859375,
+        0.7986763715744019,
+        0
+      ],
+      [
+        766.5951538085938,
+        341.0500793457031,
+        842.782470703125,
+        389.5042724609375,
+        0.7820848822593689,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 61,
+        "xyxy": [
+          405.099,
+          425.333,
+          575.211,
+          515.315
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 61,
+        "xyxy": [
+          766.852,
+          340.775,
+          843.636,
+          389.538
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 61,
+        "xyxy": [
+          884.376,
+          338.939,
+          930.405,
+          390.464
+        ]
+      }
+    ],
+    "output": [
+      [
+        405.0994567871094,
+        425.33331298828125,
+        575.2109375,
+        515.314697265625,
+        1.0,
+        0.8481985926628113,
+        0.0,
+        0.0
+      ],
+      [
+        766.8522338867188,
+        340.775146484375,
+        843.6359252929688,
+        389.53753662109375,
+        2.0,
+        0.7820848822593689,
+        0.0,
+        2.0
+      ],
+      [
+        884.37646484375,
+        338.9393615722656,
+        930.4048461914062,
+        390.4637756347656,
+        3.0,
+        0.7986763715744019,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "frame": 62,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 61,
+        "xyxy": [
+          392.15,
+          427.936,
+          565.638,
+          519.703
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 61,
+        "xyxy": [
+          762.64,
+          341.894,
+          840.255,
+          391.184
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 61,
+        "xyxy": [
+          881.214,
+          340.388,
+          927.953,
+          392.708
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 63,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 61,
+        "xyxy": [
+          379.2,
+          430.538,
+          556.066,
+          524.091
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 61,
+        "xyxy": [
+          758.428,
+          343.012,
+          836.874,
+          392.83
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 61,
+        "xyxy": [
+          878.052,
+          341.837,
+          925.5,
+          394.951
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 64,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        750.0635375976562,
+        347.3587951660156,
+        828.5293579101562,
+        396.7540588378906,
+        0.9101542830467224,
+        0
+      ],
+      [
+        347.63226318359375,
+        434.25677490234375,
+        538.401123046875,
+        532.8475341796875,
+        0.8614792227745056,
+        0
+      ],
+      [
+        855.8329467773438,
+        343.241455078125,
+        931.0504760742188,
+        397.21435546875,
+        0.7220147848129272,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 64,
+        "xyxy": [
+          352.367,
+          434.06,
+          538.367,
+          532.079
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 64,
+        "xyxy": [
+          750.957,
+          346.847,
+          829.082,
+          396.393
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 64,
+        "xyxy": [
+          868.63,
+          343.249,
+          920.024,
+          397.211
+        ]
+      }
+    ],
+    "output": [
+      [
+        352.3668212890625,
+        434.06024169921875,
+        538.3667602539062,
+        532.078857421875,
+        1.0,
+        0.8614792227745056,
+        0.0,
+        1.0
+      ],
+      [
+        750.9570922851562,
+        346.8466491699219,
+        829.0820922851562,
+        396.3927307128906,
+        2.0,
+        0.9101542830467224,
+        0.0,
+        0.0
+      ],
+      [
+        868.6298828125,
+        343.24859619140625,
+        920.0242919921875,
+        397.21124267578125,
+        3.0,
+        0.7220147848129272,
+        0.0,
+        2.0
+      ]
+    ]
+  },
+  {
+    "frame": 65,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 64,
+        "xyxy": [
+          338.322,
+          436.736,
+          528.12,
+          536.756
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 64,
+        "xyxy": [
+          746.454,
+          348.211,
+          825.298,
+          398.212
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 64,
+        "xyxy": [
+          865.005,
+          344.694,
+          917.161,
+          399.457
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 66,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 64,
+        "xyxy": [
+          324.277,
+          439.413,
+          517.874,
+          541.434
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 64,
+        "xyxy": [
+          741.952,
+          349.575,
+          821.513,
+          400.032
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 64,
+        "xyxy": [
+          861.38,
+          346.139,
+          914.298,
+          401.702
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 67,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        733.43505859375,
+        351.62969970703125,
+        816.5720825195312,
+        402.2862854003906,
+        0.8511835336685181,
+        0
+      ],
+      [
+        837.9786987304688,
+        349.29541015625,
+        918.4685668945312,
+        406.14215087890625,
+        0.7277665138244629,
+        0
+      ],
+      [
+        281.54248046875,
+        452.60504150390625,
+        490.5213317871094,
+        539.80078125,
+        0.5743382573127747,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 67,
+        "xyxy": [
+          300.941,
+          450.764,
+          479.141,
+          540.906
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 67,
+        "xyxy": [
+          735.183,
+          351.521,
+          815.635,
+          402.218
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 67,
+        "xyxy": [
+          850.526,
+          349.018,
+          907.986,
+          405.786
+        ]
+      }
+    ],
+    "output": [
+      [
+        300.9406433105469,
+        450.7638854980469,
+        479.1409912109375,
+        540.0,
+        1.0,
+        0.5743382573127747,
+        0.0,
+        2.0
+      ],
+      [
+        735.1832885742188,
+        351.5214538574219,
+        815.6345825195312,
+        402.2181701660156,
+        2.0,
+        0.8511835336685181,
+        0.0,
+        0.0
+      ],
+      [
+        850.5259399414062,
+        349.0181884765625,
+        907.9864501953125,
+        405.7864074707031,
+        3.0,
+        0.7277665138244629,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "frame": 68,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 67,
+        "xyxy": [
+          286.401,
+          454.137,
+          466.356,
+          545.165
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 67,
+        "xyxy": [
+          730.492,
+          352.94,
+          811.634,
+          404.072
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 67,
+        "xyxy": [
+          846.373,
+          350.594,
+          904.68,
+          408.199
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 69,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 67,
+        "xyxy": [
+          271.862,
+          457.509,
+          453.571,
+          549.425
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 67,
+        "xyxy": [
+          725.801,
+          354.358,
+          807.634,
+          405.926
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 67,
+        "xyxy": [
+          842.22,
+          352.17,
+          901.374,
+          410.612
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 70,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        711.5242919921875,
+        354.112548828125,
+        803.6184692382812,
+        409.8913269042969,
+        0.9066357016563416,
+        0
+      ],
+      [
+        819.1942749023438,
+        354.8479919433594,
+        904.9850463867188,
+        414.486083984375,
+        0.7354543209075928,
+        0
+      ],
+      [
+        223.89157104492188,
+        459.4087219238281,
+        438.0586853027344,
+        539.8516845703125,
+        0.14163047075271606,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 70,
+        "xyxy": [
+          247.848,
+          459.627,
+          419.451,
+          541.898
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 70,
+        "xyxy": [
+          714.257,
+          354.373,
+          802.391,
+          409.56
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 70,
+        "xyxy": [
+          831.173,
+          354.667,
+          894.964,
+          414.247
+        ]
+      }
+    ],
+    "output": [
+      [
+        247.84762573242188,
+        459.62664794921875,
+        419.4510192871094,
+        540.0,
+        1.0,
+        0.14163047075271606,
+        0.0,
+        2.0
+      ],
+      [
+        714.2567138671875,
+        354.37335205078125,
+        802.3909301757812,
+        409.56024169921875,
+        2.0,
+        0.9066357016563416,
+        0.0,
+        0.0
+      ],
+      [
+        831.1732177734375,
+        354.66748046875,
+        894.9637451171875,
+        414.2467041015625,
+        3.0,
+        0.7354543209075928,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "frame": 71,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 70,
+        "xyxy": [
+          232.838,
+          462.88,
+          404.199,
+          545.034
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 70,
+        "xyxy": [
+          708.948,
+          355.661,
+          798.252,
+          411.58
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 70,
+        "xyxy": [
+          826.535,
+          356.326,
+          891.25,
+          416.768
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 72,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 70,
+        "xyxy": [
+          217.829,
+          466.133,
+          388.947,
+          548.17
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 70,
+        "xyxy": [
+          703.64,
+          356.948,
+          794.114,
+          413.6
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 70,
+        "xyxy": [
+          821.897,
+          357.984,
+          887.537,
+          419.29
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 73,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        690.5877685546875,
+        360.9427795410156,
+        783.4692993164062,
+        418.96124267578125,
+        0.828103244304657,
+        0
+      ],
+      [
+        797.6232299804688,
+        361.9435729980469,
+        888.6709594726562,
+        425.1277770996094,
+        0.6664420962333679,
+        0
+      ],
+      [
+        171.60887145996094,
+        481.8284912109375,
+        390.1671142578125,
+        540.0,
+        0.3943733274936676,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          209.733,
+          480.157,
+          354.024,
+          541.519
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 73,
+        "xyxy": [
+          691.958,
+          360.491,
+          784.48,
+          418.403
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 73,
+        "xyxy": [
+          808.952,
+          361.566,
+          879.768,
+          424.584
+        ]
+      }
+    ],
+    "output": [
+      [
+        209.7325439453125,
+        480.15673828125,
+        354.023681640625,
+        540.0,
+        1.0,
+        0.3943733274936676,
+        0.0,
+        2.0
+      ],
+      [
+        691.95751953125,
+        360.49053955078125,
+        784.4801025390625,
+        418.4030456542969,
+        2.0,
+        0.828103244304657,
+        0.0,
+        0.0
+      ],
+      [
+        808.9523315429688,
+        361.56597900390625,
+        879.7677001953125,
+        424.5838317871094,
+        3.0,
+        0.6664420962333679,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "frame": 74,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          196.655,
+          484.57,
+          335.465,
+          543.601
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 73,
+        "xyxy": [
+          686.093,
+          361.975,
+          779.859,
+          420.666
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 73,
+        "xyxy": [
+          803.701,
+          363.395,
+          875.572,
+          427.351
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 75,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 1,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          183.578,
+          488.984,
+          316.906,
+          545.682
+        ]
+      },
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 73,
+        "xyxy": [
+          680.228,
+          363.46,
+          775.238,
+          422.93
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 73,
+        "xyxy": [
+          798.45,
+          365.223,
+          871.376,
+          430.118
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 76,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        670.062744140625,
+        365.883544921875,
+        767.083251953125,
+        426.1783447265625,
+        0.780575692653656,
+        0
+      ],
+      [
+        776.0993041992188,
+        369.8410949707031,
+        871.1451416015625,
+        436.41156005859375,
+        0.4765057861804962,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 76,
+        "xyxy": [
+          671.005,
+          365.729,
+          767.431,
+          426.016
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 76,
+        "xyxy": [
+          785.882,
+          369.38,
+          863.536,
+          435.828
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          170.501,
+          493.397,
+          298.348,
+          547.764
+        ]
+      }
+    ],
+    "output": [
+      [
+        671.0054931640625,
+        365.7288818359375,
+        767.4314575195312,
+        426.01605224609375,
+        2.0,
+        0.780575692653656,
+        0.0,
+        0.0
+      ],
+      [
+        785.8818359375,
+        369.3795166015625,
+        863.5361328125,
+        435.828125,
+        3.0,
+        0.4765057861804962,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "frame": 77,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 76,
+        "xyxy": [
+          664.852,
+          367.282,
+          762.529,
+          428.351
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 76,
+        "xyxy": [
+          780.098,
+          371.412,
+          858.913,
+          438.853
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          154.682,
+          496.645,
+          282.531,
+          551.011
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 78,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 76,
+        "xyxy": [
+          658.698,
+          368.835,
+          757.626,
+          430.686
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 76,
+        "xyxy": [
+          774.314,
+          373.445,
+          854.289,
+          441.878
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          138.863,
+          499.892,
+          266.714,
+          554.259
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 79,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        639.9158325195312,
+        370.8038635253906,
+        751.78173828125,
+        435.9308166503906,
+        0.780689537525177,
+        0
+      ],
+      [
+        751.10546875,
+        374.6118469238281,
+        855.0062866210938,
+        447.99017333984375,
+        0.6813741326332092,
+        0
+      ],
+      [
+        898.1412963867188,
+        301.0441589355469,
+        949.3185424804688,
+        333.6607360839844,
+        0.6809946894645691,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 79,
+        "xyxy": [
+          644.592,
+          370.736,
+          749.32,
+          435.456
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 79,
+        "xyxy": [
+          760.205,
+          374.755,
+          847.907,
+          447.479
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": false,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 79,
+        "xyxy": [
+          898.1409912109375,
+          301.04400634765625,
+          949.3189697265625,
+          333.6610107421875
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          123.044,
+          503.14,
+          250.896,
+          557.507
+        ]
+      }
+    ],
+    "output": [
+      [
+        644.5921630859375,
+        370.73602294921875,
+        749.3201904296875,
+        435.45599365234375,
+        2.0,
+        0.780689537525177,
+        0.0,
+        0.0
+      ],
+      [
+        760.20458984375,
+        374.7550964355469,
+        847.9073486328125,
+        447.4792785644531,
+        3.0,
+        0.6813741326332092,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "frame": 80,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 79,
+        "xyxy": [
+          637.781,
+          372.32,
+          744.073,
+          438.006
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 79,
+        "xyxy": [
+          753.788,
+          376.725,
+          843.036,
+          450.729
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": false,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 79,
+        "xyxy": [
+          898.1409912109375,
+          301.04400634765625,
+          949.3189697265625,
+          333.6610107421875
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          107.225,
+          506.387,
+          235.079,
+          560.754
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 81,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 79,
+        "xyxy": [
+          630.969,
+          373.904,
+          738.825,
+          440.556
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 79,
+        "xyxy": [
+          747.372,
+          378.694,
+          838.164,
+          453.979
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": false,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 79,
+        "xyxy": [
+          898.1409912109375,
+          301.04400634765625,
+          949.3189697265625,
+          333.6610107421875
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          91.406,
+          509.635,
+          219.262,
+          564.002
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 82,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        612.0072021484375,
+        374.5872802734375,
+        730.3272094726562,
+        445.48919677734375,
+        0.7695580124855042,
+        0
+      ],
+      [
+        889.2094116210938,
+        300.9010925292969,
+        944.7471313476562,
+        335.62060546875,
+        0.6592601537704468,
+        0
+      ],
+      [
+        722.021728515625,
+        383.02459716796875,
+        832.0281982421875,
+        461.51092529296875,
+        0.6451852321624756,
+        0
+      ],
+      [
+        890.6980590820312,
+        309.0055236816406,
+        934.35205078125,
+        335.33892822265625,
+        0.4363052546977997,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 82,
+        "xyxy": [
+          615.255,
+          374.738,
+          729.661,
+          445.09
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 82,
+        "xyxy": [
+          730.46,
+          382.619,
+          827.057,
+          460.776
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 82,
+        "xyxy": [
+          891.415,
+          300.93,
+          945.242,
+          335.229
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          75.587,
+          512.883,
+          203.445,
+          567.249
+        ]
+      }
+    ],
+    "output": [
+      [
+        615.2548217773438,
+        374.7381591796875,
+        729.6608276367188,
+        445.08984375,
+        2.0,
+        0.7695580124855042,
+        0.0,
+        0.0
+      ],
+      [
+        730.4595336914062,
+        382.619384765625,
+        827.0569458007812,
+        460.776123046875,
+        3.0,
+        0.6451852321624756,
+        0.0,
+        2.0
+      ],
+      [
+        891.4149169921875,
+        300.9297180175781,
+        945.2422485351562,
+        335.2286376953125,
+        4.0,
+        0.6592601537704468,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "frame": 83,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 82,
+        "xyxy": [
+          607.695,
+          376.257,
+          724.056,
+          447.811
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 82,
+        "xyxy": [
+          723.24,
+          384.753,
+          821.585,
+          464.324
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 82,
+        "xyxy": [
+          891.415,
+          300.93,
+          945.242,
+          335.229
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          59.768,
+          516.13,
+          187.628,
+          570.497
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 84,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 82,
+        "xyxy": [
+          600.135,
+          377.777,
+          718.451,
+          450.532
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 82,
+        "xyxy": [
+          716.02,
+          386.887,
+          816.113,
+          467.871
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 82,
+        "xyxy": [
+          891.415,
+          300.93,
+          945.242,
+          335.229
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          43.95,
+          519.378,
+          171.811,
+          573.744
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 85,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        583.468505859375,
+        383.8788757324219,
+        709.2160034179688,
+        456.38250732421875,
+        0.7851697206497192,
+        0
+      ],
+      [
+        688.93896484375,
+        392.58673095703125,
+        809.8973388671875,
+        478.29766845703125,
+        0.6742198467254639,
+        0
+      ],
+      [
+        881.9775390625,
+        309.67144775390625,
+        933.47119140625,
+        339.5166320800781,
+        0.5558809638023376,
+        0
+      ],
+      [
+        881.3568115234375,
+        316.16925048828125,
+        927.6738891601562,
+        339.3794860839844,
+        0.29989638924598694,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 85,
+        "xyxy": [
+          587.652,
+          383.095,
+          707.212,
+          455.847
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 85,
+        "xyxy": [
+          697.406,
+          391.977,
+          804.953,
+          477.122
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 85,
+        "xyxy": [
+          884.621,
+          309.172,
+          932.038,
+          339.272
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          28.131,
+          522.625,
+          155.994,
+          576.992
+        ]
+      }
+    ],
+    "output": [
+      [
+        587.6524658203125,
+        383.0946044921875,
+        707.2116088867188,
+        455.8470458984375,
+        2.0,
+        0.7851697206497192,
+        0.0,
+        0.0
+      ],
+      [
+        697.406494140625,
+        391.9769287109375,
+        804.9526977539062,
+        477.1216125488281,
+        3.0,
+        0.6742198467254639,
+        0.0,
+        1.0
+      ],
+      [
+        884.6212158203125,
+        309.1724548339844,
+        932.0381469726562,
+        339.2718811035156,
+        4.0,
+        0.5558809638023376,
+        0.0,
+        2.0
+      ]
+    ]
+  },
+  {
+    "frame": 86,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 85,
+        "xyxy": [
+          579.723,
+          384.932,
+          701.092,
+          458.785
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 85,
+        "xyxy": [
+          689.311,
+          394.357,
+          798.933,
+          481.145
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 85,
+        "xyxy": [
+          882.885,
+          311.311,
+          928.586,
+          340.321
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          12.312,
+          525.873,
+          140.177,
+          580.239
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 87,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 85,
+        "xyxy": [
+          571.794,
+          386.769,
+          694.972,
+          461.724
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 85,
+        "xyxy": [
+          681.215,
+          396.737,
+          792.913,
+          485.168
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 85,
+        "xyxy": [
+          881.149,
+          313.45,
+          925.133,
+          341.37
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -3.507,
+          529.12,
+          124.36,
+          583.487
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 88,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        551.4450073242188,
+        391.8325500488281,
+        681.93701171875,
+        469.30328369140625,
+        0.8522443771362305,
+        0
+      ],
+      [
+        652.8308715820312,
+        404.6476135253906,
+        783.5174560546875,
+        497.2967834472656,
+        0.8070249557495117,
+        0
+      ],
+      [
+        873.2943115234375,
+        306.9789123535156,
+        927.7601318359375,
+        344.2531433105469,
+        0.7685595154762268,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 88,
+        "xyxy": [
+          554.567,
+          391.301,
+          682.0,
+          468.539
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 88,
+        "xyxy": [
+          660.932,
+          403.69,
+          779.516,
+          495.893
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 88,
+        "xyxy": [
+          871.866,
+          307.569,
+          929.191,
+          344.127
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -19.326,
+          532.368,
+          108.543,
+          586.735
+        ]
+      }
+    ],
+    "output": [
+      [
+        554.566650390625,
+        391.3011779785156,
+        682.000244140625,
+        468.5388488769531,
+        2.0,
+        0.8522443771362305,
+        0.0,
+        0.0
+      ],
+      [
+        660.931640625,
+        403.6896057128906,
+        779.515869140625,
+        495.892578125,
+        3.0,
+        0.8070249557495117,
+        0.0,
+        1.0
+      ],
+      [
+        871.86572265625,
+        307.5687255859375,
+        929.19140625,
+        344.12750244140625,
+        4.0,
+        0.7685595154762268,
+        0.0,
+        2.0
+      ]
+    ]
+  },
+  {
+    "frame": 89,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 88,
+        "xyxy": [
+          545.849,
+          393.372,
+          675.269,
+          471.813
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 88,
+        "xyxy": [
+          651.901,
+          406.445,
+          772.823,
+          500.466
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 88,
+        "xyxy": [
+          868.735,
+          308.248,
+          927.127,
+          345.487
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -35.145,
+          535.616,
+          92.726,
+          589.982
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 90,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 88,
+        "xyxy": [
+          537.131,
+          395.443,
+          668.537,
+          475.088
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 88,
+        "xyxy": [
+          642.869,
+          409.201,
+          766.131,
+          505.04
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 88,
+        "xyxy": [
+          865.603,
+          308.928,
+          925.063,
+          346.847
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -50.964,
+          538.863,
+          76.909,
+          593.23
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 91,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        515.1241455078125,
+        400.32952880859375,
+        656.0635375976562,
+        484.0621032714844,
+        0.8323691487312317,
+        0
+      ],
+      [
+        609.0845947265625,
+        417.4620056152344,
+        753.9862060546875,
+        519.053955078125,
+        0.7951129674911499,
+        0
+      ],
+      [
+        861.2237548828125,
+        312.259521484375,
+        920.62646484375,
+        350.4219055175781,
+        0.7127546072006226,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 91,
+        "xyxy": [
+          518.282,
+          399.86,
+          656.079,
+          483.112
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 91,
+        "xyxy": [
+          618.148,
+          416.509,
+          750.152,
+          517.42
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 91,
+        "xyxy": [
+          861.263,
+          311.828,
+          921.177,
+          350.061
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -66.783,
+          542.111,
+          61.092,
+          596.477
+        ]
+      }
+    ],
+    "output": [
+      [
+        518.2821044921875,
+        399.8600158691406,
+        656.0792236328125,
+        483.1116638183594,
+        2.0,
+        0.8323691487312317,
+        0.0,
+        0.0
+      ],
+      [
+        618.1480712890625,
+        416.50897216796875,
+        750.1521606445312,
+        517.419677734375,
+        3.0,
+        0.7951129674911499,
+        0.0,
+        1.0
+      ],
+      [
+        861.2626953125,
+        311.82769775390625,
+        921.177001953125,
+        350.0613708496094,
+        4.0,
+        0.7127546072006226,
+        0.0,
+        2.0
+      ]
+    ]
+  },
+  {
+    "frame": 92,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 91,
+        "xyxy": [
+          508.702,
+          402.134,
+          648.836,
+          486.798
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 91,
+        "xyxy": [
+          607.898,
+          419.638,
+          742.63,
+          522.633
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 91,
+        "xyxy": [
+          857.996,
+          312.753,
+          918.913,
+          351.627
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -82.602,
+          545.358,
+          45.275,
+          599.725
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 93,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 91,
+        "xyxy": [
+          499.122,
+          404.408,
+          641.593,
+          490.484
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 91,
+        "xyxy": [
+          597.649,
+          422.767,
+          735.109,
+          527.847
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 91,
+        "xyxy": [
+          854.729,
+          313.679,
+          916.648,
+          353.193
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -98.421,
+          548.606,
+          29.458,
+          602.972
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 94,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        850.4646606445312,
+        316.4537658691406,
+        911.4395141601562,
+        353.26629638671875,
+        0.8038218021392822,
+        0
+      ],
+      [
+        560.566650390625,
+        433.13873291015625,
+        719.7962646484375,
+        540.0,
+        0.7581483721733093,
+        0
+      ],
+      [
+        465.7987060546875,
+        411.41455078125,
+        631.8558349609375,
+        500.16522216796875,
+        0.6815679669380188,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 94,
+        "xyxy": [
+          476.262,
+          410.612,
+          625.843,
+          499.148
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 94,
+        "xyxy": [
+          571.747,
+          431.872,
+          714.67,
+          538.787
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 94,
+        "xyxy": [
+          851.833,
+          316.162,
+          910.694,
+          353.502
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -114.239,
+          551.853,
+          13.641,
+          606.22
+        ]
+      }
+    ],
+    "output": [
+      [
+        476.2616882324219,
+        410.6119689941406,
+        625.8429565429688,
+        499.1483154296875,
+        2.0,
+        0.6815679669380188,
+        0.0,
+        2.0
+      ],
+      [
+        571.7474365234375,
+        431.87225341796875,
+        714.6698608398438,
+        538.78662109375,
+        3.0,
+        0.7581483721733093,
+        0.0,
+        1.0
+      ],
+      [
+        851.8330688476562,
+        316.1617736816406,
+        910.693603515625,
+        353.501953125,
+        4.0,
+        0.8038218021392822,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 95,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 94,
+        "xyxy": [
+          465.657,
+          413.22,
+          617.775,
+          503.257
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 94,
+        "xyxy": [
+          560.323,
+          435.486,
+          706.006,
+          544.465
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 94,
+        "xyxy": [
+          848.617,
+          317.238,
+          908.058,
+          354.946
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -130.058,
+          555.101,
+          -2.176,
+          609.468
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 96,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 94,
+        "xyxy": [
+          455.053,
+          415.828,
+          609.706,
+          507.366
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 94,
+        "xyxy": [
+          548.899,
+          439.099,
+          697.343,
+          550.143
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 94,
+        "xyxy": [
+          845.401,
+          318.314,
+          905.422,
+          356.39
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -145.877,
+          558.348,
+          -17.993,
+          612.715
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 97,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        839.3067626953125,
+        317.5988464355469,
+        904.1868896484375,
+        358.6842346191406,
+        0.7862262725830078,
+        0
+      ],
+      [
+        502.815673828125,
+        447.0500183105469,
+        680.0396118164062,
+        539.3082275390625,
+        0.7815529704093933,
+        0
+      ],
+      [
+        423.3468017578125,
+        421.6551818847656,
+        588.2809448242188,
+        515.87841796875,
+        0.6449156999588013,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 97,
+        "xyxy": [
+          428.837,
+          421.112,
+          588.601,
+          515.136
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 97,
+        "xyxy": [
+          526.658,
+          446.311,
+          663.579,
+          542.123
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 97,
+        "xyxy": [
+          839.779,
+          317.866,
+          903.935,
+          358.557
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -161.696,
+          561.596,
+          -33.81,
+          615.963
+        ]
+      }
+    ],
+    "output": [
+      [
+        428.8369445800781,
+        421.1122741699219,
+        588.6008911132812,
+        515.1358032226562,
+        2.0,
+        0.6449156999588013,
+        0.0,
+        2.0
+      ],
+      [
+        526.6580200195312,
+        446.31060791015625,
+        663.5792236328125,
+        540.0,
+        3.0,
+        0.7815529704093933,
+        0.0,
+        1.0
+      ],
+      [
+        839.779052734375,
+        317.86639404296875,
+        903.9351196289062,
+        358.5573425292969,
+        4.0,
+        0.7862262725830078,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 98,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 97,
+        "xyxy": [
+          416.937,
+          423.948,
+          579.394,
+          519.556
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 97,
+        "xyxy": [
+          514.672,
+          450.224,
+          652.486,
+          546.661
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 97,
+        "xyxy": [
+          836.326,
+          318.792,
+          901.412,
+          360.073
+        ]
+      },
+      {
+        "id": 1,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -177.515,
+          564.844,
+          -49.627,
+          619.21
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 99,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 97,
+        "xyxy": [
+          405.037,
+          426.783,
+          570.186,
+          523.975
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 97,
+        "xyxy": [
+          502.686,
+          454.137,
+          641.392,
+          551.198
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 97,
+        "xyxy": [
+          832.874,
+          319.718,
+          898.889,
+          361.588
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 100,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        826.6494140625,
+        320.25457763671875,
+        891.7064208984375,
+        362.6800537109375,
+        0.695009708404541,
+        0
+      ],
+      [
+        372.54345703125,
+        430.48114013671875,
+        635.747314453125,
+        537.5077514648438,
+        0.5127324461936951,
+        0
+      ],
+      [
+        371.8858947753906,
+        430.5533752441406,
+        555.717041015625,
+        534.3382568359375,
+        0.3326374292373657,
+        0
+      ],
+      [
+        456.3613586425781,
+        465.79522705078125,
+        636.3308715820312,
+        539.9361572265625,
+        0.1167139932513237,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 100,
+        "xyxy": [
+          403.458,
+          430.336,
+          595.721,
+          535.975
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          486.874,
+          464.7,
+          609.82,
+          542.17
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 100,
+        "xyxy": [
+          826.46,
+          320.319,
+          893.123,
+          362.75
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": [
+      [
+        403.4576721191406,
+        430.3359680175781,
+        595.720947265625,
+        535.9750366210938,
+        2.0,
+        0.5127324461936951,
+        0.0,
+        1.0
+      ],
+      [
+        486.8744201660156,
+        464.7001647949219,
+        609.8201904296875,
+        540.0,
+        3.0,
+        0.1167139932513237,
+        0.0,
+        3.0
+      ],
+      [
+        826.4598388671875,
+        320.3189392089844,
+        893.1228637695312,
+        362.75,
+        4.0,
+        0.695009708404541,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 101,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 100,
+        "xyxy": [
+          392.851,
+          433.233,
+          589.066,
+          541.042
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          475.227,
+          469.277,
+          595.961,
+          545.353
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 100,
+        "xyxy": [
+          822.73,
+          321.215,
+          890.315,
+          364.233
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 102,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 100,
+        "xyxy": [
+          382.245,
+          436.129,
+          582.411,
+          546.109
+        ]
+      },
+      {
+        "id": 3,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          463.58,
+          473.855,
+          582.102,
+          548.535
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 100,
+        "xyxy": [
+          819.0,
+          322.112,
+          887.507,
+          365.717
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 103,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        811.8923950195312,
+        326.4150695800781,
+        875.056640625,
+        368.4620361328125,
+        0.6907491683959961,
+        0
+      ],
+      [
+        299.1805725097656,
+        444.5279846191406,
+        585.3955078125,
+        537.4254150390625,
+        0.2952878475189209,
+        0
+      ],
+      [
+        857.357177734375,
+        325.3272705078125,
+        882.0853881835938,
+        344.53704833984375,
+        0.17669779062271118,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 103,
+        "xyxy": [
+          350.556,
+          443.555,
+          545.134,
+          539.858
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 103,
+        "xyxy": [
+          811.43,
+          325.861,
+          877.638,
+          368.257
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          451.933,
+          478.432,
+          568.243,
+          551.718
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": [
+      [
+        350.55560302734375,
+        443.5545349121094,
+        545.1338500976562,
+        539.85791015625,
+        2.0,
+        0.2952878475189209,
+        0.0,
+        1.0
+      ],
+      [
+        811.43017578125,
+        325.860595703125,
+        877.6377563476562,
+        368.25665283203125,
+        4.0,
+        0.6907491683959961,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 104,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 103,
+        "xyxy": [
+          338.937,
+          446.816,
+          535.321,
+          544.012
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 103,
+        "xyxy": [
+          807.341,
+          327.012,
+          874.215,
+          369.834
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          439.179,
+          482.312,
+          555.49,
+          555.598
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 105,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 103,
+        "xyxy": [
+          327.319,
+          450.078,
+          525.508,
+          548.166
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 103,
+        "xyxy": [
+          803.252,
+          328.163,
+          870.791,
+          371.412
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          426.425,
+          486.192,
+          542.738,
+          559.478
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 106,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        798.6776733398438,
+        329.0227966308594,
+        871.0852661132812,
+        375.2669677734375,
+        0.8545439839363098,
+        0
+      ],
+      [
+        232.48631286621094,
+        459.96240234375,
+        502.4200744628906,
+        540.0,
+        0.1431628316640854,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          281.962,
+          458.991,
+          467.095,
+          541.807
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 106,
+        "xyxy": [
+          798.82,
+          329.068,
+          870.44,
+          374.913
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          413.672,
+          490.072,
+          529.985,
+          563.358
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": [
+      [
+        281.96221923828125,
+        458.99114990234375,
+        467.0951232910156,
+        540.0,
+        2.0,
+        0.1431628316640854,
+        0.0,
+        1.0
+      ],
+      [
+        798.820068359375,
+        329.0682067871094,
+        870.4403076171875,
+        374.91290283203125,
+        4.0,
+        0.8545439839363098,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 107,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          268.034,
+          462.795,
+          451.701,
+          544.953
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 106,
+        "xyxy": [
+          794.7,
+          330.197,
+          867.302,
+          376.67
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          400.918,
+          493.952,
+          517.233,
+          567.238
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 108,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 2,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          254.105,
+          466.598,
+          436.307,
+          548.1
+        ]
+      },
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 106,
+        "xyxy": [
+          790.58,
+          331.325,
+          864.165,
+          378.427
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          388.164,
+          497.832,
+          504.48,
+          571.118
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 109,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        783.755126953125,
+        334.7342834472656,
+        860.4439086914062,
+        382.00396728515625,
+        0.5680555701255798,
+        0
+      ],
+      [
+        737.9176025390625,
+        317.8938293457031,
+        759.17431640625,
+        332.32427978515625,
+        0.10371053963899612,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 109,
+        "xyxy": [
+          785.179,
+          334.356,
+          859.565,
+          381.702
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          375.411,
+          501.712,
+          491.728,
+          574.998
+        ]
+      },
+      {
+        "id": 2,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          240.177,
+          470.401,
+          420.913,
+          551.246
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": [
+      [
+        785.1791381835938,
+        334.3558044433594,
+        859.5654296875,
+        381.7019958496094,
+        4.0,
+        0.5680555701255798,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 110,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 109,
+        "xyxy": [
+          780.962,
+          335.653,
+          856.282,
+          383.594
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          362.657,
+          505.592,
+          478.975,
+          578.878
+        ]
+      },
+      {
+        "id": 2,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          225.514,
+          473.876,
+          406.253,
+          554.721
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 111,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 109,
+        "xyxy": [
+          776.744,
+          336.95,
+          852.999,
+          385.485
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          349.903,
+          509.472,
+          466.223,
+          582.758
+        ]
+      },
+      {
+        "id": 2,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          210.851,
+          477.351,
+          391.593,
+          558.196
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 112,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        765.2720947265625,
+        340.0338134765625,
+        845.6363525390625,
+        388.6614074707031,
+        0.48019102215766907,
+        0
+      ],
+      [
+        765.7188720703125,
+        343.3935546875,
+        824.3177490234375,
+        386.9626770019531,
+        0.35132354497909546,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 112,
+        "xyxy": [
+          767.807,
+          339.745,
+          844.934,
+          388.454
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          337.149,
+          513.351,
+          453.47,
+          586.638
+        ]
+      },
+      {
+        "id": 2,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          196.188,
+          480.826,
+          376.933,
+          561.671
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": [
+      [
+        767.8074340820312,
+        339.7447509765625,
+        844.933837890625,
+        388.45361328125,
+        4.0,
+        0.48019102215766907,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 113,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 112,
+        "xyxy": [
+          763.192,
+          341.176,
+          841.2,
+          390.441
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          324.396,
+          517.231,
+          440.718,
+          590.518
+        ]
+      },
+      {
+        "id": 2,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          181.525,
+          484.301,
+          362.273,
+          565.146
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 114,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 112,
+        "xyxy": [
+          758.576,
+          342.606,
+          837.466,
+          392.429
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          311.642,
+          521.111,
+          427.965,
+          594.398
+        ]
+      },
+      {
+        "id": 2,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          166.862,
+          487.776,
+          347.614,
+          568.621
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 115,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        746.4293823242188,
+        347.6099548339844,
+        826.44140625,
+        396.07708740234375,
+        0.7801718711853027,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 115,
+        "xyxy": [
+          748.755,
+          347.038,
+          826.487,
+          395.811
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          298.888,
+          524.991,
+          415.213,
+          598.278
+        ]
+      },
+      {
+        "id": 2,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          152.199,
+          491.251,
+          332.954,
+          572.096
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": [
+      [
+        748.7552490234375,
+        347.0382080078125,
+        826.4873657226562,
+        395.8114013671875,
+        4.0,
+        0.7801718711853027,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 116,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 115,
+        "xyxy": [
+          743.688,
+          348.741,
+          822.076,
+          397.926
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          286.134,
+          528.871,
+          402.46,
+          602.157
+        ]
+      },
+      {
+        "id": 2,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          137.536,
+          494.726,
+          318.294,
+          575.571
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 117,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 115,
+        "xyxy": [
+          738.621,
+          350.444,
+          817.664,
+          400.04
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          273.381,
+          532.751,
+          389.708,
+          606.037
+        ]
+      },
+      {
+        "id": 2,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          122.873,
+          498.201,
+          303.634,
+          579.046
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 118,
+    "observed": true,
+    "output_source": "measurement_update",
+    "detections": [
+      [
+        727.4940185546875,
+        349.8106689453125,
+        815.9107055664062,
+        405.58624267578125,
+        0.5592790246009827,
+        0
+      ],
+      [
+        727.0441284179688,
+        350.35650634765625,
+        795.104248046875,
+        401.2234802246094,
+        0.1850227415561676,
+        0
+      ]
+    ],
+    "tracks": [
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 118,
+        "xyxy": [
+          728.266,
+          350.172,
+          815.665,
+          405.056
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          260.627,
+          536.631,
+          376.955,
+          609.917
+        ]
+      },
+      {
+        "id": 2,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          108.21,
+          501.676,
+          288.974,
+          582.52
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": [
+      [
+        728.265869140625,
+        350.1717834472656,
+        815.6646728515625,
+        405.0557861328125,
+        4.0,
+        0.5592790246009827,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  {
+    "frame": 119,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 118,
+        "xyxy": [
+          722.699,
+          351.689,
+          811.483,
+          407.443
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          247.873,
+          540.511,
+          364.202,
+          613.797
+        ]
+      },
+      {
+        "id": 2,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          93.548,
+          505.151,
+          274.315,
+          585.995
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  },
+  {
+    "frame": 120,
+    "observed": false,
+    "output_source": "none",
+    "detections": null,
+    "tracks": [
+      {
+        "id": 4,
+        "state": "tracked",
+        "confirmed": true,
+        "collection": "tracked_stracks",
+        "start": 79,
+        "last_observed": 118,
+        "xyxy": [
+          717.131,
+          353.206,
+          807.301,
+          409.83
+        ]
+      },
+      {
+        "id": 3,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 46,
+        "last_observed": 100,
+        "xyxy": [
+          235.119,
+          544.391,
+          351.45,
+          617.677
+        ]
+      },
+      {
+        "id": 2,
+        "state": "lost",
+        "confirmed": true,
+        "collection": "lost_stracks",
+        "start": 22,
+        "last_observed": 106,
+        "xyxy": [
+          78.885,
+          508.626,
+          259.655,
+          589.47
+        ]
+      },
+      {
+        "id": 1,
+        "state": "removed",
+        "confirmed": true,
+        "collection": "removed_stracks",
+        "start": 1,
+        "last_observed": 73,
+        "xyxy": [
+          -193.334,
+          568.091,
+          -65.444,
+          622.458
+        ]
+      }
+    ],
+    "output": []
+  }
+]

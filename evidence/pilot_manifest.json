@@ -1,0 +1,89 @@
+[
+  {
+    "sequence": "MVI_39031",
+    "split": "test",
+    "frames": [
+      1,
+      120
+    ],
+    "GT_dets": 203,
+    "empty_GT_frames": [],
+    "empty_detection_frames": [],
+    "ignored_regions": [
+      [
+        335.75,
+        52.75,
+        592.25,
+        170.25
+      ],
+      [
+        0.5,
+        296.75,
+        224.25,
+        417.25
+      ],
+      [
+        690.75,
+        116.75,
+        960.0,
+        211.25
+      ]
+    ],
+    "attributes": {
+      "camera_state": "unstable",
+      "sence_weather": "sunny"
+    }
+  },
+  {
+    "sequence": "MVI_39051",
+    "split": "test",
+    "frames": [
+      1,
+      120
+    ],
+    "GT_dets": 281,
+    "empty_GT_frames": [],
+    "empty_detection_frames": [],
+    "ignored_regions": [
+      [
+        916.75,
+        283.75,
+        960.0,
+        325.25
+      ],
+      [
+        853.75,
+        443.75,
+        953.25,
+        535.25
+      ]
+    ],
+    "attributes": {
+      "camera_state": "stable",
+      "sence_weather": "sunny"
+    }
+  },
+  {
+    "sequence": "MVI_39211",
+    "split": "test",
+    "frames": [
+      1,
+      120
+    ],
+    "GT_dets": 606,
+    "empty_GT_frames": [],
+    "empty_detection_frames": [],
+    "ignored_regions": [
+      [
+        380.75,
+        0.5,
+        960.0,
+        97.25
+      ]
+    ],
+    "attributes": {
+      "camera_state": "stable",
+      "sence_weather": "sunny"
+    }
+  }
+]

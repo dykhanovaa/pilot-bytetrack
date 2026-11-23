@@ -1,0 +1,34 @@
+{
+  "timestamp_utc": "2026-11-23T08:39:55Z",
+  "machine": "arm64",
+  "os": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "hardware": "Hardware:\n\n    Hardware Overview:\n\n      Model Name: MacBook Air\n      Model Identifier: Mac16,13\n      Model Number: MC7D4LL/A\n      Chip: Apple M4\n      Total Number of Cores: 10 (4 Performance and 6 Efficiency)\n      Memory: 24 GB\n      System Firmware Version: 20457.1.29\n      OS Loader Version: 20457.1.29\n      Activation Lock Status: Enabled",
+  "graphics": "Graphics/Displays:\n\n    Apple M4:\n\n      Chipset Model: Apple M4\n      Type: GPU\n      Bus: Built-In\n      Total Number of Cores: 10\n      Vendor: Apple (0x106b)\n      Metal Support: Metal 4\n      Displays:\n        Color LCD:\n          Display Type: Built-in Liquid Retina Display\n          Resolution: 2880 x 1864 Retina\n          Main Display: Yes\n          Mirror: Off\n          Online: Yes\n          Automatically Adjust Brightness: Yes\n          Connection Type: Internal",
+  "memory_bytes": 25769803776,
+  "power": "Battery Power:\n Sleep On Power Button 1\n lowpowermode         0\n standby              1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n ttyskeepawake        1\n womp                 0\n displaysleep         2\n networkoversleep     0\n sleep                1\n lessbright           1\n tcpkeepalive         1\n disksleep            10\nAC Power:\n Sleep On Power Button 1\n lowpowermode         0\n standby              1\n hibernatemode        3\n powernap             1\n hibernatefile        /var/vm/sleepimage\n ttyskeepawake        1\n womp                 1\n displaysleep         10\n networkoversleep     0\n sleep                1\n tcpkeepalive         1\n disksleep            10",
+  "backend": "CPU",
+  "torch_threads": 4,
+  "batch": 1,
+  "precision": "FP32",
+  "weights_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "trackeval_commit": "12c8791b303e0a0b50f753af204249e622d0281a",
+  "ultralytics": "8.3.0",
+  "torch": "2.4.1",
+  "tracker_parameters": {
+    "track_high_thresh": 0.5,
+    "track_low_thresh": 0.1,
+    "new_track_thresh": 0.6,
+    "track_buffer": 30,
+    "match_thresh": 0.8,
+    "fuse_score": true
+  },
+  "protocol_sha256": "b7685573f81dab8f9b43e980b34adffe0905c304cc7779c4d82ae454e601ce93",
+  "trackeval_numpy_patch_sha256": "ec77264847240252442dea6ba36cbb01601eb6dd6a2ea053384dec071bc98606",
+  "source_hashes": {
+    "skip_aware.py": "d1025e19e09fa8669610bc56317983fb71312b9f5772530ea86ef73c89ef4926",
+    "synthetic.py": "7ade62973052480226a83fef1423cbb533b9604b9ee2ffd3923184565d911c8f",
+    "pilot.py": "7e17cf4bb1f0b12d2efc1439179edc40d10090af404cdeb7de7b93a7110bda19",
+    "fetch_data.py": "6aa23685f8103a12a9db184dbadcd22c69ea7d78f602700d5894079d059a3440"
+  }
+}

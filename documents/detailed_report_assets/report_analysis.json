@@ -1,0 +1,599 @@
+{
+  "means": [
+    {
+      "k": 1,
+      "calls_per_120_frames": 120,
+      "stock_HOTA": 76.93767513954288,
+      "stock_DetA": 75.14205808805386,
+      "stock_AssA": 78.9675674367321,
+      "stock_IDF1": 95.13481768399157,
+      "adapted_HOTA": 76.93767513954288,
+      "adapted_DetA": 75.14205808805386,
+      "adapted_AssA": 78.9675674367321,
+      "adapted_IDF1": 95.13481768399157,
+      "observed_only_HOTA": 76.93767513954288,
+      "observed_only_DetA": 75.14205808805386,
+      "observed_only_AssA": 78.9675674367321,
+      "observed_only_IDF1": 95.13481768399157
+    },
+    {
+      "k": 2,
+      "calls_per_120_frames": 60,
+      "stock_HOTA": 27.718496930381928,
+      "stock_DetA": 19.110383184017767,
+      "stock_AssA": 41.78949480129682,
+      "stock_IDF1": 35.217482459091705,
+      "adapted_HOTA": 74.72717484438306,
+      "adapted_DetA": 72.66382713395325,
+      "adapted_AssA": 77.04616848557072,
+      "adapted_IDF1": 93.20293673504985,
+      "observed_only_HOTA": 38.46682273237448,
+      "observed_only_DetA": 37.468326237972185,
+      "observed_only_AssA": 39.596216025021505,
+      "observed_only_IDF1": 61.780242429309816
+    },
+    {
+      "k": 3,
+      "calls_per_120_frames": 40,
+      "stock_HOTA": 18.383581362691647,
+      "stock_DetA": 12.70264702910495,
+      "stock_AssA": 27.648075356886405,
+      "stock_IDF1": 25.065596721501077,
+      "adapted_HOTA": 73.27989271678523,
+      "adapted_DetA": 70.85277623346016,
+      "adapted_AssA": 76.04169972499777,
+      "adapted_IDF1": 91.75939447181077,
+      "observed_only_HOTA": 25.81694980677882,
+      "observed_only_DetA": 25.01801077359075,
+      "observed_only_AssA": 26.722113568879536,
+      "observed_only_IDF1": 45.41671380251929
+    },
+    {
+      "k": 4,
+      "calls_per_120_frames": 30,
+      "stock_HOTA": 14.167710858765469,
+      "stock_DetA": 9.743221698622191,
+      "stock_AssA": 21.410744556413125,
+      "stock_IDF1": 19.78688031651262,
+      "adapted_HOTA": 70.5234252615431,
+      "adapted_DetA": 68.17627830350665,
+      "adapted_AssA": 73.19747082567369,
+      "adapted_IDF1": 90.83950685506107,
+      "observed_only_HOTA": 18.901671569211693,
+      "observed_only_DetA": 18.252265477898312,
+      "observed_only_AssA": 19.665848309092716,
+      "observed_only_IDF1": 35.72688667758774
+    },
+    {
+      "k": 5,
+      "calls_per_120_frames": 24,
+      "stock_HOTA": 11.269507204472385,
+      "stock_DetA": 7.768750479748465,
+      "stock_AssA": 16.988962977686704,
+      "stock_IDF1": 16.10363363018816,
+      "adapted_HOTA": 67.05547279027914,
+      "adapted_DetA": 63.829893678449594,
+      "adapted_AssA": 70.76978446381402,
+      "adapted_IDF1": 86.44808368922708,
+      "observed_only_HOTA": 14.538160402247662,
+      "observed_only_DetA": 13.85429131120143,
+      "observed_only_AssA": 15.327755428992397,
+      "observed_only_IDF1": 27.912632697908773
+    },
+    {
+      "k": 6,
+      "calls_per_120_frames": 20,
+      "stock_HOTA": 6.618584065532402,
+      "stock_DetA": 4.727337799830242,
+      "stock_AssA": 9.768720753196417,
+      "stock_IDF1": 10.13681882994119,
+      "adapted_HOTA": 56.12664074424132,
+      "adapted_DetA": 51.029478896876036,
+      "adapted_AssA": 62.43180054023475,
+      "adapted_IDF1": 73.06369495071199,
+      "observed_only_HOTA": 10.294794773130844,
+      "observed_only_DetA": 9.386796751954952,
+      "observed_only_AssA": 11.456608588345153,
+      "observed_only_IDF1": 19.207872110961404
+    },
+    {
+      "k": 7,
+      "calls_per_120_frames": 18,
+      "stock_HOTA": 5.772349174605384,
+      "stock_DetA": 4.149220571262986,
+      "stock_AssA": 8.449709974618965,
+      "stock_IDF1": 8.985907334160007,
+      "adapted_HOTA": 49.674806234918776,
+      "adapted_DetA": 44.88864387464795,
+      "adapted_AssA": 55.71690012238664,
+      "adapted_IDF1": 66.6322215403408,
+      "observed_only_HOTA": 8.408382208373451,
+      "observed_only_DetA": 7.66358962342285,
+      "observed_only_AssA": 9.352730416121782,
+      "observed_only_IDF1": 16.10486088073912
+    },
+    {
+      "k": 8,
+      "calls_per_120_frames": 15,
+      "stock_HOTA": 5.084350513648505,
+      "stock_DetA": 3.6208125650763914,
+      "stock_AssA": 7.523238525831953,
+      "stock_IDF1": 7.9429136845062684,
+      "adapted_HOTA": 41.1962909401671,
+      "adapted_DetA": 34.629187203067225,
+      "adapted_AssA": 52.883345792635744,
+      "adapted_IDF1": 52.13406561947023,
+      "observed_only_HOTA": 5.922739385822212,
+      "observed_only_DetA": 4.984563140050969,
+      "observed_only_AssA": 7.694235901107831,
+      "observed_only_IDF1": 10.382280952218535
+    },
+    {
+      "k": 9,
+      "calls_per_120_frames": 14,
+      "stock_HOTA": 3.24085080551712,
+      "stock_DetA": 2.6299881570413515,
+      "stock_AssA": 4.037033907421819,
+      "stock_IDF1": 5.549645999616725,
+      "adapted_HOTA": 25.29696166284616,
+      "adapted_DetA": 23.163553414132412,
+      "adapted_AssA": 28.17088659498364,
+      "adapted_IDF1": 31.988664760371886,
+      "observed_only_HOTA": 3.448198276887956,
+      "observed_only_DetA": 3.1541813426561998,
+      "observed_only_AssA": 3.8813737851105152,
+      "observed_only_IDF1": 6.5676158774238695
+    },
+    {
+      "k": 10,
+      "calls_per_120_frames": 12,
+      "stock_HOTA": 2.851050028785101,
+      "stock_DetA": 2.2633074863426996,
+      "stock_AssA": 3.673328426592819,
+      "stock_IDF1": 4.980255879685251,
+      "adapted_HOTA": 26.024016541497506,
+      "adapted_DetA": 23.952629588804665,
+      "adapted_AssA": 29.11548047226127,
+      "adapted_IDF1": 32.659559879321755,
+      "observed_only_HOTA": 2.993307263142879,
+      "observed_only_DetA": 2.688150433009422,
+      "observed_only_AssA": 3.4683233183499684,
+      "observed_only_IDF1": 5.92486308441951
+    }
+  ],
+  "sample": [
+    {
+      "k": 1,
+      "sequence": "MVI_39031",
+      "base_HOTA": 80.32562479970136,
+      "HOTA": 80.32562479970136,
+      "loss_HOTA": 0.0,
+      "base_AssA": 81.82081385814077,
+      "AssA": 81.82081385814077
+    },
+    {
+      "k": 1,
+      "sequence": "MVI_39051",
+      "base_HOTA": 73.43022628031119,
+      "HOTA": 73.43022628031119,
+      "loss_HOTA": 0.0,
+      "base_AssA": 75.56618227002897,
+      "AssA": 75.56618227002897
+    },
+    {
+      "k": 1,
+      "sequence": "MVI_39211",
+      "base_HOTA": 77.05717433861608,
+      "HOTA": 77.05717433861608,
+      "loss_HOTA": 0.0,
+      "base_AssA": 79.51570618202653,
+      "AssA": 79.51570618202653
+    },
+    {
+      "k": 2,
+      "sequence": "MVI_39031",
+      "base_HOTA": 79.90827666843806,
+      "HOTA": 76.96403967867698,
+      "loss_HOTA": 2.9442369897610803,
+      "base_AssA": 81.39600556711012,
+      "AssA": 79.52753465000954
+    },
+    {
+      "k": 2,
+      "sequence": "MVI_39051",
+      "base_HOTA": 73.30145409106713,
+      "HOTA": 73.30325728667908,
+      "loss_HOTA": -0.0018031956119557435,
+      "base_AssA": 75.54737682505493,
+      "AssA": 75.57403124721954
+    },
+    {
+      "k": 2,
+      "sequence": "MVI_39211",
+      "base_HOTA": 76.5939313686364,
+      "HOTA": 76.34415790467018,
+      "loss_HOTA": 0.24977346396622124,
+      "base_AssA": 78.97469780560509,
+      "AssA": 78.80531897769099
+    },
+    {
+      "k": 3,
+      "sequence": "MVI_39031",
+      "base_HOTA": 80.49647224374422,
+      "HOTA": 75.48240568854241,
+      "loss_HOTA": 5.014066555201808,
+      "base_AssA": 82.07307857235736,
+      "AssA": 78.78208572610518
+    },
+    {
+      "k": 3,
+      "sequence": "MVI_39051",
+      "base_HOTA": 73.0050888027047,
+      "HOTA": 74.16058629785965,
+      "loss_HOTA": -1.1554974951549468,
+      "base_AssA": 75.26887250043849,
+      "AssA": 76.75983105088055
+    },
+    {
+      "k": 3,
+      "sequence": "MVI_39211",
+      "base_HOTA": 77.33244847274727,
+      "HOTA": 75.78365238086204,
+      "loss_HOTA": 1.5487960918852366,
+      "base_AssA": 79.86376260917592,
+      "AssA": 78.67156760787014
+    },
+    {
+      "k": 4,
+      "sequence": "MVI_39031",
+      "base_HOTA": 81.7278129927503,
+      "HOTA": 79.00845543568164,
+      "loss_HOTA": 2.719357557068662,
+      "base_AssA": 83.64188193609932,
+      "AssA": 82.15838060123272
+    },
+    {
+      "k": 4,
+      "sequence": "MVI_39051",
+      "base_HOTA": 74.0496214476387,
+      "HOTA": 68.48744196597244,
+      "loss_HOTA": 5.562179481666263,
+      "base_AssA": 76.64329764241394,
+      "AssA": 71.62972273897556
+    },
+    {
+      "k": 4,
+      "sequence": "MVI_39211",
+      "base_HOTA": 76.55155237884686,
+      "HOTA": 74.85970335429887,
+      "loss_HOTA": 1.6918490245479916,
+      "base_AssA": 79.21199999378298,
+      "AssA": 77.8805264230613
+    },
+    {
+      "k": 5,
+      "sequence": "MVI_39031",
+      "base_HOTA": 78.34222720803812,
+      "HOTA": 68.90824348194734,
+      "loss_HOTA": 9.433983726090787,
+      "base_AssA": 80.52919748836082,
+      "AssA": 73.22668188575193
+    },
+    {
+      "k": 5,
+      "sequence": "MVI_39051",
+      "base_HOTA": 73.22996920997865,
+      "HOTA": 65.52750269842082,
+      "loss_HOTA": 7.70246651155783,
+      "base_AssA": 76.1549359173635,
+      "AssA": 69.30823522862299
+    },
+    {
+      "k": 5,
+      "sequence": "MVI_39211",
+      "base_HOTA": 76.1897425073431,
+      "HOTA": 74.8096208722002,
+      "loss_HOTA": 1.380121635142899,
+      "base_AssA": 78.80400459485547,
+      "AssA": 78.5570315042294
+    },
+    {
+      "k": 6,
+      "sequence": "MVI_39031",
+      "base_HOTA": 79.46078842943918,
+      "HOTA": 46.63936096425371,
+      "loss_HOTA": 32.821427465185465,
+      "base_AssA": 81.50705347250522,
+      "AssA": 46.74907932856161
+    },
+    {
+      "k": 6,
+      "sequence": "MVI_39051",
+      "base_HOTA": 72.57296765957804,
+      "HOTA": 60.9612818965449,
+      "loss_HOTA": 11.611685763033144,
+      "base_AssA": 74.90914296519394,
+      "AssA": 76.69565078743288
+    },
+    {
+      "k": 6,
+      "sequence": "MVI_39211",
+      "base_HOTA": 77.32932383387224,
+      "HOTA": 74.12269939467511,
+      "loss_HOTA": 3.206624439197128,
+      "base_AssA": 79.75864304989531,
+      "AssA": 77.74307535631343
+    },
+    {
+      "k": 7,
+      "sequence": "MVI_39031",
+      "base_HOTA": 81.59007335187633,
+      "HOTA": 30.78258741762604,
+      "loss_HOTA": 50.80748593425029,
+      "base_AssA": 83.23439301481248,
+      "AssA": 31.053141418446124
+    },
+    {
+      "k": 7,
+      "sequence": "MVI_39051",
+      "base_HOTA": 71.97848843568335,
+      "HOTA": 59.182280946734856,
+      "loss_HOTA": 12.79620748894849,
+      "base_AssA": 74.55574195048067,
+      "AssA": 76.00441881113981
+    },
+    {
+      "k": 7,
+      "sequence": "MVI_39211",
+      "base_HOTA": 77.42548192250396,
+      "HOTA": 75.65227777423334,
+      "loss_HOTA": 1.7732041482706222,
+      "base_AssA": 79.95162048459137,
+      "AssA": 78.99073676036042
+    },
+    {
+      "k": 8,
+      "sequence": "MVI_39031",
+      "base_HOTA": 82.12699996013825,
+      "HOTA": 22.5243535590945,
+      "loss_HOTA": 59.60264640104375,
+      "base_AssA": 84.48513119222501,
+      "AssA": 21.189166097060838
+    },
+    {
+      "k": 8,
+      "sequence": "MVI_39051",
+      "base_HOTA": 76.17645282642717,
+      "HOTA": 40.41156846993199,
+      "loss_HOTA": 35.76488435649517,
+      "base_AssA": 79.50250478736119,
+      "AssA": 76.14551083591331
+    },
+    {
+      "k": 8,
+      "sequence": "MVI_39211",
+      "base_HOTA": 78.21014048459793,
+      "HOTA": 75.9750704840385,
+      "loss_HOTA": 2.235070000559432,
+      "base_AssA": 81.15976523413313,
+      "AssA": 79.82703787257601
+    },
+    {
+      "k": 9,
+      "sequence": "MVI_39031",
+      "base_HOTA": 80.55242454365543,
+      "HOTA": 8.298468454249463,
+      "loss_HOTA": 72.25395608940597,
+      "base_AssA": 83.2607941819606,
+      "AssA": 9.941520467836257
+    },
+    {
+      "k": 9,
+      "sequence": "MVI_39051",
+      "base_HOTA": 73.390405554812,
+      "HOTA": 4.886390342616079,
+      "loss_HOTA": 68.50401521219592,
+      "base_AssA": 76.50961482443269,
+      "AssA": 9.35672514619883
+    },
+    {
+      "k": 9,
+      "sequence": "MVI_39211",
+      "base_HOTA": 78.21462187174382,
+      "HOTA": 73.57924804940365,
+      "loss_HOTA": 4.635373822340171,
+      "base_AssA": 80.65994370928699,
+      "AssA": 77.96837178958467
+    },
+    {
+      "k": 10,
+      "sequence": "MVI_39031",
+      "base_HOTA": 78.1900546545678,
+      "HOTA": 7.0735158187976905,
+      "loss_HOTA": 71.11653883577011,
+      "base_AssA": 80.69122862567339,
+      "AssA": 11.18421052631579
+    },
+    {
+      "k": 10,
+      "sequence": "MVI_39051",
+      "base_HOTA": 70.78354769947849,
+      "HOTA": 5.5286919098830545,
+      "loss_HOTA": 65.25485578959544,
+      "base_AssA": 74.13635215322859,
+      "AssA": 10.526315789473683
+    },
+    {
+      "k": 10,
+      "sequence": "MVI_39211",
+      "base_HOTA": 74.37771489705928,
+      "HOTA": 71.7399593281942,
+      "loss_HOTA": 2.6377555688650745,
+      "base_AssA": 77.24800716033617,
+      "AssA": 75.84921864796934
+    }
+  ],
+  "lifecycle": [
+    {
+      "k": 1,
+      "first_B_detection": 12,
+      "first_B_output_adapted": 13,
+      "first_B_output_stock": 13
+    },
+    {
+      "k": 2,
+      "first_B_detection": 13,
+      "first_B_output_adapted": 15,
+      "first_B_output_stock": null
+    },
+    {
+      "k": 3,
+      "first_B_detection": 13,
+      "first_B_output_adapted": 16,
+      "first_B_output_stock": null
+    },
+    {
+      "k": 4,
+      "first_B_detection": 13,
+      "first_B_output_adapted": 17,
+      "first_B_output_stock": null
+    },
+    {
+      "k": 5,
+      "first_B_detection": 16,
+      "first_B_output_adapted": 21,
+      "first_B_output_stock": null
+    },
+    {
+      "k": 6,
+      "first_B_detection": 13,
+      "first_B_output_adapted": 19,
+      "first_B_output_stock": null
+    },
+    {
+      "k": 7,
+      "first_B_detection": 15,
+      "first_B_output_adapted": 22,
+      "first_B_output_stock": null
+    },
+    {
+      "k": 8,
+      "first_B_detection": 17,
+      "first_B_output_adapted": 25,
+      "first_B_output_stock": null
+    },
+    {
+      "k": 9,
+      "first_B_detection": 19,
+      "first_B_output_adapted": 28,
+      "first_B_output_stock": null
+    },
+    {
+      "k": 10,
+      "first_B_detection": 21,
+      "first_B_output_adapted": 31,
+      "first_B_output_stock": null
+    }
+  ],
+  "track_counts": [
+    {
+      "sequence": "MVI_39031",
+      "k": 1,
+      "born": 3,
+      "confirmed": 3,
+      "never_confirmed": 0,
+      "output_ids": 3
+    },
+    {
+      "sequence": "MVI_39031",
+      "k": 5,
+      "born": 10,
+      "confirmed": 4,
+      "never_confirmed": 6,
+      "output_ids": 4
+    },
+    {
+      "sequence": "MVI_39031",
+      "k": 10,
+      "born": 20,
+      "confirmed": 1,
+      "never_confirmed": 19,
+      "output_ids": 1
+    },
+    {
+      "sequence": "MVI_39051",
+      "k": 1,
+      "born": 4,
+      "confirmed": 4,
+      "never_confirmed": 0,
+      "output_ids": 4
+    },
+    {
+      "sequence": "MVI_39051",
+      "k": 5,
+      "born": 7,
+      "confirmed": 4,
+      "never_confirmed": 3,
+      "output_ids": 4
+    },
+    {
+      "sequence": "MVI_39051",
+      "k": 10,
+      "born": 21,
+      "confirmed": 1,
+      "never_confirmed": 20,
+      "output_ids": 1
+    },
+    {
+      "sequence": "MVI_39211",
+      "k": 1,
+      "born": 9,
+      "confirmed": 8,
+      "never_confirmed": 1,
+      "output_ids": 8
+    },
+    {
+      "sequence": "MVI_39211",
+      "k": 5,
+      "born": 9,
+      "confirmed": 8,
+      "never_confirmed": 1,
+      "output_ids": 8
+    },
+    {
+      "sequence": "MVI_39211",
+      "k": 10,
+      "born": 9,
+      "confirmed": 8,
+      "never_confirmed": 1,
+      "output_ids": 8
+    }
+  ],
+  "clips": [
+    {
+      "sequence": "MVI_39031",
+      "GT_boxes": 203,
+      "unique_GT": 3,
+      "late_GT": 2,
+      "density": 1.6916666666666667
+    },
+    {
+      "sequence": "MVI_39051",
+      "GT_boxes": 281,
+      "unique_GT": 5,
+      "late_GT": 3,
+      "density": 2.341666666666667
+    },
+    {
+      "sequence": "MVI_39211",
+      "GT_boxes": 606,
+      "unique_GT": 8,
+      "late_GT": 3,
+      "density": 5.05
+    }
+  ],
+  "repeated_metrics_equal": {
+    "2026-11-23_11-39-47-213800": true,
+    "2026-11-23_11-43-52-748241": true
+  }
+}

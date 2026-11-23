@@ -1,0 +1,574 @@
+[
+  {
+    "scenario": "lifecycle",
+    "mode": "stock",
+    "k": 1,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "skipaware",
+    "k": 1,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "stock",
+    "k": 2,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "skipaware",
+    "k": 2,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "stock",
+    "k": 3,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "skipaware",
+    "k": 3,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "stock",
+    "k": 4,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "skipaware",
+    "k": 4,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "stock",
+    "k": 5,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "skipaware",
+    "k": 5,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "stock",
+    "k": 6,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "skipaware",
+    "k": 6,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "stock",
+    "k": 7,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "skipaware",
+    "k": 7,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "stock",
+    "k": 8,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "skipaware",
+    "k": 8,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "stock",
+    "k": 9,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "skipaware",
+    "k": 9,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "stock",
+    "k": 10,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "lifecycle",
+    "mode": "skipaware",
+    "k": 10,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "stock",
+    "k": 1,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "skipaware",
+    "k": 1,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "stock",
+    "k": 2,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "skipaware",
+    "k": 2,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "stock",
+    "k": 3,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "skipaware",
+    "k": 3,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "stock",
+    "k": 4,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "skipaware",
+    "k": 4,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "stock",
+    "k": 5,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "skipaware",
+    "k": 5,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "stock",
+    "k": 6,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "skipaware",
+    "k": 6,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "stock",
+    "k": 7,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "skipaware",
+    "k": 7,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "stock",
+    "k": 8,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "skipaware",
+    "k": 8,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "stock",
+    "k": 9,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "skipaware",
+    "k": 9,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "stock",
+    "k": 10,
+    "A": [
+      1
+    ],
+    "late_B": [],
+    "after_short_gap": [],
+    "after_long_gap": []
+  },
+  {
+    "scenario": "empty_observation",
+    "mode": "skipaware",
+    "k": 10,
+    "A": [
+      1
+    ],
+    "late_B": [
+      2
+    ],
+    "after_short_gap": [
+      2
+    ],
+    "after_long_gap": [
+      3
+    ]
+  }
+]

@@ -1,0 +1,2555 @@
+{
+  "repo": "sunnycloudhust/TrafficVision",
+  "revision": "47b78997538030f06a3013d2a119bdfda025982f",
+  "pilot_sequences": [
+    "MVI_39031",
+    "MVI_39051",
+    "MVI_39211"
+  ],
+  "pilot_split": "test",
+  "pilot_frames": [
+    1,
+    120
+  ],
+  "train_sequences": 60,
+  "files": [
+    {
+      "file": "data/annotations/MVI_20011.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20011.xml",
+      "bytes": 2240082,
+      "sha256": "19b82f03f779023ec9b585dc47f334f6fe817fc9c56d816779a6c65685b1da08"
+    },
+    {
+      "file": "data/annotations/MVI_20012.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20012.xml",
+      "bytes": 2588187,
+      "sha256": "6920b8422602d853ba9d336dfbc4084350812649a14ed14c0e947a721278ca58"
+    },
+    {
+      "file": "data/annotations/MVI_20032.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20032.xml",
+      "bytes": 449113,
+      "sha256": "05d93d84ed1b6297b65273bf2c85b7dfccbb5097ddd8c9ce8afe9841dbf69381"
+    },
+    {
+      "file": "data/annotations/MVI_20033.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20033.xml",
+      "bytes": 1410555,
+      "sha256": "e980d51e4652d3a6430a14c0a7912a06cd46696b5226b081987fedb273155be4"
+    },
+    {
+      "file": "data/annotations/MVI_20034.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20034.xml",
+      "bytes": 2846708,
+      "sha256": "22491f5391014b86e7873113202f7aadbf21f320b5660e77903f9bedcb0e9618"
+    },
+    {
+      "file": "data/annotations/MVI_20035.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20035.xml",
+      "bytes": 3218081,
+      "sha256": "edfbec0d5a6d650c444b6dcfd465336d2f5817e747ffd3dde95c2a81fd830b4f"
+    },
+    {
+      "file": "data/annotations/MVI_20051.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20051.xml",
+      "bytes": 2586512,
+      "sha256": "738b85ffc741b5b8cbc09322e1c3f270b79f7c6e156e077a099156162e305081"
+    },
+    {
+      "file": "data/annotations/MVI_20052.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20052.xml",
+      "bytes": 2507502,
+      "sha256": "cc63f2c67492a9673a5817e5beab4f87cfa29055e5d3d6706a91f4894cb69136"
+    },
+    {
+      "file": "data/annotations/MVI_20061.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20061.xml",
+      "bytes": 2691310,
+      "sha256": "eca0d6c66a9e8efa499e98c451916a46fdbeee4c467106c1e3f6bee2c4ca9084"
+    },
+    {
+      "file": "data/annotations/MVI_20062.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20062.xml",
+      "bytes": 1294984,
+      "sha256": "163d29c1a473123af2bf45e7b11e562262a401357e25dbd6ddcc83ee3b81670a"
+    },
+    {
+      "file": "data/annotations/MVI_20063.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20063.xml",
+      "bytes": 1878904,
+      "sha256": "e329c2855ff93de4522a138af5d5dc10c3b4f0d40747931ffcd56acc714635ff"
+    },
+    {
+      "file": "data/annotations/MVI_20064.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20064.xml",
+      "bytes": 4357665,
+      "sha256": "9132b85a1373c080d150ccd1f31f49d207c9b0dcf03b8f1f6a3fda686005b3e0"
+    },
+    {
+      "file": "data/annotations/MVI_20065.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_20065.xml",
+      "bytes": 5019950,
+      "sha256": "a11255a05739ede3b2d1be0c5b3fd7d3ceafbd47092f62814edcb989d7db56a8"
+    },
+    {
+      "file": "data/annotations/MVI_39761.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_39761.xml",
+      "bytes": 1057240,
+      "sha256": "31f9d57feef3a3e19b6e92e987878c91ac2e470d911b801247d1ce9de8f26177"
+    },
+    {
+      "file": "data/annotations/MVI_39771.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_39771.xml",
+      "bytes": 979276,
+      "sha256": "5fec88960a297b6d740415e182300d5eb4e017385e396a0e3ec000876058ec23"
+    },
+    {
+      "file": "data/annotations/MVI_39781.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_39781.xml",
+      "bytes": 2551818,
+      "sha256": "340bd5b6a546c589a0dc20d21bf78e791fd2ffc324018f3f1d70eb9d06bc9461"
+    },
+    {
+      "file": "data/annotations/MVI_39801.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_39801.xml",
+      "bytes": 1656383,
+      "sha256": "a3451082617c0411ef299e2fddf7384d5643ce50d1f997e538e3a60bced64776"
+    },
+    {
+      "file": "data/annotations/MVI_39811.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_39811.xml",
+      "bytes": 235266,
+      "sha256": "4e8690b891c5924b92f509a914845c42b2399fb2784ec3d336a0d034a70d6db5"
+    },
+    {
+      "file": "data/annotations/MVI_39821.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_39821.xml",
+      "bytes": 1427709,
+      "sha256": "90de47567e5c2cc708af58a2d9842c63e72cc2a688dd61168e10ed743ea7a26f"
+    },
+    {
+      "file": "data/annotations/MVI_39851.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_39851.xml",
+      "bytes": 1459504,
+      "sha256": "b7d807b1b3e70f1b95c8a76bb33bb3714d17c4a590c8d44c5e40e5febc042b54"
+    },
+    {
+      "file": "data/annotations/MVI_39861.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_39861.xml",
+      "bytes": 892439,
+      "sha256": "c6887495d4bf44899de5660fc741fa21ac493917c3a3589f542f6d93ffa9cbcb"
+    },
+    {
+      "file": "data/annotations/MVI_39931.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_39931.xml",
+      "bytes": 1249862,
+      "sha256": "4a66b37de57e3ce91eb14ffea371e1599d72d0fb2e9ddbf9b18998c5017da8fa"
+    },
+    {
+      "file": "data/annotations/MVI_40131.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40131.xml",
+      "bytes": 4442095,
+      "sha256": "121dd1ed352a510d17c4bea741c7314d80f7c3653f9e91fd1dfdb6efdfab8b04"
+    },
+    {
+      "file": "data/annotations/MVI_40141.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40141.xml",
+      "bytes": 1721640,
+      "sha256": "0c09dd6f39dba97bdf7bebf8d845ad3f106ee4017521e7dab9212b68d2be41f6"
+    },
+    {
+      "file": "data/annotations/MVI_40152.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40152.xml",
+      "bytes": 1823265,
+      "sha256": "f00f2205d1a097c6a7270fbf8ca3ac948f6b0649534179a37ea468e3c62cc894"
+    },
+    {
+      "file": "data/annotations/MVI_40161.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40161.xml",
+      "bytes": 2015801,
+      "sha256": "721b2d26c42fef3b3744cab005174c1477469e864c7e52c516da863ac325d005"
+    },
+    {
+      "file": "data/annotations/MVI_40162.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40162.xml",
+      "bytes": 3497695,
+      "sha256": "226811d1d3ab9a964cb9c86cb190e9a7d9e876fd7f99e72a1bec925f35cba272"
+    },
+    {
+      "file": "data/annotations/MVI_40171.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40171.xml",
+      "bytes": 3512100,
+      "sha256": "5b3325f74f1e125d13998bc2889466810f1a26c50647dd5f6b3d3544eb18265d"
+    },
+    {
+      "file": "data/annotations/MVI_40172.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40172.xml",
+      "bytes": 6462663,
+      "sha256": "77d1876c230756ee87ee6754163f9bf03e7ca6f207ea352ea5c93e064f09d8f1"
+    },
+    {
+      "file": "data/annotations/MVI_40181.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40181.xml",
+      "bytes": 2357815,
+      "sha256": "32e3585c4f65d9c6ff1fe3a040a0ee427315d28f472860e62ccccffec7d05c8a"
+    },
+    {
+      "file": "data/annotations/MVI_40191.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40191.xml",
+      "bytes": 10191657,
+      "sha256": "7463f843b045e6558de33250d04eeac227b56d006ffa48db9245b102a37db06d"
+    },
+    {
+      "file": "data/annotations/MVI_40192.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40192.xml",
+      "bytes": 7395496,
+      "sha256": "6dbaef6e0f5dca45f771b17440ee770a96e031fdfae9b6c693169c0d7a414ea1"
+    },
+    {
+      "file": "data/annotations/MVI_40201.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40201.xml",
+      "bytes": 3396874,
+      "sha256": "8d835bea080bf076a1cdea244d6e5aa558ca5f99d639f11344ecb294f47461ae"
+    },
+    {
+      "file": "data/annotations/MVI_40204.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40204.xml",
+      "bytes": 6865086,
+      "sha256": "48698d53d7f375d3f4cdfd6a0993048ebc4a579919e331f9cda49ee3b9b7a1d3"
+    },
+    {
+      "file": "data/annotations/MVI_40211.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40211.xml",
+      "bytes": 2237206,
+      "sha256": "bbabcba25df86fe4fefe3699f3969a1a575e676b7e66decd67d1bcd32ba2c0f8"
+    },
+    {
+      "file": "data/annotations/MVI_40212.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40212.xml",
+      "bytes": 2477403,
+      "sha256": "e7e6409ee55bd7240289066a5dfde7fdcdcdb1c20084fd69fca2c285d3d28ae9"
+    },
+    {
+      "file": "data/annotations/MVI_40213.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40213.xml",
+      "bytes": 2437663,
+      "sha256": "cfcd0541f5e8932b2bbf8c5450cca483a9f988f49fd7689e0409d1ed40cfd44f"
+    },
+    {
+      "file": "data/annotations/MVI_40241.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40241.xml",
+      "bytes": 6412092,
+      "sha256": "12f55afec09935722b5ae03e5fdad2006913aab39d7cd11cdb01911ddc41f0ec"
+    },
+    {
+      "file": "data/annotations/MVI_40243.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40243.xml",
+      "bytes": 3105471,
+      "sha256": "2a14e132766e4f8eb72b2324dc993bba581c65ab5700dd0ab2e2e284fe3b6d6b"
+    },
+    {
+      "file": "data/annotations/MVI_40244.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40244.xml",
+      "bytes": 2600880,
+      "sha256": "e14834ba97d6b0f0b15e74e461f164ea4f64d75e04433fa0b0419084065a905a"
+    },
+    {
+      "file": "data/annotations/MVI_40732.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40732.xml",
+      "bytes": 3608658,
+      "sha256": "522941c869c7fce9c3c424fd3606b9149799ed7bff27b66023bff1b85ba8daaa"
+    },
+    {
+      "file": "data/annotations/MVI_40751.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40751.xml",
+      "bytes": 2665941,
+      "sha256": "8d94f1fa334a463445dbb48bb4ecdb68ee737cd3c7d62f191f7d0a22b4e622fd"
+    },
+    {
+      "file": "data/annotations/MVI_40752.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40752.xml",
+      "bytes": 5624753,
+      "sha256": "0691686a60a429333ca73747f47f8e6dcf1a630a3038f71f3c535ea4196090f1"
+    },
+    {
+      "file": "data/annotations/MVI_40871.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40871.xml",
+      "bytes": 13747275,
+      "sha256": "ba3037c9f3bdf3bdb4403c8f72f05b15a9267f5952a393460968d4de03df5231"
+    },
+    {
+      "file": "data/annotations/MVI_40962.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40962.xml",
+      "bytes": 2053206,
+      "sha256": "482eb6a65f05cf8fe9b27e3b43f77540a623c8d8d690e3723c7461cf10c3cafa"
+    },
+    {
+      "file": "data/annotations/MVI_40963.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40963.xml",
+      "bytes": 3368191,
+      "sha256": "2e3e0427615574fc7aae26c8acc6b02742885e9836b20f23e42ae387027b4d86"
+    },
+    {
+      "file": "data/annotations/MVI_40981.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40981.xml",
+      "bytes": 2757505,
+      "sha256": "7dab4eaaf133abd313436f9b5e31771123c36341bea2d97fe2f93d4c543d4a94"
+    },
+    {
+      "file": "data/annotations/MVI_40991.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40991.xml",
+      "bytes": 1654364,
+      "sha256": "12f847a43997fa3183bc242ec319f5ac2dbf6973858156532bf8f3bbea3e78df"
+    },
+    {
+      "file": "data/annotations/MVI_40992.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_40992.xml",
+      "bytes": 1994795,
+      "sha256": "4d0da01cfbd49d41f535e50858fb5aefacb8af90951aa84f6e127ad5975de9aa"
+    },
+    {
+      "file": "data/annotations/MVI_41063.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_41063.xml",
+      "bytes": 3143334,
+      "sha256": "6a4386eb661fb93a98d41d74c97529a1213ec8a577e9132e406a8cdc68f05d8f"
+    },
+    {
+      "file": "data/annotations/MVI_41073.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_41073.xml",
+      "bytes": 3158423,
+      "sha256": "ea0054568247ab3868da5f16b8d4722b7033be1e3824b657b24b3d2b28e4300b"
+    },
+    {
+      "file": "data/annotations/MVI_63521.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_63521.xml",
+      "bytes": 4189244,
+      "sha256": "12a1973987939432979b7aa8adaf0b154463d7b4d770c19b12fa0c513872c98a"
+    },
+    {
+      "file": "data/annotations/MVI_63525.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_63525.xml",
+      "bytes": 949070,
+      "sha256": "416ea1adcf958e70db095c02ea39c4e512d656759ee1bd40ac285647391395c3"
+    },
+    {
+      "file": "data/annotations/MVI_63544.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_63544.xml",
+      "bytes": 830738,
+      "sha256": "89aafc84ba92fd9c3294b6bb2f374f02a4591c0ca7f53a22b8db7095fcf711b8"
+    },
+    {
+      "file": "data/annotations/MVI_63552.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_63552.xml",
+      "bytes": 2380644,
+      "sha256": "0d26196079f018df0eab93bfc739717c0f65fd3a5e8b740f227b058a4c84790f"
+    },
+    {
+      "file": "data/annotations/MVI_63553.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_63553.xml",
+      "bytes": 3714056,
+      "sha256": "cb8d5509db63fcd8ad6112e6def647dd49595a0f4e6486019e5a13732036691f"
+    },
+    {
+      "file": "data/annotations/MVI_63554.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_63554.xml",
+      "bytes": 3346004,
+      "sha256": "39ec6c5f1e30c875e0de499ee734e1591c1e831d0a9c42b5c8dbcc89deecc48a"
+    },
+    {
+      "file": "data/annotations/MVI_63561.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_63561.xml",
+      "bytes": 3336647,
+      "sha256": "467b7f651532fd4155942a21d099f4a09f10622c322797d0ecd5fd9856ac2f30"
+    },
+    {
+      "file": "data/annotations/MVI_63562.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_63562.xml",
+      "bytes": 2177805,
+      "sha256": "e1b74c0265d89b5bb69ab2ff4e1de2663d584fd171d75d5c6ebf865dcfc1cb69"
+    },
+    {
+      "file": "data/annotations/MVI_63563.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Train-Annotations-XML/DETRAC-Train-Annotations-XML/MVI_63563.xml",
+      "bytes": 3246755,
+      "sha256": "ae885235893467db827f67038c5c8f7a3b88ca0772a55c1b05c478621811983f"
+    },
+    {
+      "file": "data/annotations/MVI_39031.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Test-Annotations-XML/DETRAC-Test-Annotations-XML/MVI_39031.xml",
+      "bytes": 2954404,
+      "sha256": "95104c003013c9d9ec5c3a9ee033275a4ea1c6054cfa84cbf7dfd761afe0f0e6"
+    },
+    {
+      "file": "data/annotations/MVI_39051.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Test-Annotations-XML/DETRAC-Test-Annotations-XML/MVI_39051.xml",
+      "bytes": 725467,
+      "sha256": "c379907766c26646c08eb9716e28df055a64d7ab881aa985019ae9c0f5ccc863"
+    },
+    {
+      "file": "data/annotations/MVI_39211.xml",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Test-Annotations-XML/DETRAC-Test-Annotations-XML/MVI_39211.xml",
+      "bytes": 1227030,
+      "sha256": "86e17975608eaa2d260d078ad84a30f601759f6c5572ebca2c1fc4a417c46b55"
+    },
+    {
+      "file": "data/images/MVI_39031/img00001.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00001.jpg",
+      "bytes": 79974,
+      "sha256": "14adc898eb746bfcaacc877905e0f8a82841a6b84ea8566679de29be2a495585"
+    },
+    {
+      "file": "data/images/MVI_39031/img00002.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00002.jpg",
+      "bytes": 80447,
+      "sha256": "a7e144291b45e78b8144b8b54a2fe446f4ce81f623e07d73031e1815c06197bd"
+    },
+    {
+      "file": "data/images/MVI_39031/img00003.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00003.jpg",
+      "bytes": 80733,
+      "sha256": "9a1257ff7c4eba257420ba3781dda4f27e48e2d48ddbf1c47bee23cb7bad6342"
+    },
+    {
+      "file": "data/images/MVI_39031/img00004.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00004.jpg",
+      "bytes": 81276,
+      "sha256": "e624f28036f6b66a45634cc542f266fcf99b75cf467ab6d1666ec40b5ad219b9"
+    },
+    {
+      "file": "data/images/MVI_39031/img00005.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00005.jpg",
+      "bytes": 81499,
+      "sha256": "abcf4fccc672821c0a34979ccf9b67767b66d0e93ef6fa0e430fb597afba661d"
+    },
+    {
+      "file": "data/images/MVI_39031/img00006.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00006.jpg",
+      "bytes": 79413,
+      "sha256": "f1d3a7d16d6851d033e02221288c7071e284b78233f4eecdaecb4fdccc7158cf"
+    },
+    {
+      "file": "data/images/MVI_39031/img00007.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00007.jpg",
+      "bytes": 80032,
+      "sha256": "615967a2ab6fa888d2ab90e6171bc0aa8cea0a6873995d81f557004286bfae08"
+    },
+    {
+      "file": "data/images/MVI_39031/img00008.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00008.jpg",
+      "bytes": 76925,
+      "sha256": "cf0a26defb3a2536ed0d64204e0f105248fef558dac7499bdf7baf35d61287d8"
+    },
+    {
+      "file": "data/images/MVI_39031/img00009.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00009.jpg",
+      "bytes": 78041,
+      "sha256": "9255d90bc71d9b13de9bd13a649de2a711698ca9bd021fa7efb2141d82cb378b"
+    },
+    {
+      "file": "data/images/MVI_39031/img00010.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00010.jpg",
+      "bytes": 77688,
+      "sha256": "ea6ad611c1a7019a929193e600ee1f8c021c663a900d2f784fae331b5e6c922d"
+    },
+    {
+      "file": "data/images/MVI_39031/img00011.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00011.jpg",
+      "bytes": 76524,
+      "sha256": "a962e2b5327fa6d5b34853ed4046f81986c242ca5afaa284d51faf221612f50b"
+    },
+    {
+      "file": "data/images/MVI_39031/img00012.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00012.jpg",
+      "bytes": 78897,
+      "sha256": "3539cf02f6ee8c62d73d798a4446e4417252d768f2fc269ae6d7fbe45a34c580"
+    },
+    {
+      "file": "data/images/MVI_39031/img00013.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00013.jpg",
+      "bytes": 78812,
+      "sha256": "1e7f9f34fc56e756debc56caf1a9b7fbfafe8995e0f890ddf8e5eb3844865a8b"
+    },
+    {
+      "file": "data/images/MVI_39031/img00014.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00014.jpg",
+      "bytes": 79385,
+      "sha256": "4507b3ca6a60a0f3137e46fb4cf5c05fb346077b3b450e714b6c4754e5f93996"
+    },
+    {
+      "file": "data/images/MVI_39031/img00015.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00015.jpg",
+      "bytes": 79982,
+      "sha256": "1fc060ad798ff1b951f4916c6d326861b6ae5dfa18306b813585019a9727611b"
+    },
+    {
+      "file": "data/images/MVI_39031/img00016.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00016.jpg",
+      "bytes": 80072,
+      "sha256": "ec0eff70cbc6a4e3e608e12c98b735fc3a784f7be2850745e064df1946c5bd3f"
+    },
+    {
+      "file": "data/images/MVI_39031/img00017.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00017.jpg",
+      "bytes": 78401,
+      "sha256": "9ff6e45a00c4147f77c58aac1cea039f36d4f23d245df7594cca7b5e8356844e"
+    },
+    {
+      "file": "data/images/MVI_39031/img00018.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00018.jpg",
+      "bytes": 80092,
+      "sha256": "a05adac657e651380185bcabee152899ab85cbd9a92894af978125cd72d41511"
+    },
+    {
+      "file": "data/images/MVI_39031/img00019.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00019.jpg",
+      "bytes": 80992,
+      "sha256": "2b530ff565db79907cd7ab10cd33c570b758a824962037fed596da11c724b834"
+    },
+    {
+      "file": "data/images/MVI_39031/img00020.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00020.jpg",
+      "bytes": 81225,
+      "sha256": "f939e51e0c838d1d76649d7e430485300d99cfa6b907f38e0d70981e08bfe09f"
+    },
+    {
+      "file": "data/images/MVI_39031/img00021.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00021.jpg",
+      "bytes": 81400,
+      "sha256": "8de4bce72c0d8df66103f05296f9efb198eb596509365e353e9873aacab68881"
+    },
+    {
+      "file": "data/images/MVI_39031/img00022.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00022.jpg",
+      "bytes": 81133,
+      "sha256": "20213378ab2feffb48103446e2f09c7185b156d228c853326298241c5540bebf"
+    },
+    {
+      "file": "data/images/MVI_39031/img00023.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00023.jpg",
+      "bytes": 81759,
+      "sha256": "c47bef3f0b3e324c10ae1058ea20e53a05bdbbba43613727bf2c845e40421175"
+    },
+    {
+      "file": "data/images/MVI_39031/img00024.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00024.jpg",
+      "bytes": 82212,
+      "sha256": "fc9392f894650642e9bf4dd2b8d4dbb1485a6e56fca1b835da047e4d8995c692"
+    },
+    {
+      "file": "data/images/MVI_39031/img00025.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00025.jpg",
+      "bytes": 81045,
+      "sha256": "188aeed2437aea8ac23572ee455d9ebdf98de2cfa6b3947bd778bbcc1578e4f3"
+    },
+    {
+      "file": "data/images/MVI_39031/img00026.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00026.jpg",
+      "bytes": 80999,
+      "sha256": "5b0aad93db5325626bc34b706a3a824f1d80c2ce37f301de97bb1a181cd97d0d"
+    },
+    {
+      "file": "data/images/MVI_39031/img00027.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00027.jpg",
+      "bytes": 82421,
+      "sha256": "83cddb1a1117cc7004c9370f82b2c5eb700288a642d6f8de665e9bcd366b1d88"
+    },
+    {
+      "file": "data/images/MVI_39031/img00028.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00028.jpg",
+      "bytes": 82051,
+      "sha256": "93b357f8b8acb106e35d7c0686741fb2b3066d6f039f60d608384fc3b9e85ddb"
+    },
+    {
+      "file": "data/images/MVI_39031/img00029.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00029.jpg",
+      "bytes": 81759,
+      "sha256": "8b0ba6f594516728084fc4ee52ddc043dfae5463df45ec27e645a5ae1a2d3c41"
+    },
+    {
+      "file": "data/images/MVI_39031/img00030.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00030.jpg",
+      "bytes": 82791,
+      "sha256": "b5dc5feb042d60478187dc46d6200179a7c703610fb0ac2337ee62d128bca191"
+    },
+    {
+      "file": "data/images/MVI_39031/img00031.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00031.jpg",
+      "bytes": 79257,
+      "sha256": "afb4672be70176e2865a90911d5dce1d3250a6ae69044e6cc8bba4cba423c40c"
+    },
+    {
+      "file": "data/images/MVI_39031/img00032.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00032.jpg",
+      "bytes": 82994,
+      "sha256": "6b50553463e0254b01fd2abdbd19bdde56acbd76abe22360190b5a34a3b5b06b"
+    },
+    {
+      "file": "data/images/MVI_39031/img00033.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00033.jpg",
+      "bytes": 83490,
+      "sha256": "b3ee4702606d1006c36925061ab0e02944976464216c68faf9e1143a79d47f06"
+    },
+    {
+      "file": "data/images/MVI_39031/img00034.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00034.jpg",
+      "bytes": 80343,
+      "sha256": "cca8512d90df020539560ec42f38c9279ae4c99d47a819a0e60792f069b54f6f"
+    },
+    {
+      "file": "data/images/MVI_39031/img00035.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00035.jpg",
+      "bytes": 78379,
+      "sha256": "66d155daf9e5e8346345ab2b491e0e7ac9eaeda8fc7565a93a3ced937c4a8299"
+    },
+    {
+      "file": "data/images/MVI_39031/img00036.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00036.jpg",
+      "bytes": 77372,
+      "sha256": "ae6bc81fe15b805371c0e779c6a649c0b1b0cdf3f976745d1fba761cd30a405c"
+    },
+    {
+      "file": "data/images/MVI_39031/img00037.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00037.jpg",
+      "bytes": 80136,
+      "sha256": "3784238e20a2880fb095bb6d32799a0b2acf4842b4ba233e214ad9db3373afd6"
+    },
+    {
+      "file": "data/images/MVI_39031/img00038.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00038.jpg",
+      "bytes": 79540,
+      "sha256": "ce6003b24c23b843e1cf9a548dc86ff050c31ae616541a5e562c778d9d6338fd"
+    },
+    {
+      "file": "data/images/MVI_39031/img00039.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00039.jpg",
+      "bytes": 81894,
+      "sha256": "870954ecff739c5c829452faeb99c72635f3e29785e0a0f73502422c48edf75c"
+    },
+    {
+      "file": "data/images/MVI_39031/img00040.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00040.jpg",
+      "bytes": 82285,
+      "sha256": "574df93e3da4371a0cd68b0d1767c7c72a4ef1de4175998416816750662f1cff"
+    },
+    {
+      "file": "data/images/MVI_39031/img00041.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00041.jpg",
+      "bytes": 75857,
+      "sha256": "7cf145027d6bbc261bcafcbc98487c1dadffaefa9d4eef5f3c0c38ed7228de03"
+    },
+    {
+      "file": "data/images/MVI_39031/img00042.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00042.jpg",
+      "bytes": 74628,
+      "sha256": "63b5ae5f0691c7a3503ae1f5151b9b0c6b49b78373e1e93724bba1ed01208029"
+    },
+    {
+      "file": "data/images/MVI_39031/img00043.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00043.jpg",
+      "bytes": 82711,
+      "sha256": "e554c0f1ead5fbf53d5301ea0a7dc287115fed1e4408534ad2488295791df2cc"
+    },
+    {
+      "file": "data/images/MVI_39031/img00044.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00044.jpg",
+      "bytes": 76855,
+      "sha256": "bed39ee62a0fa16a3a32d43a8064f131d579a92fc1afc42fb88fb1e0c4f68e7e"
+    },
+    {
+      "file": "data/images/MVI_39031/img00045.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00045.jpg",
+      "bytes": 82865,
+      "sha256": "ca493debd92b1e9b150c8729816aa83fe3548e36d629224397741ceef0b94315"
+    },
+    {
+      "file": "data/images/MVI_39031/img00046.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00046.jpg",
+      "bytes": 82427,
+      "sha256": "85ec87dcb846aa14bda48f396e42cfdd759ef364c3d9680df9651595d82ca307"
+    },
+    {
+      "file": "data/images/MVI_39031/img00047.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00047.jpg",
+      "bytes": 84026,
+      "sha256": "dc4a2c3e2d5b40ed19b4542ce2dc95b5a829ffba70813c6356434dc940778dc7"
+    },
+    {
+      "file": "data/images/MVI_39031/img00048.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00048.jpg",
+      "bytes": 83968,
+      "sha256": "011f07534c0616da2807d18a04aece65ac84dd5f1dfc8e7da8ebd06a18cc6de5"
+    },
+    {
+      "file": "data/images/MVI_39031/img00049.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00049.jpg",
+      "bytes": 80633,
+      "sha256": "6370f5c645c565c69cb579d5a25f2e46ef32d7a77dd1c6b9081a66268f210272"
+    },
+    {
+      "file": "data/images/MVI_39031/img00050.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00050.jpg",
+      "bytes": 82664,
+      "sha256": "4d92eec66edb557bb28c62d19a64064cfc41852f8a44ca8b60e549bbd07a94ea"
+    },
+    {
+      "file": "data/images/MVI_39031/img00051.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00051.jpg",
+      "bytes": 82794,
+      "sha256": "8aef0f823c46fd86a1120bea3bca1b82988042e893f21069cf63ed206cb1cb41"
+    },
+    {
+      "file": "data/images/MVI_39031/img00052.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00052.jpg",
+      "bytes": 82436,
+      "sha256": "2c31f52ee107df465fa46c008cd74617aae8fbc074d10a45c1228b628a53b313"
+    },
+    {
+      "file": "data/images/MVI_39031/img00053.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00053.jpg",
+      "bytes": 82447,
+      "sha256": "fa2e461b1eb30f180a0c3f53148a84f10f039c0185d5b92d0baa17620cae224c"
+    },
+    {
+      "file": "data/images/MVI_39031/img00054.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00054.jpg",
+      "bytes": 77180,
+      "sha256": "5a5b0e2cdf34793f041fd483f1ba6ac9bc9b2618caad299300c148c44e29dbd8"
+    },
+    {
+      "file": "data/images/MVI_39031/img00055.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00055.jpg",
+      "bytes": 82052,
+      "sha256": "b75459c25b39e73cca924a16263aadab83daed0bb25a174fac95287a8439cec3"
+    },
+    {
+      "file": "data/images/MVI_39031/img00056.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00056.jpg",
+      "bytes": 82124,
+      "sha256": "9de0219ff0f9e38b91f300a13e6bcc5aed8046c9327ab04a825b00128db2af47"
+    },
+    {
+      "file": "data/images/MVI_39031/img00057.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00057.jpg",
+      "bytes": 77743,
+      "sha256": "ece21bec79b9a6ec49ac66b31f44820c8584b24301ce6c37d2dfa380c6743fc7"
+    },
+    {
+      "file": "data/images/MVI_39031/img00058.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00058.jpg",
+      "bytes": 82981,
+      "sha256": "c417690a6b8d66b85c98072be3abcc51454521dc85c80c204ccac768a3ffdd41"
+    },
+    {
+      "file": "data/images/MVI_39031/img00059.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00059.jpg",
+      "bytes": 83307,
+      "sha256": "2aceb9d7fda130e3a5d4d5eb19428e5f3417ae9b027fa5f247f5a7ed3bda63f7"
+    },
+    {
+      "file": "data/images/MVI_39031/img00060.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00060.jpg",
+      "bytes": 83814,
+      "sha256": "f971d0332cb9550e8de43fcbabd0172f810213ab38825fbcfb60e2af75b0a0f3"
+    },
+    {
+      "file": "data/images/MVI_39031/img00061.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00061.jpg",
+      "bytes": 82808,
+      "sha256": "fa350fa7e38df2fbc1325aad70cb5612f129eaca8b4bc91266d77549374a6884"
+    },
+    {
+      "file": "data/images/MVI_39031/img00062.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00062.jpg",
+      "bytes": 82144,
+      "sha256": "1bbac9cec3f3c26d2ac4d105b8ec91098d3b9ee1b36ffa18e50b37417d0f04eb"
+    },
+    {
+      "file": "data/images/MVI_39031/img00063.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00063.jpg",
+      "bytes": 83868,
+      "sha256": "f332de42e751e26157df5302de050e590fd353cdf73286471d127ca1117e16fe"
+    },
+    {
+      "file": "data/images/MVI_39031/img00064.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00064.jpg",
+      "bytes": 84136,
+      "sha256": "f5d97c5b81077ad4fb1713eed9b214e18ea26ea1f34c4ab7a0f786c75b60d752"
+    },
+    {
+      "file": "data/images/MVI_39031/img00065.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00065.jpg",
+      "bytes": 84613,
+      "sha256": "3b55978d4f73c5351e2c11f28df440686631e22aa36f2be5b698ad6a8199c425"
+    },
+    {
+      "file": "data/images/MVI_39031/img00066.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00066.jpg",
+      "bytes": 84487,
+      "sha256": "327601f3c43bf24140c2e5c6a87ffd7f46644fbd43356c07de42532df8bdfa26"
+    },
+    {
+      "file": "data/images/MVI_39031/img00067.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00067.jpg",
+      "bytes": 80612,
+      "sha256": "b2f427c83a137a2c84dfd9809730ef90fc1aa9d75464c4d9596d94cc38cbd4b4"
+    },
+    {
+      "file": "data/images/MVI_39031/img00068.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00068.jpg",
+      "bytes": 83012,
+      "sha256": "f427819e7252e0d97c67ef70e664a4563f12aa32656bc488fd1f208540cd53d4"
+    },
+    {
+      "file": "data/images/MVI_39031/img00069.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00069.jpg",
+      "bytes": 84069,
+      "sha256": "de7086d48dc10464f25b81ebe841f1e454876764f42d190fe3e102c7fd950ce5"
+    },
+    {
+      "file": "data/images/MVI_39031/img00070.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00070.jpg",
+      "bytes": 81430,
+      "sha256": "c61417aecc0ed7abab31eb7132cb67275c33a9bf25b42b7198bf8dfc23899dfc"
+    },
+    {
+      "file": "data/images/MVI_39031/img00071.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00071.jpg",
+      "bytes": 84049,
+      "sha256": "dd750df7d6034d0f4255bc8809792b419376e53e2977bd11f37ba0027075067f"
+    },
+    {
+      "file": "data/images/MVI_39031/img00072.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00072.jpg",
+      "bytes": 84538,
+      "sha256": "6475caf10867e1de8938f5a5cba158db2b03872428270e07123e9571036d06c4"
+    },
+    {
+      "file": "data/images/MVI_39031/img00073.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00073.jpg",
+      "bytes": 83546,
+      "sha256": "8e4e65ea382a9410385d3b76055d85a1c20c3f0d6a4a55a484c74b580cd89c44"
+    },
+    {
+      "file": "data/images/MVI_39031/img00074.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00074.jpg",
+      "bytes": 84723,
+      "sha256": "1fed7db50d2d6d29dfa1977262451d31f0e536ece0e1bccbbf7777513bc08c9b"
+    },
+    {
+      "file": "data/images/MVI_39031/img00075.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00075.jpg",
+      "bytes": 85149,
+      "sha256": "e073eba9f913b3dffddfad7cd47c98bfa1862784ca4656fd9b9f2391fe8fe498"
+    },
+    {
+      "file": "data/images/MVI_39031/img00076.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00076.jpg",
+      "bytes": 85438,
+      "sha256": "f2aecec3d5494c920fd34ddd902ffc5d2d9e04c59faf1a10c479ad57af65efec"
+    },
+    {
+      "file": "data/images/MVI_39031/img00077.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00077.jpg",
+      "bytes": 85454,
+      "sha256": "62dba448e00283261920799b03b5363e8260188ff36769d1c328aa57b4142336"
+    },
+    {
+      "file": "data/images/MVI_39031/img00078.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00078.jpg",
+      "bytes": 85352,
+      "sha256": "0391ed2ac15606a89e85cb8780bc8e534f210caf5525430e6f38e833e0161e07"
+    },
+    {
+      "file": "data/images/MVI_39031/img00079.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00079.jpg",
+      "bytes": 85147,
+      "sha256": "b269c9f6b966eba8f4c1f9a945a179bf0d214b7dafe18b88d5621ca7156ae6f6"
+    },
+    {
+      "file": "data/images/MVI_39031/img00080.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00080.jpg",
+      "bytes": 85571,
+      "sha256": "72f32df5294487de280bb9e677292799cca336e717469a6bf6ca9637124a9f9d"
+    },
+    {
+      "file": "data/images/MVI_39031/img00081.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00081.jpg",
+      "bytes": 86351,
+      "sha256": "23499f3a0875bc62afff8448d87f25b02caf522e37ca2161e5d7cc84a8b72907"
+    },
+    {
+      "file": "data/images/MVI_39031/img00082.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00082.jpg",
+      "bytes": 85445,
+      "sha256": "840e448bd7dc145beed22f438ff12ff16ce7a443fc51f43937f9ae1282956547"
+    },
+    {
+      "file": "data/images/MVI_39031/img00083.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00083.jpg",
+      "bytes": 85866,
+      "sha256": "dec4e86f9c292c376e49b2f4dbe83d47e179fd227d08f7d94cbeeccc76b152bf"
+    },
+    {
+      "file": "data/images/MVI_39031/img00084.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00084.jpg",
+      "bytes": 85546,
+      "sha256": "6a2a21edd0a3af463539718e584b1210d78b153fef9223af2f6b9a7ed1c723c6"
+    },
+    {
+      "file": "data/images/MVI_39031/img00085.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00085.jpg",
+      "bytes": 84205,
+      "sha256": "afca8e2c5cd25465f384ecd9532b722e708db7c58946c80ba1c7f9a4bf732a53"
+    },
+    {
+      "file": "data/images/MVI_39031/img00086.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00086.jpg",
+      "bytes": 85520,
+      "sha256": "459f2b34ad9d9836e7c142d414f4c059e8783b59a7b2c2b04547e7d10bc17608"
+    },
+    {
+      "file": "data/images/MVI_39031/img00087.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00087.jpg",
+      "bytes": 86012,
+      "sha256": "fc44d3f891539010745f28d3e6e9d7ea6669a86f772fa3c57d723b59f1950d6e"
+    },
+    {
+      "file": "data/images/MVI_39031/img00088.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00088.jpg",
+      "bytes": 85934,
+      "sha256": "251e93e01bf3c5e017d84168823e9df6ab6c05446ab97ed7bd8fba3530fd02c4"
+    },
+    {
+      "file": "data/images/MVI_39031/img00089.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00089.jpg",
+      "bytes": 85184,
+      "sha256": "923a0e6713f131edc12111d2109d80e02ac6741b8bff1e195e581be00b1cbae8"
+    },
+    {
+      "file": "data/images/MVI_39031/img00090.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00090.jpg",
+      "bytes": 86842,
+      "sha256": "8987fdb3c16a6aeeca349ca5d00a9f907066a1c56920c8d516bce30ab5e9891d"
+    },
+    {
+      "file": "data/images/MVI_39031/img00091.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00091.jpg",
+      "bytes": 84550,
+      "sha256": "417d9883701c6c167ceadd9afaff666b87905267638b97e26c2bdccd9c7689b3"
+    },
+    {
+      "file": "data/images/MVI_39031/img00092.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00092.jpg",
+      "bytes": 86698,
+      "sha256": "124db1d384b31a4c5182d6d415342f6b5df6f62ab309de3681da5294967ffc28"
+    },
+    {
+      "file": "data/images/MVI_39031/img00093.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00093.jpg",
+      "bytes": 87806,
+      "sha256": "0b1d98b548969066e5009015bd3b9ce5a52466b2e32fd864fa689f7f902f3126"
+    },
+    {
+      "file": "data/images/MVI_39031/img00094.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00094.jpg",
+      "bytes": 88262,
+      "sha256": "ea317b2b80691cc482ea4ad0148f2b4cd8b5cff701d42f5344eaf7b8f265a8b4"
+    },
+    {
+      "file": "data/images/MVI_39031/img00095.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00095.jpg",
+      "bytes": 87207,
+      "sha256": "2310e1aaac4a6c56cd9a0f19f50186d2d155df4dc17d792b16c214e9e47a3063"
+    },
+    {
+      "file": "data/images/MVI_39031/img00096.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00096.jpg",
+      "bytes": 87367,
+      "sha256": "833ff37e7a6c96a1aae574fbc54987cfda6362dbfa70b0ba41b632f82fcfcba6"
+    },
+    {
+      "file": "data/images/MVI_39031/img00097.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00097.jpg",
+      "bytes": 86688,
+      "sha256": "223457386d9dc14ae1866c003144fd16cb194ab2a3e48080d75f9c233d110bf3"
+    },
+    {
+      "file": "data/images/MVI_39031/img00098.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00098.jpg",
+      "bytes": 88086,
+      "sha256": "667b5670399adf7560fe04ba4e7036bb155fed451dea8c4305c60ea09436129d"
+    },
+    {
+      "file": "data/images/MVI_39031/img00099.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00099.jpg",
+      "bytes": 88116,
+      "sha256": "db04acb362362c1c1abc7b461fdf1d3754e2812d15e5559be30326069e0d991d"
+    },
+    {
+      "file": "data/images/MVI_39031/img00100.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00100.jpg",
+      "bytes": 88182,
+      "sha256": "31405c479ec92ced4d19e90171efa8ee8dd501121f3890de406d91ab5a114bae"
+    },
+    {
+      "file": "data/images/MVI_39031/img00101.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00101.jpg",
+      "bytes": 88144,
+      "sha256": "ed2757bd6a614b7362764c0ceb30d27df690a7bf3d141aabb10286bf8217c328"
+    },
+    {
+      "file": "data/images/MVI_39031/img00102.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00102.jpg",
+      "bytes": 88518,
+      "sha256": "52f3115d47b5765820dc6e1f873e5fcea2638074fd020620369e00f9bcea4573"
+    },
+    {
+      "file": "data/images/MVI_39031/img00103.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00103.jpg",
+      "bytes": 88412,
+      "sha256": "2ed3f5a4096c8d1d30eecbb242b24ee1a60fd345e017e9df3cd644de736d9906"
+    },
+    {
+      "file": "data/images/MVI_39031/img00104.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00104.jpg",
+      "bytes": 88521,
+      "sha256": "f3c0067fa39c3bfefbfd93e2a9bc1124d8c6a34aaba7d9fe4c34c55234746a22"
+    },
+    {
+      "file": "data/images/MVI_39031/img00105.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00105.jpg",
+      "bytes": 87910,
+      "sha256": "b8807e6fc87a3e7fa828522ce386df2abd11b0bf30b8b44e6b3aff72fdc3ad48"
+    },
+    {
+      "file": "data/images/MVI_39031/img00106.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00106.jpg",
+      "bytes": 88487,
+      "sha256": "8eb5a9cea964e91192136dfe179450db4e41dda13ea5d72a6795f0b6d64883e7"
+    },
+    {
+      "file": "data/images/MVI_39031/img00107.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00107.jpg",
+      "bytes": 88333,
+      "sha256": "b3c305cd83601f20f0c4bb0fa11d1badc0136948bac73f058be67185969a65f1"
+    },
+    {
+      "file": "data/images/MVI_39031/img00108.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00108.jpg",
+      "bytes": 88283,
+      "sha256": "45890f19b216888214458b5827e3b3280de1f139a6f53f85912a263e4e22131c"
+    },
+    {
+      "file": "data/images/MVI_39031/img00109.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00109.jpg",
+      "bytes": 85693,
+      "sha256": "96f0048493ca0f85caab508dd24a0c869092bef28091ac38dfe6f6cac65025bc"
+    },
+    {
+      "file": "data/images/MVI_39031/img00110.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00110.jpg",
+      "bytes": 86739,
+      "sha256": "b4ad7b3d31cbdd5bd060ff31bd5f5a6bbbc80b5b2e134b3522412c19809801bb"
+    },
+    {
+      "file": "data/images/MVI_39031/img00111.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00111.jpg",
+      "bytes": 86778,
+      "sha256": "8802e678132fcbba203471cdea5adbf719cd13f7276c135ee5891dbce69c5ecf"
+    },
+    {
+      "file": "data/images/MVI_39031/img00112.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00112.jpg",
+      "bytes": 87956,
+      "sha256": "56029315670a0bb2aaf555def121b72e32232f2d832ece7fb75a02fbaf346dcb"
+    },
+    {
+      "file": "data/images/MVI_39031/img00113.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00113.jpg",
+      "bytes": 88158,
+      "sha256": "5b3af3ec113c599da83fce853f5b3b7496091809a8eac5aaaab9b5a1719d7c14"
+    },
+    {
+      "file": "data/images/MVI_39031/img00114.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00114.jpg",
+      "bytes": 88615,
+      "sha256": "04a5b60ddb31363fea51185e9a63872ee62a0aa97f04ff71afc6ab9157ab77a2"
+    },
+    {
+      "file": "data/images/MVI_39031/img00115.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00115.jpg",
+      "bytes": 88621,
+      "sha256": "646baa64dae693a464d4b3d2f12a19f94aa2e0271273110432cf8fe4c392d195"
+    },
+    {
+      "file": "data/images/MVI_39031/img00116.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00116.jpg",
+      "bytes": 87565,
+      "sha256": "4d757180084e7e1a883c2dc79f6c48dc24227d5182e31fe2bd3442f8c565d5de"
+    },
+    {
+      "file": "data/images/MVI_39031/img00117.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00117.jpg",
+      "bytes": 86063,
+      "sha256": "00405601486e408480962296f18f6995e8d8e36ba6c2543abfc043a2d2cb59d2"
+    },
+    {
+      "file": "data/images/MVI_39031/img00118.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00118.jpg",
+      "bytes": 88428,
+      "sha256": "8dde52cd996ed4d4e52ebd64a72d3dd868b576e0b4830593256ba89bbc269953"
+    },
+    {
+      "file": "data/images/MVI_39031/img00119.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00119.jpg",
+      "bytes": 88344,
+      "sha256": "262c932aa48e4bcbd92197ab2c660b6c9d9a3f2b7513b075046559a6bab8e4f0"
+    },
+    {
+      "file": "data/images/MVI_39031/img00120.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39031/img00120.jpg",
+      "bytes": 86083,
+      "sha256": "384d409e54f051691e3d450446236acffb1c9a914b509648373ce301b0e7c15d"
+    },
+    {
+      "file": "data/images/MVI_39051/img00001.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00001.jpg",
+      "bytes": 137521,
+      "sha256": "a6a3c389bf82a75e4972b4d71c8e2deeb4bf840dd40716eecc9a38a677fa19a3"
+    },
+    {
+      "file": "data/images/MVI_39051/img00002.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00002.jpg",
+      "bytes": 138162,
+      "sha256": "7015717b7701f3e031a0bc3f0585069ef9b247301dd8cdd43e2c951519d8daba"
+    },
+    {
+      "file": "data/images/MVI_39051/img00003.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00003.jpg",
+      "bytes": 134106,
+      "sha256": "043227bba8f49b2a9089ce1d66b079a9b7fc525b5dee006dd4014bb499ce06e3"
+    },
+    {
+      "file": "data/images/MVI_39051/img00004.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00004.jpg",
+      "bytes": 135145,
+      "sha256": "0dd6c3bfee7b28ff6bac9bd7379a11832b1026ecf3a2cd8a92bdf3aa892ece51"
+    },
+    {
+      "file": "data/images/MVI_39051/img00005.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00005.jpg",
+      "bytes": 130646,
+      "sha256": "6e7cf760f0020582c0d73de81527a451770618a1415005d9d7efbe70ff369079"
+    },
+    {
+      "file": "data/images/MVI_39051/img00006.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00006.jpg",
+      "bytes": 134078,
+      "sha256": "c43ee00395856ae8c688a26dfa2eafdefe3ee9aa8edc39d8cb3ba72c4aa56f82"
+    },
+    {
+      "file": "data/images/MVI_39051/img00007.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00007.jpg",
+      "bytes": 131549,
+      "sha256": "384623f05d7d85620e1d7d51f954cf2222d54ad0cc789e77a898e3b9055a7afb"
+    },
+    {
+      "file": "data/images/MVI_39051/img00008.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00008.jpg",
+      "bytes": 132177,
+      "sha256": "93a1044a4ffd089f59405f231c3d744991e7aa38b6a77bee2b303c3a9d5a102d"
+    },
+    {
+      "file": "data/images/MVI_39051/img00009.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00009.jpg",
+      "bytes": 127923,
+      "sha256": "e564b76d7cc844eebc65dba7474a3bd13ed9a599ed51e932235edc33dad8ab0c"
+    },
+    {
+      "file": "data/images/MVI_39051/img00010.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00010.jpg",
+      "bytes": 132324,
+      "sha256": "e894333054a0686dc150d66ad88ccec8baefa1989a18102ca9d6e7557e6eade3"
+    },
+    {
+      "file": "data/images/MVI_39051/img00011.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00011.jpg",
+      "bytes": 131194,
+      "sha256": "2cd6fde52145510dd4658f21acff078a75aad090a8a4cfb25f21a9d4835e9275"
+    },
+    {
+      "file": "data/images/MVI_39051/img00012.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00012.jpg",
+      "bytes": 133256,
+      "sha256": "76c59895ad0dc6a037314fb965a82c5a8c04ccaf88f65636694e2d42bb0c8e9c"
+    },
+    {
+      "file": "data/images/MVI_39051/img00013.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00013.jpg",
+      "bytes": 129360,
+      "sha256": "8bd105101c167b73d4b87d964158639f94c62e4e553b527f427afbf9ac1027b3"
+    },
+    {
+      "file": "data/images/MVI_39051/img00014.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00014.jpg",
+      "bytes": 132849,
+      "sha256": "d99ce3daa404d06379a231c83aefc5aec2907ae15359ba7ec1f767e18051ed00"
+    },
+    {
+      "file": "data/images/MVI_39051/img00015.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00015.jpg",
+      "bytes": 129916,
+      "sha256": "c02e2c19e400c1dcdcf34ad8c58fbe562c3b3c5ed6532f6e578666bec3f0d7db"
+    },
+    {
+      "file": "data/images/MVI_39051/img00016.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00016.jpg",
+      "bytes": 132124,
+      "sha256": "690f685afb9d40c33789a5dbd47dafd4e7836f98f387ae57f1fde0d36f0226aa"
+    },
+    {
+      "file": "data/images/MVI_39051/img00017.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00017.jpg",
+      "bytes": 131232,
+      "sha256": "2221d0dd9814b37a7094df90860efe494870cdcff6cefc416338f10be1919cda"
+    },
+    {
+      "file": "data/images/MVI_39051/img00018.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00018.jpg",
+      "bytes": 133705,
+      "sha256": "5c16f9db32fc7dca7caf30dd03bf754ba36f2cf778cd9ecc1840cdfb2085886c"
+    },
+    {
+      "file": "data/images/MVI_39051/img00019.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00019.jpg",
+      "bytes": 133969,
+      "sha256": "89be1ecd3e96080dc32d2d852dd8a0944010de2215a131a5d6e2358ac56e2ff6"
+    },
+    {
+      "file": "data/images/MVI_39051/img00020.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00020.jpg",
+      "bytes": 134005,
+      "sha256": "dde9ee27d7cc394f8015531bd48e85d1413c987ffefe55a9369f19278c74208c"
+    },
+    {
+      "file": "data/images/MVI_39051/img00021.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00021.jpg",
+      "bytes": 133265,
+      "sha256": "c9b5fba8b488290bf7c153f571bb954b9e64fc6852c2689c99f86a36aa6f87b7"
+    },
+    {
+      "file": "data/images/MVI_39051/img00022.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00022.jpg",
+      "bytes": 133356,
+      "sha256": "46fce50f85ac0b98f838545146d829ddf95d03615c4a68873a2d3c18c710df8a"
+    },
+    {
+      "file": "data/images/MVI_39051/img00023.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00023.jpg",
+      "bytes": 134417,
+      "sha256": "b96390a065b4dddcda5319ee8134b4be83dbe35d5ef9fa0923a8b678ee56c211"
+    },
+    {
+      "file": "data/images/MVI_39051/img00024.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00024.jpg",
+      "bytes": 132867,
+      "sha256": "b4bf92053b80c7f41be411b13f7ad706cff7fa1b1401c848882e226ccbce0d02"
+    },
+    {
+      "file": "data/images/MVI_39051/img00025.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00025.jpg",
+      "bytes": 131490,
+      "sha256": "cebd034bc96364a35214f2da50eb0b32c9f4613e294804116113300fad2f2982"
+    },
+    {
+      "file": "data/images/MVI_39051/img00026.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00026.jpg",
+      "bytes": 131992,
+      "sha256": "b77d484deb94c67aca351f0b1645babab62c02caa5f63b0082e6a24a4262a557"
+    },
+    {
+      "file": "data/images/MVI_39051/img00027.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00027.jpg",
+      "bytes": 133471,
+      "sha256": "b5bc3839a802d9fb5b769483621a9f1b29fb76ac323a6b9f341db4a862cf4e99"
+    },
+    {
+      "file": "data/images/MVI_39051/img00028.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00028.jpg",
+      "bytes": 133507,
+      "sha256": "d0699c6ed8ab6cec3cf0b6c3b2a8d4965ad3ba075f9b400d56407208e2cc54c6"
+    },
+    {
+      "file": "data/images/MVI_39051/img00029.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00029.jpg",
+      "bytes": 134510,
+      "sha256": "c1ecd093162a16f88d95a6fe7cb475d777115c9296d67ed1afb116e80888ca5e"
+    },
+    {
+      "file": "data/images/MVI_39051/img00030.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00030.jpg",
+      "bytes": 135008,
+      "sha256": "cf300028f1cefdca682d3480b560bd4d9388de1c3c723a9059626b161409c6e3"
+    },
+    {
+      "file": "data/images/MVI_39051/img00031.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00031.jpg",
+      "bytes": 134695,
+      "sha256": "fb969a92ceb2db6157e25d11466775cd50c3bf8186507a8c413f355cf57e0bf6"
+    },
+    {
+      "file": "data/images/MVI_39051/img00032.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00032.jpg",
+      "bytes": 134791,
+      "sha256": "f170500bc793d055d342c465158fc7cd9cc666f7e8e5e687fefa4d985c1a56ee"
+    },
+    {
+      "file": "data/images/MVI_39051/img00033.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00033.jpg",
+      "bytes": 134967,
+      "sha256": "fe2bdb4ba61403d7c75b1806bcdf5e07c357583d8c13ef12d2cff4265d0d9771"
+    },
+    {
+      "file": "data/images/MVI_39051/img00034.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00034.jpg",
+      "bytes": 135037,
+      "sha256": "56aa1f1372b457b521d5bd773c8966bfe50a744f4be6539a2abe156de882076f"
+    },
+    {
+      "file": "data/images/MVI_39051/img00035.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00035.jpg",
+      "bytes": 135206,
+      "sha256": "d08a260cd888b7fb89e2b25435137ca3db9fbc5a1c8ab1591c49c725002680e5"
+    },
+    {
+      "file": "data/images/MVI_39051/img00036.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00036.jpg",
+      "bytes": 134589,
+      "sha256": "7d438b1bbf093e9aa86d0473b07b8ebd350bdfb1c62b93b85abfae8c580a0bce"
+    },
+    {
+      "file": "data/images/MVI_39051/img00037.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00037.jpg",
+      "bytes": 132568,
+      "sha256": "dd0c37e7b92fcea32558c4366a05858677f1ecf39f71ba61eb763a00e175f68a"
+    },
+    {
+      "file": "data/images/MVI_39051/img00038.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00038.jpg",
+      "bytes": 133784,
+      "sha256": "0bba7f7ba2959de8380c664f903cc7781a5d8b848ae45b0dcbb81744d61b6fa3"
+    },
+    {
+      "file": "data/images/MVI_39051/img00039.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00039.jpg",
+      "bytes": 134749,
+      "sha256": "071da8fa542a667fbe0d6d3de0ddb7301c394aa8888d06e64a6312ee733586b8"
+    },
+    {
+      "file": "data/images/MVI_39051/img00040.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00040.jpg",
+      "bytes": 134845,
+      "sha256": "05f630a553db46df77b54d63da83cd9722696accfd7f57d1ea1f10f9dfca1ff4"
+    },
+    {
+      "file": "data/images/MVI_39051/img00041.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00041.jpg",
+      "bytes": 135050,
+      "sha256": "fcf67f4e47da6acf1637af2a7c403c34c11ae014e92cbf6b34b964324b4ad33b"
+    },
+    {
+      "file": "data/images/MVI_39051/img00042.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00042.jpg",
+      "bytes": 135243,
+      "sha256": "a2d83d6b8f56408ccdf104a2a08ed3b4a6e6d0446a3fd4dc19deccfdb46e72ed"
+    },
+    {
+      "file": "data/images/MVI_39051/img00043.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00043.jpg",
+      "bytes": 135587,
+      "sha256": "e0eac5b99b258cd1b4e37dc87c922cff7e1b86261cc1efd57f3fe9873f0f61e9"
+    },
+    {
+      "file": "data/images/MVI_39051/img00044.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00044.jpg",
+      "bytes": 135656,
+      "sha256": "793b81499a16376f14652c0110dc946c6a7d1a23ff90b25183fd1898464b08b2"
+    },
+    {
+      "file": "data/images/MVI_39051/img00045.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00045.jpg",
+      "bytes": 135759,
+      "sha256": "5ebb04a8e4d0248c96a16da931d08746ef730e3bbaca9586d0ff85111ffcb881"
+    },
+    {
+      "file": "data/images/MVI_39051/img00046.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00046.jpg",
+      "bytes": 136042,
+      "sha256": "c12d5cd1707715b9c21d4607821d2668baa4e459d6f77dc2c15779e70f62f9b4"
+    },
+    {
+      "file": "data/images/MVI_39051/img00047.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00047.jpg",
+      "bytes": 135983,
+      "sha256": "7caee03785fd9efe069744a6bdacfa2b69d68a6deb2dbf3a84f6b1ed00d661c3"
+    },
+    {
+      "file": "data/images/MVI_39051/img00048.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00048.jpg",
+      "bytes": 134649,
+      "sha256": "91b067c6350acf3d92b015d664156a1f500217e24d2c9ed99283afeb5fc91dd6"
+    },
+    {
+      "file": "data/images/MVI_39051/img00049.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00049.jpg",
+      "bytes": 132193,
+      "sha256": "186fa7a7886f0ee088b2dfaef2ef590ae727e06e179219afabbf64c6e8977bd9"
+    },
+    {
+      "file": "data/images/MVI_39051/img00050.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00050.jpg",
+      "bytes": 133394,
+      "sha256": "c88c2eeb3052fbf0ab73b4ce005c04db1a69dd6fcf8ceb2c4f2cfb8b4a4205c6"
+    },
+    {
+      "file": "data/images/MVI_39051/img00051.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00051.jpg",
+      "bytes": 134797,
+      "sha256": "93ba573e9968795ed7e66c3e44cae0e69c96da76751d7ad2884204ead1505a20"
+    },
+    {
+      "file": "data/images/MVI_39051/img00052.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00052.jpg",
+      "bytes": 134804,
+      "sha256": "ac698f4cdd93d510f2c93936c6a4430bad6ed273b1d4e4feb937dc4191574d79"
+    },
+    {
+      "file": "data/images/MVI_39051/img00053.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00053.jpg",
+      "bytes": 135552,
+      "sha256": "9d959221a33c48fc0d1884a3eed2d2b935d6bb86b03856dc5fe0a3c8a369ad3a"
+    },
+    {
+      "file": "data/images/MVI_39051/img00054.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00054.jpg",
+      "bytes": 135859,
+      "sha256": "63b17f9862bedd5ef8627b423e2e483e37224a2aa6d16f389f28d8bd253fd803"
+    },
+    {
+      "file": "data/images/MVI_39051/img00055.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00055.jpg",
+      "bytes": 135499,
+      "sha256": "d19dd2a41844e244a8237fe35760ef2090a9397236951833ca57bf1e1396b872"
+    },
+    {
+      "file": "data/images/MVI_39051/img00056.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00056.jpg",
+      "bytes": 134828,
+      "sha256": "6e07a42e432b2b48a564d142096f977d7405539d735a522e41986de831dcb942"
+    },
+    {
+      "file": "data/images/MVI_39051/img00057.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00057.jpg",
+      "bytes": 135392,
+      "sha256": "bbae4e2336a45271400a89721973e5bc5ae4aefa7349c686655d5307b383352c"
+    },
+    {
+      "file": "data/images/MVI_39051/img00058.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00058.jpg",
+      "bytes": 134916,
+      "sha256": "2a66745010061403fbaaca87d1109547ea5c48b13dff67396fd655d55fe40690"
+    },
+    {
+      "file": "data/images/MVI_39051/img00059.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00059.jpg",
+      "bytes": 135945,
+      "sha256": "242da45be77b092437ab587f03fbad7b3384091cc359dad0e593728bb8181163"
+    },
+    {
+      "file": "data/images/MVI_39051/img00060.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00060.jpg",
+      "bytes": 136670,
+      "sha256": "1fa3176421f734b40b6dbbf966bf75a26aca52964f730813f61a0654b75eac1b"
+    },
+    {
+      "file": "data/images/MVI_39051/img00061.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00061.jpg",
+      "bytes": 133425,
+      "sha256": "03a09d46bf323716bd50b346491fc5e71cec789797794b9ed9e18b8e1b6c3f39"
+    },
+    {
+      "file": "data/images/MVI_39051/img00062.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00062.jpg",
+      "bytes": 135616,
+      "sha256": "2e638ba5c2eff68440830a9feb27e052786441f232e19eed0b99df8a71e1a73a"
+    },
+    {
+      "file": "data/images/MVI_39051/img00063.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00063.jpg",
+      "bytes": 136277,
+      "sha256": "a67db8e848f66cd04de17ed5714cf347176fe9218450e6c69bfbf1edf8b1e5a9"
+    },
+    {
+      "file": "data/images/MVI_39051/img00064.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00064.jpg",
+      "bytes": 133974,
+      "sha256": "669212c7e5f7b118aa7e2a365063833b8673035998d63ae4a25f70b3b7066ee6"
+    },
+    {
+      "file": "data/images/MVI_39051/img00065.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00065.jpg",
+      "bytes": 134667,
+      "sha256": "cb941c93d65e649c795abcf8f673cc6c2f83ffa8a0ec7d064494246ff5746041"
+    },
+    {
+      "file": "data/images/MVI_39051/img00066.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00066.jpg",
+      "bytes": 136578,
+      "sha256": "9d31ac40514821deaf335921ab74595cfe90f3fee058bf2e9b36c188cd24c70a"
+    },
+    {
+      "file": "data/images/MVI_39051/img00067.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00067.jpg",
+      "bytes": 136981,
+      "sha256": "5855020963df9a4508eca00d6e6fab37420251f6ed0fc8a237ae9d63090caab4"
+    },
+    {
+      "file": "data/images/MVI_39051/img00068.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00068.jpg",
+      "bytes": 137052,
+      "sha256": "2e514af8c0865fda5e2f9b0de26036953c161dfa56d86cdbe2d1b2f3fe98ca12"
+    },
+    {
+      "file": "data/images/MVI_39051/img00069.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00069.jpg",
+      "bytes": 136828,
+      "sha256": "b9286d36c963e12c9e0364d163b5396bb8b6c481a6468fd2cd9da46c72d96ac6"
+    },
+    {
+      "file": "data/images/MVI_39051/img00070.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00070.jpg",
+      "bytes": 136820,
+      "sha256": "a473afa46024730e7327ad55c0974978ee061a590e7fde647471668fd7fd59c9"
+    },
+    {
+      "file": "data/images/MVI_39051/img00071.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00071.jpg",
+      "bytes": 136823,
+      "sha256": "78b5def6ac99cde4f72bccbe62d092bba26fcc18745f22b0adce04d952f8151e"
+    },
+    {
+      "file": "data/images/MVI_39051/img00072.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00072.jpg",
+      "bytes": 136600,
+      "sha256": "19bee0469d5f6f5ee1224d68adaf6cabcb1c007933289f9ac0db4fa389d82b6d"
+    },
+    {
+      "file": "data/images/MVI_39051/img00073.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00073.jpg",
+      "bytes": 134741,
+      "sha256": "0de99c4f8b9d1ff8d8e8bc90428755951ea4514cd652c6b58d15434619b56214"
+    },
+    {
+      "file": "data/images/MVI_39051/img00074.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00074.jpg",
+      "bytes": 135834,
+      "sha256": "79203ed302ee3952c544c2ec0844a68d07e9e53b74c4107197c3317aef1e3fd1"
+    },
+    {
+      "file": "data/images/MVI_39051/img00075.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00075.jpg",
+      "bytes": 135708,
+      "sha256": "36509b8bdcf5bf2def5afffe057b5e3cbf7730b406a84f920b1cab8602d88360"
+    },
+    {
+      "file": "data/images/MVI_39051/img00076.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00076.jpg",
+      "bytes": 135284,
+      "sha256": "708e382c05a9bed97e7da6cfc9acae140cd6ff2b8326f54f6926017fb0fa8c11"
+    },
+    {
+      "file": "data/images/MVI_39051/img00077.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00077.jpg",
+      "bytes": 134676,
+      "sha256": "796af9ae39b256db3f3a303f2d40cdad9e950d22e02ed27fe889102517714dc4"
+    },
+    {
+      "file": "data/images/MVI_39051/img00078.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00078.jpg",
+      "bytes": 135459,
+      "sha256": "fc16142720706ebada70feff5c708dd6e30527e13cbe5491c72d8ecc7a2cc3cc"
+    },
+    {
+      "file": "data/images/MVI_39051/img00079.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00079.jpg",
+      "bytes": 135175,
+      "sha256": "42aceefef1ab274f13af0baa7324e08af6ac75d6d4442b491a5e99ca621c0c84"
+    },
+    {
+      "file": "data/images/MVI_39051/img00080.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00080.jpg",
+      "bytes": 135802,
+      "sha256": "8476e75e6a6f616ffd4113c7594e855e158e6580ee8f4e9faee506d1cdb6acf5"
+    },
+    {
+      "file": "data/images/MVI_39051/img00081.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00081.jpg",
+      "bytes": 135917,
+      "sha256": "3948189e493003bb152587a42c863f4074a62ac92cf6022923b53071067ae52f"
+    },
+    {
+      "file": "data/images/MVI_39051/img00082.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00082.jpg",
+      "bytes": 135662,
+      "sha256": "bac48314d494f5eee0ecc8153c0aa1488a8d938a4c23d4436dcdb16915340383"
+    },
+    {
+      "file": "data/images/MVI_39051/img00083.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00083.jpg",
+      "bytes": 136685,
+      "sha256": "bee5a9063c28a06c3772cd8a4438477d65025319e537db03cf839932fe344ee0"
+    },
+    {
+      "file": "data/images/MVI_39051/img00084.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00084.jpg",
+      "bytes": 136810,
+      "sha256": "cb13df726ecf4761dab7b4f1b0efc3c4b34ae491104771b0d3c74d3c08f68795"
+    },
+    {
+      "file": "data/images/MVI_39051/img00085.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00085.jpg",
+      "bytes": 133944,
+      "sha256": "a01bd2f9cfc70df36dc3ed2c44fd8dd1e91c9845d94a988782e63ff9685fc41d"
+    },
+    {
+      "file": "data/images/MVI_39051/img00086.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00086.jpg",
+      "bytes": 135177,
+      "sha256": "a7999bfdc66fc918a78f80dfaf6b80b17f7e4cabc2698ca27a64f0a62d3749a5"
+    },
+    {
+      "file": "data/images/MVI_39051/img00087.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00087.jpg",
+      "bytes": 136126,
+      "sha256": "449ba38bd089057d4be4c2ff02784e4d30b3f313f6d17c4959cf09db4eb99bf9"
+    },
+    {
+      "file": "data/images/MVI_39051/img00088.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00088.jpg",
+      "bytes": 136545,
+      "sha256": "5b8f5098da49fd0845ee7314408c2d8459decdc4f798f65d91959629423c9752"
+    },
+    {
+      "file": "data/images/MVI_39051/img00089.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00089.jpg",
+      "bytes": 136274,
+      "sha256": "36ebe907764f209b33d43cc632d6109837d1a6f4123d1d62e05422613961761a"
+    },
+    {
+      "file": "data/images/MVI_39051/img00090.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00090.jpg",
+      "bytes": 136670,
+      "sha256": "b6c8e556f7816055e42fe611d9f64f7ca5fa4ec46c40f603cc9dfd10f1d2add3"
+    },
+    {
+      "file": "data/images/MVI_39051/img00091.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00091.jpg",
+      "bytes": 136550,
+      "sha256": "3f6e24439b041b3d2f4101fc361cf1edd595e86cfce8d6ca234f2e31f9a89bc9"
+    },
+    {
+      "file": "data/images/MVI_39051/img00092.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00092.jpg",
+      "bytes": 136322,
+      "sha256": "85e88c9f9c38734f637f9916effc39f1bcfde460ef20da43427de64d158394a6"
+    },
+    {
+      "file": "data/images/MVI_39051/img00093.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00093.jpg",
+      "bytes": 135528,
+      "sha256": "8693d00f19adb6deeb0dccd1d889f55dec07f1c591970d04e0295e573f11fc2a"
+    },
+    {
+      "file": "data/images/MVI_39051/img00094.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00094.jpg",
+      "bytes": 136906,
+      "sha256": "73baf9e6c496a46bb6bcb1ef79b6124388a2f342abbd37788593a4dc3d802b37"
+    },
+    {
+      "file": "data/images/MVI_39051/img00095.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00095.jpg",
+      "bytes": 136430,
+      "sha256": "a7de7269d27cd2edf98fc26a61b553678b714fbda76d2857c0efd1a770854eb2"
+    },
+    {
+      "file": "data/images/MVI_39051/img00096.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00096.jpg",
+      "bytes": 136820,
+      "sha256": "1335b772ccd4e9d8109317d3929ceda2dc5f5aac7b56c135db6b50f7e6b25696"
+    },
+    {
+      "file": "data/images/MVI_39051/img00097.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00097.jpg",
+      "bytes": 134549,
+      "sha256": "13d09c1c310a7820d0c5d8d326faf6719c0c0d310660c5cb2c5a99f51fb00594"
+    },
+    {
+      "file": "data/images/MVI_39051/img00098.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00098.jpg",
+      "bytes": 135295,
+      "sha256": "3feb475d98c92282c325c01c987d9b97490eb8ef329ae05480ee1f3b5b2ff51d"
+    },
+    {
+      "file": "data/images/MVI_39051/img00099.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00099.jpg",
+      "bytes": 134247,
+      "sha256": "ff0ad96eb1e6007edbcdd731bad5b75e5d8de0ec8197af0d0ac1405158494628"
+    },
+    {
+      "file": "data/images/MVI_39051/img00100.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00100.jpg",
+      "bytes": 135775,
+      "sha256": "01ab976edcb47ac88350f52ca7532dcae65ada6ee6f4fa314ea3502964d07ef0"
+    },
+    {
+      "file": "data/images/MVI_39051/img00101.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00101.jpg",
+      "bytes": 134845,
+      "sha256": "32a6abb618e6d6c77907b7e988681ed7c90674e86a0470ad783851398bdc25d4"
+    },
+    {
+      "file": "data/images/MVI_39051/img00102.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00102.jpg",
+      "bytes": 135386,
+      "sha256": "3db13da3f492370fb0b4fd2bfb8b006b541d1ac698436219380cda32ffd75928"
+    },
+    {
+      "file": "data/images/MVI_39051/img00103.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00103.jpg",
+      "bytes": 135295,
+      "sha256": "5a7f6bc006b7079ccf8117bcd730d068927f26fea61163a9d80f2804dcf9e909"
+    },
+    {
+      "file": "data/images/MVI_39051/img00104.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00104.jpg",
+      "bytes": 135510,
+      "sha256": "c4050777203bfc5cc2b0a118e3838425e1a1de1760726c868189259d6f10e416"
+    },
+    {
+      "file": "data/images/MVI_39051/img00105.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00105.jpg",
+      "bytes": 134633,
+      "sha256": "36a40ece9d454213445d18ca1781d4ceb3517bdf6b78639dc4557aa2bd7f334d"
+    },
+    {
+      "file": "data/images/MVI_39051/img00106.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00106.jpg",
+      "bytes": 135377,
+      "sha256": "4c396f68afa7875d6d7f81694cf60893a70fa6e0c434430e9f7109c5be6f1a9d"
+    },
+    {
+      "file": "data/images/MVI_39051/img00107.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00107.jpg",
+      "bytes": 135278,
+      "sha256": "b61d7bc4ac22e486b89b6f19c06a6ae166c930883475b710476472a973b40367"
+    },
+    {
+      "file": "data/images/MVI_39051/img00108.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00108.jpg",
+      "bytes": 135466,
+      "sha256": "0d34f21bfd7b1d771f9a860a47186b948f02203089fc0e9ba8412ddadee6b3bc"
+    },
+    {
+      "file": "data/images/MVI_39051/img00109.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00109.jpg",
+      "bytes": 133377,
+      "sha256": "595e25ee987c19698d096c0dc08bd8fbbab26d1871265cfba9cc683b200d968a"
+    },
+    {
+      "file": "data/images/MVI_39051/img00110.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00110.jpg",
+      "bytes": 134015,
+      "sha256": "74256855a3677db60542c3f70400a6cb3c274597ae21437133e11ba84f22c5e2"
+    },
+    {
+      "file": "data/images/MVI_39051/img00111.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00111.jpg",
+      "bytes": 134601,
+      "sha256": "3502378538222443aa71dd09a9ed7088fc738711b7c10d8d6eb0a70e5fe2ad44"
+    },
+    {
+      "file": "data/images/MVI_39051/img00112.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00112.jpg",
+      "bytes": 134468,
+      "sha256": "7c47f0d48e46c6af91da3626deb43f36b8a9b32fdb3d6b58949670c3ff07d0eb"
+    },
+    {
+      "file": "data/images/MVI_39051/img00113.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00113.jpg",
+      "bytes": 134773,
+      "sha256": "be12d7361ace63eca6230506eb44a972c71c3e3ec55e72f21a61b9a38682eb41"
+    },
+    {
+      "file": "data/images/MVI_39051/img00114.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00114.jpg",
+      "bytes": 134975,
+      "sha256": "4218395887d6439309e25bd60f6eab32d614be4ac8bdc5b2a266522a5e9aaad4"
+    },
+    {
+      "file": "data/images/MVI_39051/img00115.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00115.jpg",
+      "bytes": 135320,
+      "sha256": "5b51a7bad2d203b6bb8b50dde6a371a57b073c1b8ef4cf1d87d7ea319b885e53"
+    },
+    {
+      "file": "data/images/MVI_39051/img00116.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00116.jpg",
+      "bytes": 135208,
+      "sha256": "f25cd6374bb59d2ac0c9d56447ac690196a51346c0ba30aeef292991440f68c0"
+    },
+    {
+      "file": "data/images/MVI_39051/img00117.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00117.jpg",
+      "bytes": 135618,
+      "sha256": "fcffac0701eb800889e6940f13c908c2d6bb89329ada729b8a749de3df776f24"
+    },
+    {
+      "file": "data/images/MVI_39051/img00118.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00118.jpg",
+      "bytes": 135352,
+      "sha256": "c6817328d595b7e7e0db2b5cdfb6d4f8579ab02cfad4c51cfb9276ddc74632e4"
+    },
+    {
+      "file": "data/images/MVI_39051/img00119.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00119.jpg",
+      "bytes": 135233,
+      "sha256": "579442c434c8b04bbb79c60f6c113ebb1b9d58821a85646e92202350254b58a1"
+    },
+    {
+      "file": "data/images/MVI_39051/img00120.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39051/img00120.jpg",
+      "bytes": 135277,
+      "sha256": "6f7f1b271035807d70cd6b4d2cd1da8af18a9086e6af83f65c52291cf96cd00a"
+    },
+    {
+      "file": "data/images/MVI_39211/img00001.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00001.jpg",
+      "bytes": 82541,
+      "sha256": "0c439688c055715a8e8420531e055f978aed9d1575c6807b1c3c38a45c221b90"
+    },
+    {
+      "file": "data/images/MVI_39211/img00002.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00002.jpg",
+      "bytes": 83434,
+      "sha256": "29804145e7ad6834e8c822dcae53e46c1a53e91d8218fcfbd604f0e97623a1ac"
+    },
+    {
+      "file": "data/images/MVI_39211/img00003.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00003.jpg",
+      "bytes": 82844,
+      "sha256": "a985f61fb2d2121d7dee0062060e6ebd2e49222b4f51618d12fd7f17b40743c7"
+    },
+    {
+      "file": "data/images/MVI_39211/img00004.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00004.jpg",
+      "bytes": 82538,
+      "sha256": "a7ddd8a6e4178c540479f7dec5101e5c0db6ef868b5f354ffffe9a62468e68bb"
+    },
+    {
+      "file": "data/images/MVI_39211/img00005.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00005.jpg",
+      "bytes": 83481,
+      "sha256": "0c041b7ed58fa2afd4614cbf971d1a2a5645eb2cd7e04a20f0296d4a573d0540"
+    },
+    {
+      "file": "data/images/MVI_39211/img00006.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00006.jpg",
+      "bytes": 83726,
+      "sha256": "20aebcf055b520a39b2be7e20fbce130452f4b25f4b5ce9fb3e8dee2f8843898"
+    },
+    {
+      "file": "data/images/MVI_39211/img00007.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00007.jpg",
+      "bytes": 83849,
+      "sha256": "f1ff3b6ddc1556bdff429f4514e72898f1d8f661255c67b6df13353a3ac4a8b7"
+    },
+    {
+      "file": "data/images/MVI_39211/img00008.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00008.jpg",
+      "bytes": 84347,
+      "sha256": "f10c986d9f99c11bef9eb10453004e9176c0d43e5c25cbaca561bc98a1139cd1"
+    },
+    {
+      "file": "data/images/MVI_39211/img00009.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00009.jpg",
+      "bytes": 84673,
+      "sha256": "a8f9e43fc6a94b0b2a2e9e287eba911a4c2d2a7dc3040b0dffbd9816bb7f4999"
+    },
+    {
+      "file": "data/images/MVI_39211/img00010.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00010.jpg",
+      "bytes": 84622,
+      "sha256": "9b847502cf8bfba4b6c777938f76ba15671861e6fd5b47c3cfc2cdd83e7497b1"
+    },
+    {
+      "file": "data/images/MVI_39211/img00011.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00011.jpg",
+      "bytes": 84637,
+      "sha256": "8bd5798cc5f17bf6df915fdfa7474156d1082f9ba2505065ae1f7a621bde98b4"
+    },
+    {
+      "file": "data/images/MVI_39211/img00012.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00012.jpg",
+      "bytes": 83498,
+      "sha256": "e5a534d802562d7e65e60bfc4670222ec711a62b8a79a26f78a3976d9cc799ff"
+    },
+    {
+      "file": "data/images/MVI_39211/img00013.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00013.jpg",
+      "bytes": 78516,
+      "sha256": "b0bf18fe82973c893fe333894234a57feb0f63c28d74bf3aaa72fb73c752aae1"
+    },
+    {
+      "file": "data/images/MVI_39211/img00014.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00014.jpg",
+      "bytes": 80411,
+      "sha256": "d967c29e6c44be832387feab5566abbb8be32b554a975b94d6f4928c4d286b7d"
+    },
+    {
+      "file": "data/images/MVI_39211/img00015.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00015.jpg",
+      "bytes": 81352,
+      "sha256": "d338323abe5878ce4f20708ca060986c31f0d0c8f6c7749664ef81d319b7931f"
+    },
+    {
+      "file": "data/images/MVI_39211/img00016.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00016.jpg",
+      "bytes": 83599,
+      "sha256": "8f278450db08794728096c8b0f03974953f459ef0d0ade2991963938eff3469e"
+    },
+    {
+      "file": "data/images/MVI_39211/img00017.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00017.jpg",
+      "bytes": 84410,
+      "sha256": "8ce772ca3f1744722be6c66d916ded5c888b9422e01d86dc1643393149a4a4cc"
+    },
+    {
+      "file": "data/images/MVI_39211/img00018.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00018.jpg",
+      "bytes": 84311,
+      "sha256": "1af9a1d21da007b279524da2a5ce8003f7e9a2c8c7433a49763a6db33ba1032e"
+    },
+    {
+      "file": "data/images/MVI_39211/img00019.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00019.jpg",
+      "bytes": 84567,
+      "sha256": "a11b117ece1afe932ae0d758689ff4741bf1f22fcea5e5f4d939000db1c8f11e"
+    },
+    {
+      "file": "data/images/MVI_39211/img00020.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00020.jpg",
+      "bytes": 84089,
+      "sha256": "7691b614c934d33e449f3c06d57c7ebf0b99d3949c98b168d84a8058dab300af"
+    },
+    {
+      "file": "data/images/MVI_39211/img00021.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00021.jpg",
+      "bytes": 83132,
+      "sha256": "6aeb1bea75e9320ef59308f158c1347ae26d38f9c8b5cc37618e29b78e8a5896"
+    },
+    {
+      "file": "data/images/MVI_39211/img00022.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00022.jpg",
+      "bytes": 84376,
+      "sha256": "c40808496e95848bfc1a2cd3ecfc633ba10dc9f90424d1eee95624dcb237595f"
+    },
+    {
+      "file": "data/images/MVI_39211/img00023.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00023.jpg",
+      "bytes": 82790,
+      "sha256": "58f6a4013605bef2abed543f5a8f64bfb050f2306583aaf42d2e7d07ba20aa7a"
+    },
+    {
+      "file": "data/images/MVI_39211/img00024.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00024.jpg",
+      "bytes": 84158,
+      "sha256": "ab3ef38ac1180edd52acc5e0acdf9fcb731bc4c0636ffa0b5e21a064ab1b0ad4"
+    },
+    {
+      "file": "data/images/MVI_39211/img00025.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00025.jpg",
+      "bytes": 78530,
+      "sha256": "d628993b7f05ce3a29392ebfda86e5611abd883e5e557f15b16265aad4ca69c5"
+    },
+    {
+      "file": "data/images/MVI_39211/img00026.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00026.jpg",
+      "bytes": 83209,
+      "sha256": "370a67c19d96b7b8900c82ab430db76f48071c269173d382b74f0b95b6e9cb87"
+    },
+    {
+      "file": "data/images/MVI_39211/img00027.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00027.jpg",
+      "bytes": 81417,
+      "sha256": "0441bb679377ef92da8b09a37d4b0ce0edb706df85ebeb8178b25144ed14557d"
+    },
+    {
+      "file": "data/images/MVI_39211/img00028.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00028.jpg",
+      "bytes": 82550,
+      "sha256": "8c7ed1cfad0e233a7e48e6512b9e5126076e5d50f7c44ebe5008c87b89164d85"
+    },
+    {
+      "file": "data/images/MVI_39211/img00029.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00029.jpg",
+      "bytes": 83028,
+      "sha256": "e123aa5cd20d384223cb2baea7290883be575743d160625a9ec8ed12d2739151"
+    },
+    {
+      "file": "data/images/MVI_39211/img00030.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00030.jpg",
+      "bytes": 83945,
+      "sha256": "da4f753d69c3d7b2a868b4d5652d8e34dfc1701cb83c05dc23a73a67e597dcc5"
+    },
+    {
+      "file": "data/images/MVI_39211/img00031.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00031.jpg",
+      "bytes": 83223,
+      "sha256": "d7d919d7eb1b0f42736c2b1c9e63f6600027668b1346f39d405c9a7dfe87af2e"
+    },
+    {
+      "file": "data/images/MVI_39211/img00032.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00032.jpg",
+      "bytes": 81170,
+      "sha256": "e0147683f42b2048a9fbfe492868fda749e06033d627a43c413960bfc68de5a1"
+    },
+    {
+      "file": "data/images/MVI_39211/img00033.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00033.jpg",
+      "bytes": 81739,
+      "sha256": "4752837620382a76c3fbfa74c0d83eacd2f27e122f1b8c5d8ff7d99e299e44ad"
+    },
+    {
+      "file": "data/images/MVI_39211/img00034.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00034.jpg",
+      "bytes": 82416,
+      "sha256": "d8e33cbae0bfecd6598a67ae7f1d3e8768cbb118836243bb3584d2b0bbc9d7a0"
+    },
+    {
+      "file": "data/images/MVI_39211/img00035.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00035.jpg",
+      "bytes": 82199,
+      "sha256": "e0a4e8644c7e21dcb015df87a59955fda9c749ba53aeaa0a1bda4a75a9dd7e80"
+    },
+    {
+      "file": "data/images/MVI_39211/img00036.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00036.jpg",
+      "bytes": 83701,
+      "sha256": "b85bd0a87d3053cac23d57a42d90a8ec3ab03fc31f913b2bebbd37ec38301971"
+    },
+    {
+      "file": "data/images/MVI_39211/img00037.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00037.jpg",
+      "bytes": 82167,
+      "sha256": "26592de52565a417abcc9d622b9a3c0258616b0828a508c96804683e8de98c1b"
+    },
+    {
+      "file": "data/images/MVI_39211/img00038.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00038.jpg",
+      "bytes": 83644,
+      "sha256": "d73579f357c3afd2c94d1e25b878f9fe58af1ab74e5b6e1e29c025c4f93f3a5c"
+    },
+    {
+      "file": "data/images/MVI_39211/img00039.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00039.jpg",
+      "bytes": 83928,
+      "sha256": "e7019572720538d9be32362a316886a980417a5d1e0432a6aaf3843d088352c2"
+    },
+    {
+      "file": "data/images/MVI_39211/img00040.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00040.jpg",
+      "bytes": 82672,
+      "sha256": "93bbdf83d47affb8198561e23cf90a1084b641069d76f252bf68841431c8527b"
+    },
+    {
+      "file": "data/images/MVI_39211/img00041.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00041.jpg",
+      "bytes": 83537,
+      "sha256": "bde3df31a60c4504fae69761c240197730044443724215dcf67c92501c72d9b9"
+    },
+    {
+      "file": "data/images/MVI_39211/img00042.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00042.jpg",
+      "bytes": 83717,
+      "sha256": "b073b35f87227dbb1acdf0c08ca4d22958018ddb3f1582e99bd5510c0ce05b6e"
+    },
+    {
+      "file": "data/images/MVI_39211/img00043.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00043.jpg",
+      "bytes": 83465,
+      "sha256": "92a9a15e4c975d3f786ae0b0c32474b740a7c1b75de058196975b636313cd66f"
+    },
+    {
+      "file": "data/images/MVI_39211/img00044.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00044.jpg",
+      "bytes": 83955,
+      "sha256": "395104a0a54e606928659effd8d8ecdb809ec5031a3c729cf93a7a1695a1d46e"
+    },
+    {
+      "file": "data/images/MVI_39211/img00045.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00045.jpg",
+      "bytes": 83873,
+      "sha256": "118da09925bfb9fab6f317d698d1a55d166a8be9b2077d9ec3f406b2bd96ef07"
+    },
+    {
+      "file": "data/images/MVI_39211/img00046.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00046.jpg",
+      "bytes": 83507,
+      "sha256": "a874a4bfefbf3b6e4516deb09fd99ab573a8eebf52907ec5ff08b8f01a755148"
+    },
+    {
+      "file": "data/images/MVI_39211/img00047.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00047.jpg",
+      "bytes": 83623,
+      "sha256": "8a7357a8a4ecfb931a63bff90d0b04a22a448857e718d05c40cdff63e7f0fccc"
+    },
+    {
+      "file": "data/images/MVI_39211/img00048.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00048.jpg",
+      "bytes": 84044,
+      "sha256": "53d475bd78764b1e9d437f8a12fa0c4c5d0ccfa46d67aa4d11e2e8f05d6adc16"
+    },
+    {
+      "file": "data/images/MVI_39211/img00049.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00049.jpg",
+      "bytes": 82235,
+      "sha256": "e3a4e50fe9d585dbe970541e84845c0773d6ed76eb5ee90401419d43cc26f773"
+    },
+    {
+      "file": "data/images/MVI_39211/img00050.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00050.jpg",
+      "bytes": 83115,
+      "sha256": "34245aa0c975def5aa0af62aff21917141c60a807194a3a750c46670153fcdb4"
+    },
+    {
+      "file": "data/images/MVI_39211/img00051.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00051.jpg",
+      "bytes": 83658,
+      "sha256": "be290d3dda67f60577d65c528d32a64d7e2b1330e7ed44835fe90786e55e6c66"
+    },
+    {
+      "file": "data/images/MVI_39211/img00052.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00052.jpg",
+      "bytes": 83452,
+      "sha256": "f1a12e4c95e88b862aa254e446144a6488b5ab91d98616f535a9294bfcae1812"
+    },
+    {
+      "file": "data/images/MVI_39211/img00053.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00053.jpg",
+      "bytes": 83677,
+      "sha256": "d61154c566ca517abd325a3f02f7af75f08f8a029f799e73caaf965992ed1567"
+    },
+    {
+      "file": "data/images/MVI_39211/img00054.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00054.jpg",
+      "bytes": 83679,
+      "sha256": "4ce529323219d7bd8babe5cce280b6f6535fafebbeb26d7d264f622219d5ffd2"
+    },
+    {
+      "file": "data/images/MVI_39211/img00055.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00055.jpg",
+      "bytes": 83685,
+      "sha256": "d9132ceb7102f6b8d40f68d01178818688caa284929abde3002fd404f7165f29"
+    },
+    {
+      "file": "data/images/MVI_39211/img00056.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00056.jpg",
+      "bytes": 83457,
+      "sha256": "ec2e082bbb800aaade4d7030480cbf2acbcb4e6e3b788f3dc0e9de5328117a6e"
+    },
+    {
+      "file": "data/images/MVI_39211/img00057.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00057.jpg",
+      "bytes": 83394,
+      "sha256": "b65b1964f81b25f700d5aeaa456c65ebf305b8dfeb40c9a42489d8db5848f153"
+    },
+    {
+      "file": "data/images/MVI_39211/img00058.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00058.jpg",
+      "bytes": 83484,
+      "sha256": "3aa326e7a2c744bcb7c148821f72f370bf481fe95428df6cbddbf72c2d44bb97"
+    },
+    {
+      "file": "data/images/MVI_39211/img00059.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00059.jpg",
+      "bytes": 83693,
+      "sha256": "74e34ccb79de8db5f7c62e3f2f05f67e3e60d8bdeca6c435cf1571c911e75ab6"
+    },
+    {
+      "file": "data/images/MVI_39211/img00060.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00060.jpg",
+      "bytes": 83457,
+      "sha256": "5b5e8aa975af4bce3cbe4e332883c66699ecf0272d5fb1621f0882a45587a790"
+    },
+    {
+      "file": "data/images/MVI_39211/img00061.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00061.jpg",
+      "bytes": 80506,
+      "sha256": "b30768d79eabfd31c156da764ccd9d6cfb650cdd77e5d09ccab9a9d099727574"
+    },
+    {
+      "file": "data/images/MVI_39211/img00062.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00062.jpg",
+      "bytes": 81757,
+      "sha256": "e2f574dcac3d34fa054cb171c6cea25ae72b953afd45b5d469653d279ea4c409"
+    },
+    {
+      "file": "data/images/MVI_39211/img00063.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00063.jpg",
+      "bytes": 82508,
+      "sha256": "627f45ad25b0349dacaebe0132c4a19ecafc30532d43363618e60f9afb42792c"
+    },
+    {
+      "file": "data/images/MVI_39211/img00064.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00064.jpg",
+      "bytes": 82785,
+      "sha256": "058541a4846e59f6a65d38e400304a773b9d53192ee432133fdf603928f49836"
+    },
+    {
+      "file": "data/images/MVI_39211/img00065.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00065.jpg",
+      "bytes": 83298,
+      "sha256": "a0afd7bf9d3652946769532875a12e4fbb4e0d7a58fb5d5b4a8d0d661e44c0b8"
+    },
+    {
+      "file": "data/images/MVI_39211/img00066.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00066.jpg",
+      "bytes": 83324,
+      "sha256": "ba29347c77b7b8209042668aa4dd535fb459306d19f7b090f617d4bb8a10654b"
+    },
+    {
+      "file": "data/images/MVI_39211/img00067.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00067.jpg",
+      "bytes": 82621,
+      "sha256": "be8ff487df70edbc7740e93374e0bc77b823565f04b8d2804a5489dbd9f064e7"
+    },
+    {
+      "file": "data/images/MVI_39211/img00068.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00068.jpg",
+      "bytes": 83400,
+      "sha256": "d7e74efa2adae01f587b0446b8fd62b5bcbe00429d2d1757c7eed4874f059482"
+    },
+    {
+      "file": "data/images/MVI_39211/img00069.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00069.jpg",
+      "bytes": 83539,
+      "sha256": "33262e4702fcd0854f166cba2e324bc6b255fe79b2ebb2236f06e6a62fae49e6"
+    },
+    {
+      "file": "data/images/MVI_39211/img00070.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00070.jpg",
+      "bytes": 82993,
+      "sha256": "e732ef3729070f77acb5a96b6147f82910c9883b2f82f6744d4f8822556a8a4c"
+    },
+    {
+      "file": "data/images/MVI_39211/img00071.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00071.jpg",
+      "bytes": 83086,
+      "sha256": "9843796e60e89e39422bb59fca406e6e144e9cbff051f0af12609f6d81d8a86f"
+    },
+    {
+      "file": "data/images/MVI_39211/img00072.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00072.jpg",
+      "bytes": 82791,
+      "sha256": "0bae132eebbd8577c72d4359bd87455b8ce1759dec92d0ecc74e47bd9cca29b2"
+    },
+    {
+      "file": "data/images/MVI_39211/img00073.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00073.jpg",
+      "bytes": 80716,
+      "sha256": "fc9573df35c15350576c5e51507faff217a6381cd21dfd0922ac3d727fde1a92"
+    },
+    {
+      "file": "data/images/MVI_39211/img00074.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00074.jpg",
+      "bytes": 82187,
+      "sha256": "f8e5fd0a5098f71253c33c75de185fa22173ebc07b40fe6fae146003e143c440"
+    },
+    {
+      "file": "data/images/MVI_39211/img00075.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00075.jpg",
+      "bytes": 81812,
+      "sha256": "bc0a11cc4332bb6b2d248f4b7e20498fb021f417b2619e49c7cb04f4bc75b45f"
+    },
+    {
+      "file": "data/images/MVI_39211/img00076.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00076.jpg",
+      "bytes": 82461,
+      "sha256": "f141c6472063876f3561b01a6a393f06aaeb9674a767b791be8789dd59839783"
+    },
+    {
+      "file": "data/images/MVI_39211/img00077.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00077.jpg",
+      "bytes": 82413,
+      "sha256": "c2d5c25ccbc171d7f4f545ce0bda1a23291e536450643cac0cc96793ca1fc556"
+    },
+    {
+      "file": "data/images/MVI_39211/img00078.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00078.jpg",
+      "bytes": 82787,
+      "sha256": "cdc4081bc3fc091a500ae4942abb7d9e5ed102d9fbf84bb1c54d7b9dd2572f77"
+    },
+    {
+      "file": "data/images/MVI_39211/img00079.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00079.jpg",
+      "bytes": 83082,
+      "sha256": "4d9cfe26b8602e66c455d842d0fe7d7d738b355c2943ed88985d26207cbf7f15"
+    },
+    {
+      "file": "data/images/MVI_39211/img00080.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00080.jpg",
+      "bytes": 82330,
+      "sha256": "da19b0f3f9942dbc6a8f001352a80e8aefb1237c6c2b4358170d73e32e87ada9"
+    },
+    {
+      "file": "data/images/MVI_39211/img00081.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00081.jpg",
+      "bytes": 82752,
+      "sha256": "22084c2af7db7d7a0702163a3e4b00dc408fb0763f6bd5961df2087ada776d80"
+    },
+    {
+      "file": "data/images/MVI_39211/img00082.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00082.jpg",
+      "bytes": 82767,
+      "sha256": "e6e36cab7eaa27c056becde01c6402ecbfd7ec5d8fec6776877ef1cce917555e"
+    },
+    {
+      "file": "data/images/MVI_39211/img00083.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00083.jpg",
+      "bytes": 83027,
+      "sha256": "ffd96bb839a48901af02690fdbf634e138302c74ef197aa5589409e17e5bfd49"
+    },
+    {
+      "file": "data/images/MVI_39211/img00084.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00084.jpg",
+      "bytes": 81887,
+      "sha256": "3d7f9ad5a3361570fca1409d0b6cd3e0a7e083e2afa08c27b0591736cb3115a8"
+    },
+    {
+      "file": "data/images/MVI_39211/img00085.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00085.jpg",
+      "bytes": 79587,
+      "sha256": "5547f44c9f4d5b637bb39bcb1c5a6c86f35f6d81a67e0a01f474ee2d41915b7e"
+    },
+    {
+      "file": "data/images/MVI_39211/img00086.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00086.jpg",
+      "bytes": 82207,
+      "sha256": "cf3c474eba5f5016262a8473e1caafcd5bae6251c43454d33810fe23a73a1c60"
+    },
+    {
+      "file": "data/images/MVI_39211/img00087.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00087.jpg",
+      "bytes": 81322,
+      "sha256": "95644089d5ef08e2e32ad2206a3ebd6c70c2d3261174a060ea9755975ee43671"
+    },
+    {
+      "file": "data/images/MVI_39211/img00088.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00088.jpg",
+      "bytes": 82419,
+      "sha256": "f7d56d9a910091339fe939b082a4befde2c8560cd4ffde3953e5870601731519"
+    },
+    {
+      "file": "data/images/MVI_39211/img00089.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00089.jpg",
+      "bytes": 82458,
+      "sha256": "314299fd5bb790ebb45532c86c66d35424b08212e8cd347a3a633f3ea10cdb6b"
+    },
+    {
+      "file": "data/images/MVI_39211/img00090.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00090.jpg",
+      "bytes": 80317,
+      "sha256": "56c1870159413559ce7b4281d330d78e15aafc637ae4e364a77021f2182f110c"
+    },
+    {
+      "file": "data/images/MVI_39211/img00091.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00091.jpg",
+      "bytes": 81171,
+      "sha256": "4575b2111b15b4e6879fe4529595b136579e6d40b9d945189b4a2185e4f9c22a"
+    },
+    {
+      "file": "data/images/MVI_39211/img00092.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00092.jpg",
+      "bytes": 81560,
+      "sha256": "205c8822c03e075b12bdfbf3d12e1c7f2f4a3d232dc050b1f32c1276069e822e"
+    },
+    {
+      "file": "data/images/MVI_39211/img00093.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00093.jpg",
+      "bytes": 81721,
+      "sha256": "57efc883799a938a481b9a894b6ec9607ac76baeb9066c69c40a8c24848d8401"
+    },
+    {
+      "file": "data/images/MVI_39211/img00094.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00094.jpg",
+      "bytes": 80498,
+      "sha256": "40cc2e3e2ea78f11691c963979107971b311d347147557dff71e6938bb75c2dd"
+    },
+    {
+      "file": "data/images/MVI_39211/img00095.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00095.jpg",
+      "bytes": 81899,
+      "sha256": "788db4b2054a3fe1e9e3bbb9e8a6252532fbee4fc611bfe9481d9f1e6b51c1b4"
+    },
+    {
+      "file": "data/images/MVI_39211/img00096.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00096.jpg",
+      "bytes": 81840,
+      "sha256": "9f6053ed3c0bdd42e4ed29af8e80a67f80de56f1ce2209e5bae7894fb64592b7"
+    },
+    {
+      "file": "data/images/MVI_39211/img00097.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00097.jpg",
+      "bytes": 81199,
+      "sha256": "6ba3fe6620aae79614ad824a039dc14f692e0f9096f985370ed1d814ddfb54c1"
+    },
+    {
+      "file": "data/images/MVI_39211/img00098.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00098.jpg",
+      "bytes": 81758,
+      "sha256": "c32b79424fca41b65018324ab3bb4e227e524cb73c7dd8e38fffbceacfa1ca78"
+    },
+    {
+      "file": "data/images/MVI_39211/img00099.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00099.jpg",
+      "bytes": 82182,
+      "sha256": "bfc73d891f15c5c70d1fd7d59a55ec87249163a4e2116081306efe1596894c9c"
+    },
+    {
+      "file": "data/images/MVI_39211/img00100.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00100.jpg",
+      "bytes": 81615,
+      "sha256": "9e6f0b502fddc778f8f4b988cffb04d267c7cdbfb6267aeafd8fa3711ac833fe"
+    },
+    {
+      "file": "data/images/MVI_39211/img00101.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00101.jpg",
+      "bytes": 81950,
+      "sha256": "a5d4df6831f46d559275e6fe79d3c5489edb4cdcc3fe339a7340c1b7dfef9b2c"
+    },
+    {
+      "file": "data/images/MVI_39211/img00102.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00102.jpg",
+      "bytes": 82111,
+      "sha256": "e9c83565ad85f38cea29bf24b5a73a466fb1fce7c490137a5dab82f223227101"
+    },
+    {
+      "file": "data/images/MVI_39211/img00103.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00103.jpg",
+      "bytes": 82378,
+      "sha256": "b04dd05b822a853875d9dfb24f8bdd45ffb0917e49e2e63efcd07ef4e4770027"
+    },
+    {
+      "file": "data/images/MVI_39211/img00104.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00104.jpg",
+      "bytes": 80895,
+      "sha256": "7311811d2d15cabcd964e2e47fefe580422b4677f39f6bc7f8ea4529d41cc9dd"
+    },
+    {
+      "file": "data/images/MVI_39211/img00105.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00105.jpg",
+      "bytes": 82396,
+      "sha256": "29fda523fa38c6697ab6e7993ac433f8564382ed5073872c90dd83df3e8de642"
+    },
+    {
+      "file": "data/images/MVI_39211/img00106.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00106.jpg",
+      "bytes": 82862,
+      "sha256": "4d3ba82dbd60ead24404d0d3f88d9c13a9456980fdefdef259a0422d9c58677f"
+    },
+    {
+      "file": "data/images/MVI_39211/img00107.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00107.jpg",
+      "bytes": 82636,
+      "sha256": "8cf2ee3cbcaa689049787bcd6e31685fed523065a3407ba5073a89d9f66a939a"
+    },
+    {
+      "file": "data/images/MVI_39211/img00108.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00108.jpg",
+      "bytes": 82860,
+      "sha256": "db088c02bce913c048db94fb10f903f828da7a257ba31cec9e654c6aa9a214d9"
+    },
+    {
+      "file": "data/images/MVI_39211/img00109.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00109.jpg",
+      "bytes": 81535,
+      "sha256": "12ffe0a38736155fd070fad3d9b2775ec3620d94480b03701e2b0d509ecacb9f"
+    },
+    {
+      "file": "data/images/MVI_39211/img00110.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00110.jpg",
+      "bytes": 82441,
+      "sha256": "4e29ebfa389ab348df40fefc2f60659060ca15899622ad800d235b7641a6e444"
+    },
+    {
+      "file": "data/images/MVI_39211/img00111.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00111.jpg",
+      "bytes": 82100,
+      "sha256": "f45273711fdf4453175c4597cecd0e68e8055fb074b354e15807a9b02d989c07"
+    },
+    {
+      "file": "data/images/MVI_39211/img00112.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00112.jpg",
+      "bytes": 82380,
+      "sha256": "73f3190ff57b35986a2136ab6ae70d6579ac04145c4279c8826b66a481470c50"
+    },
+    {
+      "file": "data/images/MVI_39211/img00113.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00113.jpg",
+      "bytes": 82680,
+      "sha256": "a717134a4f42e6e92c1e9d579eb3d04f39ca2bb8cc0a445e38f480736e115f3d"
+    },
+    {
+      "file": "data/images/MVI_39211/img00114.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00114.jpg",
+      "bytes": 82694,
+      "sha256": "a3c68bc8962e298dd90f23fc7ee6dbffde6c674eb33e5d7ccdcac547b0a6d4da"
+    },
+    {
+      "file": "data/images/MVI_39211/img00115.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00115.jpg",
+      "bytes": 82926,
+      "sha256": "efc5adcb65534920d4691f3c76e7e6dcda40cc27b2747a064bf66d038a0df1af"
+    },
+    {
+      "file": "data/images/MVI_39211/img00116.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00116.jpg",
+      "bytes": 82816,
+      "sha256": "d854949695545dae63f947532fa362d1ffb4dc23043c6f8d1177d29a1dd5ff25"
+    },
+    {
+      "file": "data/images/MVI_39211/img00117.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00117.jpg",
+      "bytes": 82870,
+      "sha256": "b6c97068a8b516cc6b5716d2197c03ff599586b5aa952bea1aa6c4ceacb56e4e"
+    },
+    {
+      "file": "data/images/MVI_39211/img00118.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00118.jpg",
+      "bytes": 82947,
+      "sha256": "a58b7ab19d8f13593b7223683d595cd7f4839c32ddce3a76d1f5dbe2013f827c"
+    },
+    {
+      "file": "data/images/MVI_39211/img00119.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00119.jpg",
+      "bytes": 82884,
+      "sha256": "c9bb356e8f8f99b76570c4e73b21b64d3eee0d121818b2edc9837eb1e75af2b0"
+    },
+    {
+      "file": "data/images/MVI_39211/img00120.jpg",
+      "url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00120.jpg",
+      "bytes": 82620,
+      "sha256": "9137bd4f12a7894ba600649417330b4f0e867df3c7f1c7d9087f02409a1c1914"
+    }
+  ]
+}

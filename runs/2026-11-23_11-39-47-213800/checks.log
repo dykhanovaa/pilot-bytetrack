@@ -1,0 +1,7 @@
+PASS letterbox scale_boxes roundtrip; absolute XYXY, no extra -1 offset
+PASS Boxes XYXY->XYWH and empty shape (0,6) float32
+PASS ignored-region UNION, >0.5 boundary, clipping, zero area
+PASS class whitelist COCO car/bus/truck; motorcycle excluded
+PASS actual detector on blank image -> empty Boxes -> tracker -> empty output
+PASS TrackEval perfect=100, empty=0, ID switch after empty GT frame=1
+PASS real k1 exact stock/adapted output parity on all three clips

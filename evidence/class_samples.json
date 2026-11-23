@@ -1,0 +1,206 @@
+[
+  {
+    "type": "car",
+    "sequence": "MVI_40864",
+    "frame": 595,
+    "GT_id": 9,
+    "GT_xyxy": [
+      514.13,
+      350.93,
+      802.0699999999999,
+      531.13
+    ],
+    "best_iou": 0.9259261256560789,
+    "COCO_class": 2,
+    "COCO_name": "car",
+    "selected": true,
+    "image_url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_40864/img00595.jpg"
+  },
+  {
+    "type": "car",
+    "sequence": "MVI_40864",
+    "frame": 653,
+    "GT_id": 10,
+    "GT_xyxy": [
+      561.28,
+      382.29,
+      888.04,
+      533.9100000000001
+    ],
+    "best_iou": 0.9688129064468379,
+    "COCO_class": 2,
+    "COCO_name": "car",
+    "selected": true,
+    "image_url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_40864/img00653.jpg"
+  },
+  {
+    "type": "car",
+    "sequence": "MVI_40864",
+    "frame": 784,
+    "GT_id": 12,
+    "GT_xyxy": [
+      562.35,
+      366.83,
+      856.57,
+      531.67
+    ],
+    "best_iou": 0.9454898096866735,
+    "COCO_class": 2,
+    "COCO_name": "car",
+    "selected": true,
+    "image_url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_40864/img00784.jpg"
+  },
+  {
+    "type": "bus",
+    "sequence": "MVI_40742",
+    "frame": 1545,
+    "GT_id": 8,
+    "GT_xyxy": [
+      267.95,
+      216.11,
+      942.8699999999999,
+      534.55
+    ],
+    "best_iou": 0.9514022693850223,
+    "COCO_class": 5,
+    "COCO_name": "bus",
+    "selected": true,
+    "image_url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_40742/img01545.jpg"
+  },
+  {
+    "type": "bus",
+    "sequence": "MVI_40864",
+    "frame": 54,
+    "GT_id": 2,
+    "GT_xyxy": [
+      264.53,
+      160.64,
+      941.27,
+      472.89
+    ],
+    "best_iou": 0.9239795317281342,
+    "COCO_class": 5,
+    "COCO_name": "bus",
+    "selected": true,
+    "image_url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_40864/img00054.jpg"
+  },
+  {
+    "type": "bus",
+    "sequence": "MVI_40793",
+    "frame": 1613,
+    "GT_id": 82,
+    "GT_xyxy": [
+      203.31,
+      165.76,
+      769.6400000000001,
+      534.97
+    ],
+    "best_iou": 0.9004140658114379,
+    "COCO_class": 5,
+    "COCO_name": "bus",
+    "selected": true,
+    "image_url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_40793/img01613.jpg"
+  },
+  {
+    "type": "van",
+    "sequence": "MVI_39211",
+    "frame": 883,
+    "GT_id": 12,
+    "GT_xyxy": [
+      599.25,
+      251.73,
+      767.9300000000001,
+      533.05
+    ],
+    "best_iou": 0.9347881061049109,
+    "COCO_class": 5,
+    "COCO_name": "bus",
+    "selected": true,
+    "image_url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_39211/img00883.jpg"
+  },
+  {
+    "type": "van",
+    "sequence": "MVI_40864",
+    "frame": 514,
+    "GT_id": 7,
+    "GT_xyxy": [
+      604.69,
+      356.27,
+      865.0,
+      534.76
+    ],
+    "best_iou": 0.9459256879309992,
+    "COCO_class": 2,
+    "COCO_name": "car",
+    "selected": true,
+    "image_url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_40864/img00514.jpg"
+  },
+  {
+    "type": "van",
+    "sequence": "MVI_40743",
+    "frame": 1546,
+    "GT_id": 69,
+    "GT_xyxy": [
+      423.47,
+      349.87,
+      666.6,
+      534.33
+    ],
+    "best_iou": 0.9477145660363032,
+    "COCO_class": 5,
+    "COCO_name": "bus",
+    "selected": true,
+    "image_url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_40743/img01546.jpg"
+  },
+  {
+    "type": "others",
+    "sequence": "MVI_40771",
+    "frame": 707,
+    "GT_id": 53,
+    "GT_xyxy": [
+      576.21,
+      161.49,
+      914.07,
+      533.27
+    ],
+    "best_iou": 0.9320414994692637,
+    "COCO_class": 5,
+    "COCO_name": "bus",
+    "selected": true,
+    "image_url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_40771/img00707.jpg"
+  },
+  {
+    "type": "others",
+    "sequence": "MVI_40775",
+    "frame": 204,
+    "GT_id": 26,
+    "GT_xyxy": [
+      24.32,
+      158.72,
+      322.71,
+      526.23
+    ],
+    "best_iou": 0.4654858699127841,
+    "COCO_class": 2,
+    "COCO_name": "car",
+    "selected": true,
+    "image_url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_40775/img00204.jpg"
+  },
+  {
+    "type": "others",
+    "sequence": "MVI_40763",
+    "frame": 786,
+    "GT_id": 31,
+    "GT_xyxy": [
+      364.8,
+      329.6,
+      756.2,
+      534.33
+    ],
+    "best_iou": 0.9534522423276902,
+    "COCO_class": 7,
+    "COCO_name": "truck",
+    "selected": true,
+    "image_url": "https://huggingface.co/datasets/sunnycloudhust/TrafficVision/resolve/47b78997538030f06a3013d2a119bdfda025982f/data/ua_detrac/raw/DETRAC/DETRAC-Images/DETRAC-Images/MVI_40763/img00786.jpg"
+  }
+]

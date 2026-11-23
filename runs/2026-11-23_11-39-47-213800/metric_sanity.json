@@ -1,0 +1,38 @@
+[
+  {
+    "tracker": "perfect",
+    "sequence": "known",
+    "GT_dets": 2,
+    "pred_dets": 2,
+    "HOTA": 100.0,
+    "DetA": 100.0,
+    "AssA": 100.0,
+    "DetRe": 100.0,
+    "IDF1": 100.0,
+    "IDSW": 0
+  },
+  {
+    "tracker": "empty",
+    "sequence": "known",
+    "GT_dets": 2,
+    "pred_dets": 0,
+    "HOTA": 0.0,
+    "DetA": 0.0,
+    "AssA": 0.0,
+    "DetRe": 0.0,
+    "IDF1": 0.0,
+    "IDSW": 0
+  },
+  {
+    "tracker": "switch",
+    "sequence": "known",
+    "GT_dets": 2,
+    "pred_dets": 2,
+    "HOTA": 70.71067811865476,
+    "DetA": 100.0,
+    "AssA": 50.0,
+    "DetRe": 100.0,
+    "IDF1": 50.0,
+    "IDSW": 1
+  }
+]

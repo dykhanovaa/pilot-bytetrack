@@ -1,0 +1,77 @@
+{
+  "version": "ByteTrack-SkipAware-v1",
+  "frozen_before_pilot_metrics": true,
+  "k": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "main_sequences": "60 UA-DETRAC train sequences; no train metrics calculated in technical pilot",
+  "technical_pilot": "test MVI_39031 MVI_39051 MVI_39211 frames 1-120; excluded from hypothesis tests",
+  "H1": {
+    "k": 5,
+    "mean_HOTA_loss_pp": 10,
+    "mean_IDF1_loss_pp": 10
+  },
+  "H2": {
+    "k": 5,
+    "high_minus_low_HOTA_loss_pp": 3,
+    "continuous_density_interaction": "b5 > 0"
+  },
+  "threshold_rationale": "A priori practical study targets, not literature-derived expected effects: 10 pp is twice the 5 pp quality tolerance; 3 pp is 60% of that tolerance and is the minimum between-group difference deemed worth discussing. These are design conventions, not established safety limits or effect estimates. No post-result threshold changes.",
+  "kmax": {
+    "quality_loss_pp": 5,
+    "time_constraint": null,
+    "rule": "largest k for which simultaneous upper bound on mean full-frame HOTA loss is <=5 pp for every tested j=2..k",
+    "fallback": "1 is a conservative selection under uncertainty, not proof all larger intervals are unsuitable",
+    "family": "27 upper quality bounds: 3 groups x 9 intervals",
+    "coverage": 0.95,
+    "bonferroni_quantile": 0.9981481481481481
+  },
+  "statistics": {
+    "unit": "video",
+    "bootstrap_replicates": 10000,
+    "seed": 2026,
+    "hypothesis_family": "4 one-sided tests, Holm alpha .05"
+  },
+  "density": "GT valid boxes per annotated frame; absent XML frames excluded, NOT treated as empty; groups 20/20/20",
+  "mapping": {
+    "UA_DETRAC": [
+      "car",
+      "bus",
+      "van",
+      "others"
+    ],
+    "COCO": [
+      2,
+      5,
+      7
+    ],
+    "exclude_COCO": [
+      3
+    ],
+    "merge_before_tracker": true
+  },
+  "ignored_region": "clip to original image; exact union IoA > 0.5 excluded on both GT and detections and final outputs",
+  "coordinates": "absolute continuous original-image xyxy; XML left/top no -1; MOT left/top/width/height passed unchanged through TrackEval",
+  "output": "confirmed tracked KF forecasts on skipped frames; unconfirmed and lost suppressed; no future interpolation",
+  "empty_observed": "upstream update with Boxes(np.empty((0,6),float32), orig_shape=(540,960))",
+  "main_timing": {
+    "warmup_detector_calls": 100,
+    "warmup_tracker_updates": 100,
+    "repetitions": 5,
+    "backend": "CPU",
+    "threads": 4,
+    "batch": 1,
+    "precision": "FP32"
+  },
+  "pilot_timing": "3 warmup calls, cached detector quality pipeline; NOT a runtime benchmark",
+  "unannotated_frames": "Process timeline normally; mask both GT and predictions out of evaluation and density; do not compress time; genuine annotated empty frames remain scored"
+}

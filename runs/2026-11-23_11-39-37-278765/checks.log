@@ -1,0 +1,21 @@
+PASS lifecycle k=1: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS lifecycle k=2: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS lifecycle k=3: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS lifecycle k=4: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS lifecycle k=5: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS lifecycle k=6: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS lifecycle k=7: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS lifecycle k=8: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS lifecycle k=9: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS lifecycle k=10: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS empty_observation k=1: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS empty_observation k=2: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS empty_observation k=3: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS empty_observation k=4: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS empty_observation k=5: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS empty_observation k=6: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS empty_observation k=7: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS empty_observation k=8: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS empty_observation k=9: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS empty_observation k=10: late entry, states, expiry, empty interface; k1 parity where applicable
+PASS true observed empty Boxes removes unconfirmed track
